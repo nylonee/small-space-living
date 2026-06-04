@@ -2,7 +2,7 @@
   "site": {
     "title": "Small Space Living",
     "description": "Smart products and hacks for making the most of your small space",
-    "url": "https://smallspaceliving.example.com",
+    "url": "https://nylonee.github.io/small-space-living",
     "base_path": "",
     "author": "Small Space Living Team",
     "locale": "en_US"
@@ -23,7 +23,7 @@
     "articles_per_run": 3,
     "daily_cadence": true,
     "output_dir": "/home/nihal/content-site/articles",
-    "public_dir": "/home/nihal/content-site/public"
+    "public_dir": "/home/nihal/content-site/docs"
   },
   "niches": {
     "budget_home_office": {
