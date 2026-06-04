@@ -10,7 +10,7 @@
     <div class="post-meta">
       Published {{ article.date }} &middot; {{ article.word_count }} words &middot;
       {% for tag in article.tags %}
-        <a href="/categories/{{ tag|slugify }}/" class="tag">{{ tag }}</a>
+        <a href="{{ site.base_path }}/categories/{{ tag|slugify }}/" class="tag">{{ tag }}</a>
       {% endfor %}
     </div>
   </div>
@@ -26,10 +26,10 @@
 
 <div class="pagination">
   {% if article.prev_slug %}
-    <a href="/{{ article.prev_slug }}/" class="btn">&larr; Previous</a>
+    <a href="{{ site.base_path }}/{{ article.prev_slug }}/" class="btn">&larr; Previous</a>
   {% endif %}
   {% if article.next_slug %}
-    <a href="/{{ article.next_slug }}/" class="btn" style="margin-left:auto">Next &rarr;</a>
+    <a href="{{ site.base_path }}/{{ article.next_slug }}/" class="btn" style="margin-left:auto">Next &rarr;</a>
   {% endif %}
 </div>
 {% endblock %}

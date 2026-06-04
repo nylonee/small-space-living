@@ -3,7 +3,7 @@
 {% if categories %}
 <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:2rem;">
   {% for cat_key, cat_info in categories.items() %}
-  <a href="/categories/{{ cat_key }}/" style="flex:1; min-width:200px; background:#fff; padding:1.2rem; border-radius:8px; text-decoration:none; color:#1a1a2e; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+  <a href="{{ site.base_path }}/categories/{{ cat_key }}/" style="flex:1; min-width:200px; background:#fff; padding:1.2rem; border-radius:8px; text-decoration:none; color:#1a1a2e; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
     <h3 style="font-size:1rem; margin-bottom:0.3rem;">{{ cat_info.display_name }}</h3>
     <p style="font-size:0.85rem; color:#666;">{{ cat_info.description }}</p>
     <span style="font-size:0.8rem; color:#e94560;">{{ cat_info.count }} articles &rarr;</span>
@@ -16,13 +16,13 @@
 {% for article in articles %}
 <div class="post">
   <div class="post-meta">{{ article.date }} &middot; {{ article.word_count }} words</div>
-  <h2><a href="/{{ article.slug }}/">{{ article.title }}</a></h2>
+  <h2><a href="{{ site.base_path }}/{{ article.slug }}/">{{ article.title }}</a></h2>
   <div class="post-excerpt">
     <p>{{ article.excerpt }}</p>
   </div>
   <div style="margin-top:0.5rem;">
     {% for tag in article.tags %}
-      <a href="/categories/{{ tag|slugify }}/" class="tag">{{ tag }}</a>
+      <a href="{{ site.base_path }}/categories/{{ tag|slugify }}/" class="tag">{{ tag }}</a>
     {% endfor %}
   </div>
 </div>
