@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ category_name }} — {{ site.title }}{% endblock %}
+{% block description %}{{ category_description }}{% endblock %}
+
+{% block content %}
+<h2 style="margin-bottom:0.5rem;">{{ category_name }}</h2>
+<p style="color:#666; margin-bottom:1.5rem;">{{ category_description }}</p>
+
+{% for article in articles %}
+<div class="post">
+  <div class="post-meta">{{ article.date }} &middot; {{ article.word_count }} words</div>
+  <h2><a href="/{{ article.slug }}/">{{ article.title }}</a></h2>
+  <div class="post-excerpt">
+    <p>{{ article.excerpt }}</p>
+  </div>
+</div>
+{% endfor %}
+
+{% if not articles %}
+  <p style="text-align:center; padding:3rem; color:#888;">No articles in this category yet. Check back soon!</p>
+{% endif %}
+{% endblock %}

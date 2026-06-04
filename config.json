@@ -1,0 +1,83 @@
+{
+  "site": {
+    "title": "Small Space Living",
+    "description": "Smart products and hacks for making the most of your small space",
+    "url": "https://smallspaceliving.example.com",
+    "base_path": "",
+    "author": "Small Space Living Team",
+    "locale": "en_US"
+  },
+  "amazon": {
+    "tag": "smallspaceliv-20",
+    "base_url": "https://www.amazon.com/dp",
+    "country": "US"
+  },
+  "ollama": {
+    "model": "qwen2.5-7b-64k:latest",
+    "url": "http://localhost:11434/api/generate",
+    "temperature": 0.7,
+    "max_tokens": 2048,
+    "num_ctx": 4096
+  },
+  "generation": {
+    "articles_per_run": 3,
+    "daily_cadence": true,
+    "output_dir": "/home/nihal/content-site/articles",
+    "public_dir": "/home/nihal/content-site/public"
+  },
+  "niches": {
+    "budget_home_office": {
+      "display_name": "Budget Home Office",
+      "description": "Affordable home office gear for small spaces",
+      "categories": [
+        "standing desk converters under $200",
+        "ergonomic office chairs under $150",
+        "monitor arms for small desks",
+        "laptop stands for small desks",
+        "cable management for small desks",
+        "compact desk lamps",
+        "under desk keyboard trays"
+      ]
+    },
+    "space_saving_kitchen": {
+      "display_name": "Space-Saving Kitchen",
+      "description": "Kitchen gadgets and appliances for tiny kitchens",
+      "categories": [
+        "compact air fryers for small kitchens",
+        "mini slow cookers and rice cookers",
+        "collapsible kitchen gadgets",
+        "stackable kitchen containers",
+        "magnetic knife racks for small kitchens",
+        "small dish drainers for small kitchens",
+        "over the sink cutting boards"
+      ]
+    },
+    "apartment_organization": {
+      "display_name": "Apartment Organization",
+      "description": "Storage and organization solutions for apartments",
+      "categories": [
+        "closet organizers for small closets",
+        "under bed storage solutions",
+        "over the door organizers",
+        "wall mounted shelves for apartments",
+        "storage ottomans and benches",
+        "vacuum storage bags for bedding",
+        "corner shelves for small rooms"
+      ]
+    }
+  },
+  "article_formats": [
+    {
+      "type": "best_of",
+      "prompt_template": "Write a detailed, SEO-optimized article titled 'The Best {category} in {year}'. Include an introduction explaining why choosing the right {category} matters for small space living. Then list at least 8 specific products with: product name, key features, approximate price, pros and cons, and who it's best for. End with a buying guide section and FAQ. Use natural affiliate-friendly language. Year: {year}."
+    },
+    {
+      "type": "top_under",
+      "prompt_template": "Write a detailed, SEO-optimized article titled 'Top 10 {category} Under $50 in {year}'. Include an introduction about shopping for {category} on a budget in small spaces. List 10 specific products with: product name, key features, price, pros and cons, and ideal user. End with a comparison table overview and FAQ. Use affiliate-friendly language. Year: {year}."
+    },
+    {
+      "type": "buying_guide",
+      "prompt_template": "Write a detailed, SEO-optimized buying guide article titled 'How to Choose the Best {category} for Your Small Space in {year}'. Cover: what to look for (size, features, price range), top 5 options compared, common mistakes to avoid, and a simple decision framework. Include 5-7 specific product recommendations with key specs. Year: {year}."
+    }
+  ]
+}
