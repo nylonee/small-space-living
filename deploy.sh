@@ -4,6 +4,9 @@ set -e
 
 cd /home/nihal/content-site
 
+# Ensure style.css is in the deploy directory
+cp -n style.css docs/style.css 2>/dev/null || true
+
 git add -A
 if git diff --cached --quiet; then
   echo "Nothing to deploy — no changes."
