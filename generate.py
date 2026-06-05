@@ -36,6 +36,11 @@ class ContentGenerator:
         self.jinja = Environment(loader=FileSystemLoader(str(self.base_dir / 'templates')))
         self.jinja.filters['slugify'] = slugify
         
+        # Register custom filter to strip first <h1> from rendered content (avoids duplicate H1)
+        def remove_first_h1(html):
+            return re.sub(r'<h1>.*?</h1>', '', html, count=1, flags=re.DOTALL)
+        self.jinja.filters['remove_first_h1'] = remove_first_h1
+        
         # Setup paths
         self.articles_dir = Path(cfg['generation']['output_dir'])
         self.public_dir = Path(cfg['generation']['public_dir'])
@@ -123,7 +128,9 @@ Guidelines:
 - Every product mention must include: what it is, why it works for small spaces, approximate price range
 - Be specific and helpful - this is for real readers
 - DO use realistic price ranges (e.g. "typically $30-$50")
-- Target length: 800-1500 words
+- CRITICAL: Target length MUST be 1000-1500 words. Write at least 1000 words.
+- If the title says "Under $50", ONLY recommend products that genuinely cost under $50. Do NOT include products over that price.
+- If the title says "Under $100", ONLY recommend products that genuinely cost under $100.
 {product_section}
 START YOUR RESPONSE with the article title as a single H1 markdown heading, like this:
 # Your Actual Article Title Here
@@ -476,14 +483,19 @@ Then immediately follow with the article content. Do not include any preamble or
             print(f"  ✓ /{article['slug']}/ — {article['word_count']} words")
             generated += 1
         
-        if generated == 0:
+        # Always rebuild static pages, even if no new articles
+        # (config/template changes still need to propagate)
+        if generated == 0 and count > 0:
             print("\n✗ No articles generated. Something went wrong.")
             return
         
         self._save_index()
         self._rebuild_static_pages()
         
-        print(f"\n✓ Done! {generated} new articles. Total: {len(self.articles)} articles.")
+        if generated == 0:
+            print(f"\n✓ Static pages rebuilt. Total: {len(self.articles)} articles.")
+        else:
+            print(f"\n✓ Done! {generated} new articles. Total: {len(self.articles)} articles.")
         print(f"  Site files: {self.public_dir}")
 
 

@@ -1,18 +1,21 @@
 {% extends "base.html" %}
+{% block title %}{{ site.title }} — {{ site.description }}{% endblock %}
+{% block description %}{{ site.description }} — Latest articles on budget home office, space-saving kitchens, and apartment organization.{% endblock %}
+
 {% block content %}
 {% if categories %}
-<div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:2rem;">
+<div class="category-cards">
   {% for cat_key, cat_info in categories.items() %}
-  <a href="{{ site.base_path }}/categories/{{ cat_key }}/" style="flex:1; min-width:200px; background:#fff; padding:1.2rem; border-radius:8px; text-decoration:none; color:#1a1a2e; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
-    <h3 style="font-size:1rem; margin-bottom:0.3rem;">{{ cat_info.display_name }}</h3>
-    <p style="font-size:0.85rem; color:#666;">{{ cat_info.description }}</p>
-    <span style="font-size:0.8rem; color:#e94560;">{{ cat_info.count }} articles &rarr;</span>
+  <a href="{{ site.base_path }}/categories/{{ cat_key }}/" class="category-card">
+    <h3>{{ cat_info.display_name }}</h3>
+    <p>{{ cat_info.description }}</p>
+    <span class="category-count">{{ cat_info.count }} articles &rarr;</span>
   </a>
   {% endfor %}
 </div>
 {% endif %}
 
-<h2 style="margin-bottom:1rem; font-size:1.3rem;">Latest Articles</h2>
+<h2 class="section-title">Latest Articles</h2>
 {% for article in articles %}
 <div class="post">
   <div class="post-meta">{{ article.date }} &middot; {{ article.word_count }} words</div>
@@ -20,9 +23,13 @@
   <div class="post-excerpt">
     <p>{{ article.excerpt }}</p>
   </div>
-  <div style="margin-top:0.5rem;">
+  <div class="post-tags">
     <a href="{{ site.base_path }}/categories/{{ article.niche_key }}/" class="tag">{{ article.niche_display or article.niche_key }}</a>
   </div>
 </div>
 {% endfor %}
+
+<div class="homepage-affiliate-disclosure">
+  <p><em>Small Space Living is reader-supported. When you buy through links on our site, we may earn an affiliate commission. As an Amazon Associate we earn from qualifying purchases.</em></p>
+</div>
 {% endblock %}

@@ -1,10 +1,16 @@
 {% extends "base.html" %}
 {% block title %}{{ category_name }} — {{ site.title }}{% endblock %}
-{% block description %}{{ category_description }}{% endblock %}
+{% block description %}{{ category_description }} — Discover the best {{ category_name }} products, tips, and buying guides for small spaces on {{ site.title }}.{% endblock %}
 
 {% block content %}
-<h2 style="margin-bottom:0.5rem;">{{ category_name }}</h2>
-<p style="color:#666; margin-bottom:1.5rem;">{{ category_description }}</p>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ site.base_path }}/">Home</a>
+  <span aria-hidden="true"> › </span>
+  <span aria-current="page">{{ category_name }}</span>
+</nav>
+
+<h2 class="section-title">{{ category_name }}</h2>
+<p class="category-description">{{ category_description }}</p>
 
 {% for article in articles %}
 <div class="post">
@@ -17,6 +23,6 @@
 {% endfor %}
 
 {% if not articles %}
-  <p style="text-align:center; padding:3rem; color:#888;">No articles in this category yet. Check back soon!</p>
+  <p class="empty-state">No articles in this category yet. Check back soon!</p>
 {% endif %}
 {% endblock %}

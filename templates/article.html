@@ -4,26 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ article.title }}</title>
-    <meta name="description" content="{{ article.description }}">
+    <meta name="description" content="{{ article.excerpt or article.title }}">
     <link rel="canonical" href="{{ site.url }}{{ site.base_path }}/{{ article.slug }}/">
     <meta property="og:title" content="{{ article.title }}">
-    <meta property="og:description" content="{{ article.description }}">
+    <meta property="og:description" content="{{ article.excerpt or article.title }}">
     <meta property="og:url" content="{{ site.url }}{{ site.base_path }}/{{ article.slug }}/">
     <meta property="og:type" content="article">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="en_GB">
+    <meta property="article:published_time" content="{{ article.date }}">
+    {% if article.niche_key %}<meta name="article:section" content="{{ article.niche_display }}">{% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ article.title }}">
+    <meta name="twitter:description" content="{{ article.excerpt or article.title }}">
     <link rel="stylesheet" href="{{ site.base_path }}/style.css">
+
+    <!-- Schema.org Article markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "{{ article.title | escape }}",
+        "description": "{{ article.excerpt | escape }}",
+        "datePublished": "{{ article.date }}",
+        "author": {
+            "@type": "Organization",
+            "name": "{{ site.author }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ site.url }}{{ site.base_path }}/{{ article.slug }}/"
+        }
+    }
+    </script>
 </head>
 <body>
     <nav>
-        <a href="{{ site.base_path }}/">Small Space Living</a>
+        <a href="{{ site.base_path }}/">{{ site.title }}</a>
         <span class="nav-links">
-            <a href="{{ site.base_path }}/articles.html">Articles</a>
-            <a href="{{ site.base_path }}/categories.html">Categories</a>
+            <a href="{{ site.base_path }}/">Home</a>
+            {% if article.niche_key %}
+            <a href="{{ site.base_path }}/categories/{{ article.niche_key }}/">{{ article.niche_display }}</a>
+            {% endif %}
         </span>
     </nav>
 
     <main>
         <article>
             <header>
+                <!-- Breadcrumb -->
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <a href="{{ site.base_path }}/">Home</a>
+                    {% if article.niche_key %}
+                    <span aria-hidden="true"> › </span>
+                    <a href="{{ site.base_path }}/categories/{{ article.niche_key }}/">{{ article.niche_display }}</a>
+                    {% endif %}
+                    <span aria-hidden="true"> › </span>
+                    <span aria-current="page">{{ article.title }}</span>
+                </nav>
+
                 <h1>{{ article.title }}</h1>
                 <div class="meta">
                     <time datetime="{{ article.date }}">{{ article.date }}</time>
@@ -33,8 +76,13 @@
                 </div>
             </header>
 
+            <!-- Above-fold affiliate disclosure (TOS compliance) -->
+            <div class="affiliate-disclosure-top">
+                <p><strong>Disclosure:</strong> This post contains affiliate links. As an Amazon Associate I earn from qualifying purchases. <a href="{{ site.base_path }}/privacy.html" rel="nofollow">Learn more</a>.</p>
+            </div>
+
             <div class="content">
-                {{ article.html_content | safe }}
+                {{ article.html_content | remove_first_h1 | safe }}
             </div>
 
             {% if article.products %}
@@ -49,7 +97,7 @@
                         </a>
                         {% if product.image %}
                         <a href="{{ amazon.base_url }}/{{ product.asin }}?tag={{ amazon.tag }}" rel="nofollow sponsored" target="_blank">
-                            <img src="{{ product.image }}" alt="{{ product.name }}" loading="lazy" class="product-image">
+                            <img src="{{ product.image }}" alt="{{ product.name }}" loading="lazy" class="product-image" width="300" height="300">
                         </a>
                         {% endif %}
                         <p class="product-desc">{{ product.description }}</p>
@@ -63,8 +111,10 @@
             </div>
             {% endif %}
 
+            <!-- Bottom affiliate disclosure -->
             <div class="affiliate-disclosure">
                 <p><em>Small Space Living is reader-supported. When you buy through links on our site, we may earn an affiliate commission from Amazon Associates and other affiliate programs. As an Amazon Associate we earn from qualifying purchases.</em></p>
+                <p class="price-disclaimer">Prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon at the time of purchase will apply to the purchase of this product.</p>
             </div>
         </article>
     </main>
