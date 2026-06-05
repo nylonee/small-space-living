@@ -800,5 +800,63 @@
         "image": "https://images-na.ssl-images-amazon.com/images/I/71-X0lhrdVL._AC_SX679_.jpg"
       }
     ]
+  },
+  {
+    "slug": "top-10-compact-air-fryers-for-small-kitchens-under-50-in-2026",
+    "title": "Top 10 Compact Air Fryers for Small Kitchens Under $50 in 2026",
+    "date": "2026-06-05",
+    "excerpt": "When it comes to small kitchens, every inch counts\u2014and so do your dollars. In 2026, finding the perfect compact air fryer on a budget isn't just about cooking delicious meals; it's also about maximizing space and saving money without compromising quality. This guide will help you choose the best air",
+    "niche_key": "space_saving_kitchen",
+    "niche_display": "Space-Saving Kitchen",
+    "category": "compact air fryers for small kitchens",
+    "format_type": "top_under",
+    "word_count": 870,
+    "tags": [
+      "Space-Saving Kitchen"
+    ],
+    "products": [
+      {
+        "id": "ninja-af101-air-fryer",
+        "asin": "B07PBBW4XF",
+        "name": "Ninja Air Fryer 3.8L AF100UK",
+        "brand": "Ninja",
+        "price": "\u00a379.99",
+        "categories": [
+          "compact air fryers for small kitchens"
+        ],
+        "niches": [
+          "space_saving_kitchen"
+        ],
+        "description": "3.8-litre compact air fryer with 4-in-1 functions: air fry, roast, reheat, dehydrate, cooks 2-4 portions",
+        "keywords": [
+          "Ninja AF100UK",
+          "Ninja Air Fryer",
+          "Ninja 3.8L Air Fryer",
+          "AF100UK"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71g0pLc6QCL._AC_SX679_.jpg"
+      },
+      {
+        "id": "instant-vortex-plus-air-fryer",
+        "asin": "B09CLGXXFV",
+        "name": "Instant Vortex Digital Air Fryer 5.7L with ClearCook",
+        "brand": "Instant Pot",
+        "price": "\u00a389.99",
+        "categories": [
+          "compact air fryers for small kitchens"
+        ],
+        "niches": [
+          "space_saving_kitchen"
+        ],
+        "description": "5.7-litre digital air fryer with ClearCook window, 6 smart programmes, 95% less oil, cooks 1.6kg chicken",
+        "keywords": [
+          "Instant Vortex ClearCook",
+          "Instant Vortex Plus",
+          "Instant Pot air fryer",
+          "5.7L Air Fryer"
+        ],
+        "image": ""
+      }
+    ]
   }
 ]

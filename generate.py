@@ -489,7 +489,7 @@ Then immediately follow with the article content. Do not include any preamble or
 
 if __name__ == '__main__':
     # Default: 3 articles per run
-    count = int(sys.argv[1]) if len(sys.argv) > 1 else 3
+    count = int(sys.argv[1]) if len(sys.argv) > 1 else 1
     
     script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
     config_path = script_dir / 'config.json'
