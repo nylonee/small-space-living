@@ -5,12 +5,12 @@
     "url": "https://smallspaceliving.online",
     "base_path": "",
     "author": "Small Space Living Team",
-    "locale": "en_US"
+    "locale": "en_GB"
   },
   "amazon": {
-    "tag": "smallspaceliv-20",
-    "base_url": "https://www.amazon.com/dp",
-    "country": "US"
+    "tag": "smallspacel0f-21",
+    "base_url": "https://www.amazon.co.uk/dp",
+    "country": "UK"
   },
   "ollama": {
     "model": "qwen2.5-7b-64k:latest",
