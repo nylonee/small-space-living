@@ -28,7 +28,7 @@
                 <div class="meta">
                     <time datetime="{{ article.date }}">{{ article.date }}</time>
                     {% if article.niche_display %}
-                    &middot; <a href="{{ site.base_path }}/categories/{{ article.niche_key|slugify }}/">{{ article.niche_display }}</a>
+                    &middot; <a href="{{ site.base_path }}/categories/{{ article.niche_key }}/">{{ article.niche_display }}</a>
                     {% endif %}
                 </div>
             </header>

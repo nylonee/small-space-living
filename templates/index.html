@@ -21,9 +21,7 @@
     <p>{{ article.excerpt }}</p>
   </div>
   <div style="margin-top:0.5rem;">
-    {% for tag in article.tags %}
-      <a href="{{ site.base_path }}/categories/{{ tag|slugify }}/" class="tag">{{ tag }}</a>
-    {% endfor %}
+    <a href="{{ site.base_path }}/categories/{{ article.niche_key }}/" class="tag">{{ article.niche_display or article.niche_key }}</a>
   </div>
 </div>
 {% endfor %}
