@@ -1,35 +1,76 @@
-{% extends "base.html" %}
-{% block title %}{{ article.title }} — {{ site.title }}{% endblock %}
-{% block description %}{{ article.excerpt|e }}{% endblock %}
-{% block canonical %}{{ site.url }}/{{ article.slug }}/{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ article.title }}</title>
+    <meta name="description" content="{{ article.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ site.base_path }}/{{ article.slug }}.html">
+    <meta property="og:title" content="{{ article.title }}">
+    <meta property="og:description" content="{{ article.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.base_path }}/{{ article.slug }}.html">
+    <meta property="og:type" content="article">
+    <link rel="stylesheet" href="{{ site.base_path }}/style.css">
+</head>
+<body>
+    <nav>
+        <a href="{{ site.base_path }}/">Small Space Living</a>
+        <span class="nav-links">
+            <a href="{{ site.base_path }}/articles.html">Articles</a>
+            <a href="{{ site.base_path }}/categories.html">Categories</a>
+        </span>
+    </nav>
 
-{% block content %}
-<article class="post">
-  <div class="article-header">
-    <h1>{{ article.title }}</h1>
-    <div class="post-meta">
-      Published {{ article.date }} &middot; {{ article.word_count }} words &middot;
-      {% for tag in article.tags %}
-        <a href="{{ site.base_path }}/categories/{{ tag|slugify }}/" class="tag">{{ tag }}</a>
-      {% endfor %}
-    </div>
-  </div>
+    <main>
+        <article>
+            <header>
+                <h1>{{ article.title }}</h1>
+                <div class="meta">
+                    <time datetime="{{ article.date }}">{{ article.date }}</time>
+                    {% if article.niche_display %}
+                    &middot; <a href="{{ site.base_path }}/categories/{{ article.niche_key|slugify }}/">{{ article.niche_display }}</a>
+                    {% endif %}
+                </div>
+            </header>
 
-  <div class="article-content">
-    {{ article.html_content|safe }}
-  </div>
+            <div class="content">
+                {{ article.html_content | safe }}
+            </div>
 
-  <div class="affiliate-note">
-    <p><em>This article contains affiliate links. As an Amazon Associate we earn from qualifying purchases.</em></p>
-  </div>
-</article>
+            {% if article.products %}
+            <div class="affiliate-products">
+                <h2>Top Picks from This Article</h2>
+                <p class="disclosure">We earn a commission if you make a purchase, at no additional cost to you.</p>
+                <div class="product-grid">
+                    {% for product in article.products %}
+                    <div class="product-card">
+                        <a href="{{ amazon.base_url }}/{{ product.asin }}?tag={{ amazon.tag }}" rel="nofollow sponsored" target="_blank">
+                            <h3>{{ product.name }}</h3>
+                        </a>
+                        {% if product.image %}
+                        <a href="{{ amazon.base_url }}/{{ product.asin }}?tag={{ amazon.tag }}" rel="nofollow sponsored" target="_blank">
+                            <img src="{{ product.image }}" alt="{{ product.name }}" loading="lazy" class="product-image">
+                        </a>
+                        {% endif %}
+                        <p class="product-desc">{{ product.description }}</p>
+                        <p class="product-price">{{ product.price }}</p>
+                        <a href="{{ amazon.base_url }}/{{ product.asin }}?tag={{ amazon.tag }}" class="buy-button" rel="nofollow sponsored" target="_blank">
+                            Check Price on Amazon &rarr;
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
 
-<div class="pagination">
-  {% if article.prev_slug %}
-    <a href="{{ site.base_path }}/{{ article.prev_slug }}/" class="btn">&larr; Previous</a>
-  {% endif %}
-  {% if article.next_slug %}
-    <a href="{{ site.base_path }}/{{ article.next_slug }}/" class="btn" style="margin-left:auto">Next &rarr;</a>
-  {% endif %}
-</div>
-{% endblock %}
+            <div class="affiliate-disclosure">
+                <p><em>Small Space Living is reader-supported. When you buy through links on our site, we may earn an affiliate commission from Amazon Associates and other affiliate programs. As an Amazon Associate we earn from qualifying purchases.</em></p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.title }} | <a href="{{ site.base_path }}/privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>

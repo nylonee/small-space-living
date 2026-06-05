@@ -78,10 +78,40 @@ class ContentGenerator:
         fmt = random.choice(cfg['article_formats'])
         return niche_key, niche, category, fmt
     
+    def _products_for_category(self, category):
+        """Get real products from the database matching a category"""
+        cfg = self.config
+        if 'products' not in cfg:
+            return []
+        matched = []
+        for p in cfg['products']:
+            if category in p.get('categories', []):
+                matched.append(p)
+        # If no direct match, try broader: check if any category keywords overlap
+        if not matched:
+            cat_words = set(category.lower().split())
+            for p in cfg['products']:
+                p_cats = [c.lower() for c in p.get('categories', [])]
+                p_words = set(' '.join(p_cats).split())
+                if cat_words & p_words:  # any word overlap
+                    matched.append(p)
+        return matched[:6]  # cap at 6 to save context
+
     def build_prompt(self, category, fmt):
         """Build the full prompt for Ollama"""
         year = datetime.datetime.now().year
         instruction = fmt['prompt_template'].format(category=category, year=year)
+        
+        # Get real products for this category and format as context
+        products = self._products_for_category(category)
+        if products:
+            product_hints = "\n".join(
+                f"- {p['name']} — {p['description']}, around {p['price']}"
+                for p in products
+            )
+            product_section = f"\nReal products you can reference in this article:\n{product_hints}\n"
+        else:
+            product_section = "\nMention real brand names and specific product names that are popular in this category.\n"
         
         prompt = f"""<|im_start|>system
 You are an expert product reviewer for a website called "Small Space Living". You write detailed, helpful, SEO-optimized product review articles that help people with small apartments, tiny homes, and compact living spaces make informed purchasing decisions.
@@ -89,20 +119,20 @@ You are an expert product reviewer for a website called "Small Space Living". Yo
 Guidelines:
 - Write in natural, conversational English
 - Use markdown formatting (## for headers, **bold** for emphasis)
-- Include realistic product names and approximate price ranges
+- Mention real product names and brand names when making recommendations
 - Every product mention must include: what it is, why it works for small spaces, approximate price range
 - Be specific and helpful - this is for real readers
-- DO NOT fabricate brand names for well-known products (use "a popular brand" or generic descriptions)
 - DO use realistic price ranges (e.g. "typically $30-$50")
 - Target length: 800-1500 words
+{product_section}
 START YOUR RESPONSE with the article title as a single H1 markdown heading, like this:
 # Your Actual Article Title Here
 Then immediately follow with the article content. Do not include any preamble or explanation before the title.
 |<|im_end|>
-<|im_start|>user
+|<|im_start|>user
 {instruction}
 |<|im_end|>
-<|im_start|>assistant
+|<|im_start|>assistant
 """
         return prompt
     
@@ -195,24 +225,136 @@ Then immediately follow with the article content. Do not include any preamble or
         # Tags = category groups
         tags = [niche['display_name']]
         
+        # Post-process: inject affiliate links and find matched products
+        matched_products = self._inject_affiliate_products(html_content, category, niche_key)
+        html_content = matched_products['html']
+        products = matched_products['products']
+        
         return {
             'slug': slug,
             'title': title,
             'date': date,
             'excerpt': excerpt,
             'niche_key': niche_key,
+            'niche_display': niche['display_name'],
             'category': category,
             'format_type': fmt['type'],
             'word_count': word_count,
             'tags': tags,
-            'html_content': html_content
+            'html_content': html_content,
+            'products': products
         }
     
+    def _inject_affiliate_products(self, html_content, category, niche_key):
+        """Post-process HTML: turn product mentions into affiliate links + add product cards"""
+        cfg = self.config
+        tag = cfg['amazon']['tag']
+        base_url = cfg['amazon']['base_url']
+        all_products = cfg.get('products', [])
+        
+        # Get products matching this category exactly
+        cat_products = [p for p in all_products if category in p.get('categories', [])]
+        
+        # Fallback: require 2+ shared words AND same niche
+        if not cat_products:
+            cat_words = set(w for w in category.lower().split() if len(w) > 3)
+            for p in all_products:
+                niche_match = niche_key in p.get('niches', [])
+                for p_cat in p.get('categories', []):
+                    p_words = set(w for w in p_cat.lower().split() if len(w) > 3)
+                    shared = cat_words & p_words
+                    if niche_match and len(shared) >= 2:
+                        cat_products.append(p)
+                        break
+        
+        # If still nothing, grab any products from the same niche (up to 4)
+        if not cat_products:
+            niche_products = [p for p in all_products if niche_key in p.get('niches', [])]
+            cat_products = niche_products[:4]
+        
+        # Deduplicate by ASIN
+        seen = set()
+        unique_products = []
+        for p in cat_products:
+            if p['asin'] not in seen:
+                seen.add(p['asin'])
+                unique_products.append(p)
+        
+        # Turn product name/brand mentions into affiliate links
+        # Strategy: match only brand names + specific product names (not generic terms)
+        html = html_content
+        linked_asins = set()
+        
+        # Collect all candidate matches from brand names and product names
+        candidates = []
+        for p in unique_products:
+            # Only try brand name and exact product name as keywords
+            names_to_match = list(set([p['brand'], p['name']]))
+            for keyword in names_to_match:
+                if len(keyword) < 3:
+                    continue
+                for m in re.finditer(re.escape(keyword), html, re.IGNORECASE):
+                    candidates.append((m.start(), m.end(), keyword, p['asin']))
+        
+        # Sort by position descending (end-to-start to avoid position shifting)
+        candidates.sort(key=lambda x: x[0], reverse=True)
+        
+        # Tag existing link positions
+        link_ranges = set()
+        for m in re.finditer(r'<a\s[^>]*>.*?</a>', html, re.DOTALL):
+            link_ranges.add((m.start(), m.end()))
+        
+        def overlaps_link(start, end):
+            for ls, le in link_ranges:
+                if start < le and end > ls:
+                    return True
+            return False
+        
+        for orig_start, orig_end, keyword, asin in candidates:
+            # Process end-to-start: replacements only affect text AFTER current position,
+            # so remaining lower-position candidates are unaffected — no offset needed
+            if overlaps_link(orig_start, orig_end):
+                continue
+            if html[orig_start:orig_end].lower() != keyword.lower():
+                continue
+            affiliate_url = f"{base_url}/{asin}?tag={tag}"
+            link_html = f'<a href="{affiliate_url}" rel="nofollow sponsored" target="_blank">{html[orig_start:orig_end]}</a>'
+            html = html[:orig_start] + link_html + html[orig_end:]
+            linked_asins.add(asin)
+            # Update link_ranges to include new link
+            link_ranges.add((orig_start, orig_start + len(link_html)))
+        
+        # Select up to 4 products for the recommendation grid
+        # Prioritize mentioned products, then fill with non-mentioned
+        grid_products = []
+        grid_asins = set()
+        
+        for p in unique_products:
+            if len(grid_products) >= 4:
+                break
+            if p['asin'] in linked_asins:
+                grid_products.append(p)
+                grid_asins.add(p['asin'])
+        
+        if len(grid_products) < 4:
+            for p in unique_products:
+                if len(grid_products) >= 4:
+                    break
+                if p['asin'] not in grid_asins:
+                    grid_products.append(p)
+                    grid_asins.add(p['asin'])
+        
+        # Cap at 4 products
+        grid_products = grid_products[:4]
+        
+        return {'html': html, 'products': grid_products}
+
     def render_article_html(self, article):
         """Render article page HTML from template"""
         template = self.jinja.get_template('article.html')
         return template.render(
             site=self.config['site'],
+            amazon=self.config['amazon'],
             article=article
         )
     
@@ -254,18 +396,19 @@ Then immediately follow with the article content. Do not include any preamble or
     def render_sitemap(self):
         """Generate sitemap.xml"""
         site_url = self.config['site']['url'].rstrip('/')
+        base_path = self.config['site'].get('base_path', '')
         lines = [
             '<?xml version="1.0" encoding="UTF-8"?>',
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-            f'  <url><loc>{site_url}/</loc><priority>1.0</priority></url>'
+            f'  <url><loc>{site_url}{base_path}/</loc><priority>1.0</priority></url>'
         ]
         
         for ns in self.niche_slugs.values():
-            lines.append(f'  <url><loc>{site_url}/categories/{ns}/</loc><priority>0.8</priority></url>')
+            lines.append(f'  <url><loc>{site_url}{base_path}/categories/{ns}/</loc><priority>0.8</priority></url>')
         
         for article in self.articles:
             lines.append(
-                f'  <url><loc>{site_url}/{article["slug"]}/</loc>'
+                f'  <url><loc>{site_url}{base_path}/{article["slug"]}/</loc>'
                 f'<lastmod>{article["date"]}</lastmod><priority>0.6</priority></url>'
             )
         

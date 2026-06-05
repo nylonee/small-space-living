@@ -50,8 +50,19 @@ footer { text-align: center; padding: 2rem 0; color: #888; font-size: 0.85rem; }
 .product-block { background: #f8f9fa; border-radius: 8px; padding: 1rem 1.2rem; margin: 1rem 0; border-left: 4px solid #e94560; }
 .product-block h3 { margin-top: 0; }
 .product-block .price { font-weight: 700; color: #e94560; }
-.product-block .pros { color: #2e7d32; }
-.product-block .cons { color: #c62828; }
+.affiliate-products { margin: 2.5rem 0; padding: 1.5rem; background: #f0f4ff; border-radius: 12px; }
+.affiliate-products h2 { font-size: 1.4rem; margin-bottom: 0.5rem; color: #1a1a2e; }
+.affiliate-products .disclosure { font-size: 0.8rem; color: #888; margin-bottom: 1.2rem; }
+.product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+.product-card { background: #fff; border-radius: 10px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); display: flex; flex-direction: column; }
+.product-card h3 { font-size: 0.95rem; margin-bottom: 0.4rem; line-height: 1.3; }
+.product-card h3 a { color: #1a1a2e; text-decoration: none; }
+.product-card h3 a:hover { color: #e94560; }
+.product-card .product-image { width: 100%; height: 140px; object-fit: contain; margin-bottom: 0.5rem; background: #f8f8f8; border-radius: 6px; }
+.product-card .product-desc { font-size: 0.82rem; color: #555; flex: 1; margin-bottom: 0.5rem; }
+.product-card .product-price { font-weight: 700; color: #e94560; font-size: 1.1rem; margin-bottom: 0.5rem; }
+.buy-button { display: block; text-align: center; background: #ff9900; color: #fff; padding: 0.5rem; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+.buy-button:hover { background: #e88a00; }
 @media (max-width: 600px) {
   header .container { flex-direction: column; text-align: center; }
   header nav a { margin: 0 0.5rem; }
