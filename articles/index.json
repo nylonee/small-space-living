@@ -3939,5 +3939,62 @@
         "image": "https://images-na.ssl-images-amazon.com/images/I/91eWcdGfG0L._AC_SX679_.jpg"
       }
     ]
+  },
+  {
+    "slug": "top-10-ergonomic-office-chairs-under-50-in-2026",
+    "title": "Top 10 Ergonomic Office Chairs Under $50 in 2026",
+    "date": "2026-06-07",
+    "excerpt": "When you're trying to optimize your small space for comfort and productivity, investing in a good ergonomic office chair is essential. However, finding the right one that fits both your budget and needs can be challenging. In this article, we'll explore ten of the best ergonomic office chairs under ",
+    "niche_key": "budget_home_office",
+    "niche_display": "Budget Home Office",
+    "category": "ergonomic office chairs under $150",
+    "format_type": "top_under",
+    "word_count": 1344,
+    "tags": [
+      "Budget Home Office"
+    ],
+    "products": [
+      {
+        "id": "amazon-basics-ergonomic-chair",
+        "asin": "B016ID34BO",
+        "name": "Amazon Basics Ergonomic High-Back Office Chair",
+        "brand": "Amazon Basics",
+        "price": "\u00a399.99",
+        "categories": [
+          "ergonomic office chairs under $150"
+        ],
+        "niches": [
+          "budget_home_office"
+        ],
+        "description": "Breathable mesh high-back office chair with 360\u00b0 swivel, flip-up armrests, and lumbar support",
+        "keywords": [
+          "Amazon Basics office chair",
+          "ergonomic office chair",
+          "mesh office chair",
+          "Amazon Basics chair"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/419MvhCTgpL._AC_SX679_.jpg"
+      },
+      {
+        "id": "amazon-basics-mid-back-chair",
+        "asin": "B00IIFW2L4",
+        "name": "Amazon Basics Mid-Back Mesh Office Chair",
+        "brand": "Amazon Basics",
+        "price": "\u00a389.99",
+        "categories": [
+          "ergonomic office chairs under $150"
+        ],
+        "niches": [
+          "budget_home_office"
+        ],
+        "description": "Mid-back mesh task chair with adjustable height, pneumatic lift, and smooth-rolling casters",
+        "keywords": [
+          "Amazon Basics mid-back",
+          "mid-back mesh chair",
+          "office task chair"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91vH3ZqS2sL._AC_SX679_.jpg"
+      }
+    ]
   }
 ]
