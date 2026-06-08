@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,6 +43,10 @@
     </script>
 </head>
 <body>
+<div id="cookie-notice" class="cookie-notice">
+  <p>We use essential cookies to help you navigate. By continuing, you accept our <a href="{{ site.base_path }}/privacy/">Privacy Policy</a>.</p>
+  <button onclick="document.getElementById('cookie-notice').style.display='none';localStorage.setItem('cookieConsent','true');">Accept</button>
+</div>
     <nav>
         <a href="{{ site.base_path }}/">{{ site.title }}</a>
         <span class="nav-links">
@@ -78,7 +82,7 @@
 
             <!-- Above-fold affiliate disclosure (TOS compliance) -->
             <div class="affiliate-disclosure-top">
-                <p><strong>Disclosure:</strong> This post contains affiliate links. As an Amazon Associate I earn from qualifying purchases. <a href="{{ site.base_path }}/privacy.html" rel="nofollow">Learn more</a>.</p>
+                <p><strong>Disclosure:</strong> This post contains affiliate links. As an Amazon Associate I earn from qualifying purchases. <a href="{{ site.base_path }}/privacy/" rel="nofollow">Learn more</a>.</p>
             </div>
 
             <div class="content">
@@ -120,7 +124,10 @@
     </main>
 
     <footer>
-        <p>&copy; {{ site.title }} | <a href="{{ site.base_path }}/privacy.html">Privacy Policy</a></p>
+        <p>&copy; {{ site.title }} | <a href="{{ site.base_path }}/privacy/">Privacy Policy</a></p>
     </footer>
+    <script>
+    if(localStorage.getItem('cookieConsent')){document.getElementById('cookie-notice').style.display='none';}
+    </script>
 </body>
 </html>

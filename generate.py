@@ -66,49 +66,88 @@ class ContentGenerator:
             json.dump(self.articles, f, indent=2)
     
     def pick_topic(self):
-        """Pick a random niche + category + format, avoiding recent repeats"""
+        """Pick a random niche + category + format, rotating through categories fairly"""
         cfg = self.config
-        niche_keys = list(cfg['niches'].keys())
         
-        # Prefer niches with fewer articles to keep things balanced
+        # Count articles per category to track usage
+        category_counts = {}
         if self.articles:
-            niche_counts = {}
             for a in self.articles:
-                niche_counts[a['niche_key']] = niche_counts.get(a['niche_key'], 0) + 1
-            niche_keys.sort(key=lambda nk: niche_counts.get(nk, 0))
+                c = a.get('category', '')
+                category_counts[c] = category_counts.get(c, 0) + 1
         
-        niche_key = niche_keys[0] if niche_keys else list(cfg['niches'].keys())[0]
+        max_per = cfg.get('category_rotation', {}).get('max_per_category', 3)
+        
+        # Build candidate list: categories that haven't hit the limit
+        candidates = []
+        for nk, nv in cfg['niches'].items():
+            for cat in nv['categories']:
+                count = category_counts.get(cat, 0)
+                if count >= max_per and max_per > 0:
+                    continue
+                candidates.append((nk, cat))
+        
+        if not candidates:
+            # All categories exhausted — reset and allow any
+            for nk, nv in cfg['niches'].items():
+                for cat in nv['categories']:
+                    candidates.append((nk, cat))
+        
+        # Shuffle and pick — pure randomness ensures fair distribution over time
+        random.shuffle(candidates)
+        niche_key, category = candidates[0]
         niche = cfg['niches'][niche_key]
-        category = random.choice(niche['categories'])
         fmt = random.choice(cfg['article_formats'])
         return niche_key, niche, category, fmt
     
-    def _products_for_category(self, category):
+    def _products_for_category(self, category, niche_key=None):
         """Get real products from the database matching a category"""
         cfg = self.config
         if 'products' not in cfg:
             return []
         matched = []
+        
+        # 1. Exact match
         for p in cfg['products']:
             if category in p.get('categories', []):
                 matched.append(p)
-        # If no direct match, try broader: check if any category keywords overlap
+        
+        # 2. Multi-word overlap (require 2+ significant words shared)
         if not matched:
             cat_words = set(category.lower().split())
+            significant = {w for w in cat_words if len(w) >= 4}
             for p in cfg['products']:
                 p_cats = [c.lower() for c in p.get('categories', [])]
-                p_words = set(' '.join(p_cats).split())
-                if cat_words & p_words:  # any word overlap
+                p_words = set()
+                for pc in p_cats:
+                    p_words.update(pc.split())
+                p_sig = {w for w in p_words if len(w) >= 4}
+                if len(significant & p_sig) >= 2:
                     matched.append(p)
-        return matched[:6]  # cap at 6 to save context
+        
+        # 3. Same-niche fallback (not same-niche-all, only products with at least 1 word overlap)
+        if not matched and niche_key:
+            cat_words = set(category.lower().split())
+            significant = {w for w in cat_words if len(w) >= 4}
+            for p in cfg['products']:
+                if niche_key in p.get('niches', []):
+                    p_cats = [c.lower() for c in p.get('categories', [])]
+                    p_words = set()
+                    for pc in p_cats:
+                        p_words.update(pc.split())
+                    p_sig = {w for w in p_words if len(w) >= 4}
+                    if significant & p_sig:
+                        matched.append(p)
+        
+        return matched[:6]
 
-    def build_prompt(self, category, fmt):
+    def build_prompt(self, category, fmt, niche_key=None):
         """Build the full prompt for Ollama"""
         year = datetime.datetime.now().year
         instruction = fmt['prompt_template'].format(category=category, year=year)
         
         # Get real products for this category and format as context
-        products = self._products_for_category(category)
+        products = self._products_for_category(category, niche_key)
         if products:
             product_hints = "\n".join(
                 f"- {p['name']} — {p['description']}, around {p['price']}"
@@ -127,10 +166,11 @@ Guidelines:
 - Mention real product names and brand names when making recommendations
 - Every product mention must include: what it is, why it works for small spaces, approximate price range
 - Be specific and helpful - this is for real readers
-- DO use realistic price ranges (e.g. "typically $30-$50")
+- Use UK prices (£) not US prices ($) — this site targets UK readers via Amazon UK
+- CRITICAL: DO NOT invent or make up product names. ONLY recommend products from the list provided below. If the list is empty, mention popular brands in the category without specific model numbers.
 - CRITICAL: Target length MUST be 1000-1500 words. Write at least 1000 words.
-- If the title says "Under $50", ONLY recommend products that genuinely cost under $50. Do NOT include products over that price.
-- If the title says "Under $100", ONLY recommend products that genuinely cost under $100.
+- If the title says "Under £50" or similar, ONLY recommend products that genuinely cost under the stated price.
+- If the title says "Under £100" or similar, ONLY recommend products that genuinely cost under the stated price.
 {product_section}
 START YOUR RESPONSE with the article title as a single H1 markdown heading, like this:
 # Your Actual Article Title Here
@@ -208,7 +248,7 @@ Then immediately follow with the article content. Do not include any preamble or
     def generate_article(self):
         """Generate one complete article by calling Ollama"""
         niche_key, niche, category, fmt = self.pick_topic()
-        prompt = self.build_prompt(category, fmt)
+        prompt = self.build_prompt(category, fmt, niche_key)
         
         print(f"  Generating: {category} ({fmt['type']})...", flush=True)
         raw_text = self.call_ollama(prompt)
@@ -413,6 +453,9 @@ Then immediately follow with the article content. Do not include any preamble or
         for ns in self.niche_slugs.values():
             lines.append(f'  <url><loc>{site_url}{base_path}/categories/{ns}/</loc><priority>0.8</priority></url>')
         
+        # Privacy page
+        lines.append(f'  <url><loc>{site_url}{base_path}/privacy/</loc><priority>0.3</priority></url>')
+        
         for article in self.articles:
             lines.append(
                 f'  <url><loc>{site_url}{base_path}/{article["slug"]}/</loc>'
@@ -422,8 +465,15 @@ Then immediately follow with the article content. Do not include any preamble or
         lines.append('</urlset>')
         return '\n'.join(lines)
     
+    def render_privacy_html(self):
+        """Render the privacy policy page"""
+        template = self.jinja.get_template('privacy.html')
+        return template.render(
+            site=self.config['site']
+        )
+    
     def _rebuild_static_pages(self):
-        """Rebuild homepage, category pages, and sitemap"""
+        """Rebuild homepage, category pages, privacy page, and sitemap"""
         public = self.public_dir
         public.mkdir(parents=True, exist_ok=True)
         
@@ -440,6 +490,13 @@ Then immediately follow with the article content. Do not include any preamble or
             with open(cat_dir / 'index.html', 'w') as f:
                 f.write(self.render_category_html(niche_key))
         print(f"  → Category pages rebuilt ({len(self.config['niches'])} categories)")
+        
+        # Privacy page
+        privacy_dir = public / 'privacy'
+        privacy_dir.mkdir(parents=True, exist_ok=True)
+        with open(privacy_dir / 'index.html', 'w') as f:
+            f.write(self.render_privacy_html())
+        print("  → Privacy page rebuilt")
         
         # Sitemap
         with open(public / 'sitemap.xml', 'w') as f:

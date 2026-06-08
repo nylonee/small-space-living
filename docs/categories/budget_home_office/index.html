@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,10 @@
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+<div id="cookie-notice" class="cookie-notice">
+  <p>We use essential cookies to help you navigate. By continuing, you accept our <a href="/privacy/">Privacy Policy</a>.</p>
+  <button onclick="document.getElementById('cookie-notice').style.display='none';localStorage.setItem('cookieConsent','true');">Accept</button>
+</div>
 <header>
   <div class="container">
     <a href="/"><h1>Small Space Living</h1></a>
@@ -230,8 +234,12 @@
 </main>
 <footer class="container">
   <p>Small Space Living &mdash; Smart products and hacks for making the most of your small space</p>
-  <p>We are a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</p>
+  <p>We are a participant in the Amazon Services LLC Associates Programme, an affiliate advertising programme designed to provide a means for us to earn fees by linking to Amazon.co.uk and affiliated sites.</p>
   <p class="footer-disclaimer">Prices and availability are accurate as of the date/time indicated and are subject to change.</p>
+  <p><a href="/privacy/">Privacy Policy</a></p>
 </footer>
+<script>
+if(localStorage.getItem('cookieConsent')){document.getElementById('cookie-notice').style.display='none';}
+</script>
 </body>
 </html>

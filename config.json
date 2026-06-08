@@ -13,11 +13,11 @@
     "country": "UK"
   },
   "ollama": {
-    "model": "qwen2.5-7b-64k:latest",
     "url": "http://localhost:11434/api/generate",
+    "model": "qwen2.5-7b-64k:latest",
     "temperature": 0.7,
-    "max_tokens": 2048,
-    "num_ctx": 4096
+    "max_tokens": 4096,
+    "num_ctx": 8192
   },
   "generation": {
     "articles_per_run": 3,
@@ -69,17 +69,21 @@
   "article_formats": [
     {
       "type": "best_of",
-      "prompt_template": "Write a detailed, SEO-optimized article titled 'The Best {category} in {year}'. Include an introduction explaining why choosing the right {category} matters for small space living. Then list at least 8 specific products with: product name, key features, approximate price, pros and cons, and who it's best for. End with a buying guide section and FAQ. Use natural affiliate-friendly language. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
+      "prompt_template": "Write a detailed, SEO-optimized article titled 'The Best {category} in {year}'. Include an introduction explaining why choosing the right {category} matters for small space living. Then list at least 8 specific products with: product name, key features, approximate price in UK pounds (£), pros and cons, and who it's best for. End with a buying guide section and FAQ. Use natural affiliate-friendly language. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
     },
     {
       "type": "top_under",
-      "prompt_template": "Write a detailed, SEO-optimized article titled 'Top 10 {category} Under $50 in {year}'. Include an introduction about shopping for {category} on a budget in small spaces. List 10 specific products with: product name, key features, price, pros and cons, and ideal user. IMPORTANT: Only recommend products that actually cost UNDER $50 (or £50). The price limit from the title must be strictly respected. End with a comparison table overview and FAQ. Use affiliate-friendly language. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
+      "prompt_template": "Write a detailed, SEO-optimized article titled 'Top 10 Affordable {category} in {year}'. Include an introduction about choosing {category} for small spaces on a budget. List 10 specific products with: product name, key features, price in UK pounds (£), pros and cons, and ideal user. End with a comparison table overview and FAQ. Use affiliate-friendly language. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
     },
     {
       "type": "buying_guide",
-      "prompt_template": "Write a detailed, SEO-optimized buying guide article titled 'How to Choose the Best {category} for Your Small Space in {year}'. Cover: what to look for (size, features, price range), top 5 options compared, common mistakes to avoid, and a simple decision framework. Include 5-7 specific product recommendations with key specs. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
+      "prompt_template": "Write a detailed, SEO-optimized buying guide article titled 'How to Choose the Best {category} for Your Small Space in {year}'. Cover: what to look for (size, features, price range in UK pounds), top 5 options compared, common mistakes to avoid, and a simple decision framework. Include 5-7 specific product recommendations with key specs. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
     }
   ],
+  "category_rotation": {
+    "enabled": true,
+    "max_per_category": 4
+  },
   "products": [
     {
       "id": "vivo-26-desk-converter",
@@ -344,6 +348,234 @@
       "description": "5-pack large vacuum compression bags with airtight valve and hand pump, heavy-duty double-zip seals, saves 80% space",
       "keywords": ["vacuum storage bags", "Amazon Basics vacuum bags", "compression bags", "space saver bags"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/4156rSlxa-L._AC_SX679_.jpg"
+    },
+    {
+      "id": "vivo-keyboard-tray",
+      "asin": "B0BLT7PW8S",
+      "name": "VIVO Large Under Desk Keyboard and Mouse Tray",
+      "brand": "VIVO",
+      "price": "£47.99",
+      "categories": ["under desk keyboard trays"],
+      "niches": ["budget_home_office"],
+      "description": "68x28cm ergonomic keyboard tray with swinging height adjustment, 12 settings, clamp-on design for small desks",
+      "keywords": ["VIVO keyboard tray", "under desk keyboard tray", "VIVO MOUNT-KB08S", "keyboard drawer"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71mQfNw-u5L._AC_SX679_.jpg"
+    },
+    {
+      "id": "cable-management-tray-pack",
+      "asin": "B07Q5W52DT",
+      "name": "2 Pack Cable Management Tray 40cm Under Desk Cord Organizer",
+      "brand": "Generic",
+      "price": "£14.99",
+      "categories": ["cable management for small desks"],
+      "niches": ["budget_home_office"],
+      "description": "40cm under-desk cable management tray with cord clips, keeps cables tidy and off floor for small workspace",
+      "keywords": ["cable management tray", "under desk cable organizer", "cord management", "cable tidy"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51CzgQJKbDL._AC_SX679_.jpg"
+    },
+    {
+      "id": "neatify-cable-management-box",
+      "asin": "B07W7XTQJF",
+      "name": "Neatify Cable Management Box Large",
+      "brand": "Neatify",
+      "price": "£19.99",
+      "categories": ["cable management for small desks"],
+      "niches": ["budget_home_office"],
+      "description": "Large cable management box with lid, hides power strips and adapters, keeps small desk clutter-free",
+      "keywords": ["Neatify", "cable management box", "cable box", "cord organizer"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41vQzDJE9+L._AC_SX679_.jpg"
+    },
+    {
+      "id": "velcro-cable-ties",
+      "asin": "B0BZM2WF38",
+      "name": "VELCRO Brand Cable Ties 15-Pack Reusable",
+      "brand": "VELCRO",
+      "price": "£6.99",
+      "categories": ["cable management for small desks"],
+      "niches": ["budget_home_office"],
+      "description": "Reusable fabric cable ties, 8-inch length, perfect for bundling desk cables and keeping small spaces tidy",
+      "keywords": ["VELCRO cable ties", "cable ties", "reusable cable straps", "cable organizer"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/31eoI+Yh7lL._AC_SX679_.jpg"
+    },
+    {
+      "id": "joseph-collapsible-measuring-cups",
+      "asin": "B0C1J8N5F9",
+      "name": "Joseph Joseph Collapsible Measuring Cups Set of 4",
+      "brand": "Joseph Joseph",
+      "price": "£12.99",
+      "categories": ["collapsible kitchen gadgets"],
+      "niches": ["space_saving_kitchen"],
+      "description": "Space-saving collapsible measuring cups, flat-stacking design, nested storage with colour-coded sizes",
+      "keywords": ["Joseph Joseph", "collapsible measuring cups", "nested measuring cups", "stackable cups"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41M7EG5mXlL._AC_SX679_.jpg"
+    },
+    {
+      "id": "joseph-collapsible-colander",
+      "asin": "B08CV4H3RC",
+      "name": "Joseph Joseph Collapsible Colander",
+      "brand": "Joseph Joseph",
+      "price": "£16.99",
+      "categories": ["collapsible kitchen gadgets", "stackable kitchen containers"],
+      "niches": ["space_saving_kitchen"],
+      "description": "Collapsible silicone colander with rigid frame, folds flat for storage, heat-resistant up to 210°C",
+      "keywords": ["Joseph Joseph colander", "collapsible colander", "foldable colander", "silicone colander"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41x8M7HqT3L._AC_SX679_.jpg"
+    },
+    {
+      "id": "collapsible-silicone-containers",
+      "asin": "B09WGRLLSF",
+      "name": "Collapsible Silicone Food Storage Containers 5-Pack",
+      "brand": "Generic",
+      "price": "£14.99",
+      "categories": ["collapsible kitchen gadgets", "stackable kitchen containers"],
+      "niches": ["space_saving_kitchen"],
+      "description": "5-pack collapsible silicone food containers with lids, microwave/freezer/dishwasher safe, saves 80% space when folded",
+      "keywords": ["collapsible containers", "silicone food storage", "foldable containers", "space saving containers"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71LPVBDq6cL._AC_SX679_.jpg"
+    },
+    {
+      "id": "decuwat-over-sink-cutting-board",
+      "asin": "B0FX3BJ5FP",
+      "name": "Decuwat Expandable Over Sink Cutting Board",
+      "brand": "Decuwat",
+      "price": "£36.99",
+      "categories": ["over the sink cutting boards"],
+      "niches": ["space_saving_kitchen"],
+      "description": "Expandable bamboo cutting board for over sink, 24-34 inch adjustable, with juice groove and non-slip design",
+      "keywords": ["over sink cutting board", "expandable cutting board", "bamboo cutting board", "sink cover board"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71GcnDfDCL._AC_SX679_.jpg"
+    },
+    {
+      "id": "closet-hanging-organizer",
+      "asin": "B075RGK6TC",
+      "name": "Simple Houseware Hanging Closet Organizer",
+      "brand": "Simple Houseware",
+      "price": "£15.99",
+      "categories": ["closet organizers for small closets"],
+      "niches": ["apartment_organization"],
+      "description": "Hanging closet organizer with 8 shelves, heavy-duty fabric, fits standard closets, perfect for small apartments",
+      "keywords": ["hanging closet organizer", "closet shelves", "Simple Houseware closet", "hanging shelves"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41MyB4US0sL._AC_SX679_.jpg"
+    },
+    {
+      "id": "amazon-basics-hanging-organizer",
+      "asin": "B088NJ5W1P",
+      "name": "Amazon Basics Hanging Closet Organizer with 10 Shelves",
+      "brand": "Amazon Basics",
+      "price": "£13.99",
+      "categories": ["closet organizers for small closets"],
+      "niches": ["apartment_organization"],
+      "description": "10-shelf hanging closet organizer, sturdy fabric design for small closets, easy to install with durable hooks",
+      "keywords": ["Amazon Basics closet organizer", "hanging closet shelves", "closet storage organizer"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41nBKJAKaOL._AC_SX679_.jpg"
+    },
+    {
+      "id": "heimlove-floating-shelves",
+      "asin": "B09QWMY8PM",
+      "name": "Heimlove Floating Shelves Set of 2",
+      "brand": "Heimlove",
+      "price": "£22.99",
+      "categories": ["wall mounted shelves for apartments"],
+      "niches": ["apartment_organization"],
+      "description": "40cm wall mounted floating shelves, each holds 15kg, rustic oak finish, easy DIY installation for small spaces",
+      "keywords": ["Heimlove shelves", "floating shelves", "wall mounted shelves", "small shelves"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41qHh0T2pTL._AC_SX679_.jpg"
+    },
+    {
+      "id": "amazon-basics-floating-shelves",
+      "asin": "B07GVK3D18",
+      "name": "Amazon Basics Floating Shelves Set of 2",
+      "brand": "Amazon Basics",
+      "price": "£13.99",
+      "categories": ["wall mounted shelves for apartments"],
+      "niches": ["apartment_organization"],
+      "description": "Set of 2 floating wall shelves, 45cm each, black finish, holds up to 10kg, ideal for small apartment storage",
+      "keywords": ["Amazon Basics floating shelves", "wall shelves", "floating shelf", "small wall shelf"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51MhG8aT8uL._AC_SX679_.jpg"
+    },
+    {
+      "id": "vasage-corner-shelf",
+      "asin": "B08CV8T983",
+      "name": "VASAGLE Corner Shelf 5-Tier",
+      "brand": "VASAGLE",
+      "price": "£42.99",
+      "categories": ["corner shelves for small rooms"],
+      "niches": ["apartment_organization"],
+      "description": "5-tier corner shelf unit, industrial style with metal frame and wood boards, space-saving design for small rooms",
+      "keywords": ["VASAGLE corner shelf", "corner bookshelf", "corner storage shelf", "tall corner shelf"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81bw3RcN0aL._AC_SX679_.jpg"
+    },
+    {
+      "id": "tribesigns-corner-shelf",
+      "asin": "B0B8NL23Z9",
+      "name": "Tribesigns 67 inch Tall Corner Shelf",
+      "brand": "Tribesigns",
+      "price": "£55.99",
+      "categories": ["corner shelves for small rooms"],
+      "niches": ["apartment_organization"],
+      "description": "67-inch tall corner shelf bookcase with 6 tiers, rustic brown, narrow footprint perfect for small apartments",
+      "keywords": ["Tribesigns corner shelf", "tall corner shelf", "corner bookcase", "narrow shelf unit"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71mRf3aTHXL._AC_SX679_.jpg"
+    },
+    {
+      "id": "sistema-stackable-containers",
+      "asin": "B08QF1GFG8",
+      "name": "Sistema Klip It Plus Stackable Container Set",
+      "brand": "Sistema",
+      "price": "£12.99",
+      "categories": ["stackable kitchen containers"],
+      "niches": ["space_saving_kitchen"],
+      "description": "BPA-free stackable food storage containers with clip-lock lids, microwave/dishwasher safe, space-saving rectangular design",
+      "keywords": ["Sistema", "stackable containers", "food storage", "Klip It"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41S6KqW2a1L._AC_SX679_.jpg"
+    },
+    {
+      "id": "sistema-plastic-stackable",
+      "asin": "B07YK2FYDD",
+      "name": "Sistema 2-Piece Stackable Lunch Box Set",
+      "brand": "Sistema",
+      "price": "£8.99",
+      "categories": ["stackable kitchen containers"],
+      "niches": ["space_saving_kitchen"],
+      "description": "Set of 2 leak-proof stackable lunch containers with Easy-Clasp lids, perfect for meal prep in small kitchens",
+      "keywords": ["Sistema lunch box", "stackable lunch", "meal prep containers", "BPA free containers"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51FoXRczuPL._AC_SX679_.jpg"
+    },
+    {
+      "id": "taotronics-led-desk-lamp",
+      "asin": "B08CXLN26X",
+      "name": "TaoTronics LED Desk Lamp with Clamp",
+      "brand": "TaoTronics",
+      "price": "£24.99",
+      "categories": ["compact desk lamps"],
+      "niches": ["budget_home_office"],
+      "description": "LED desk lamp with clamp base, stepless dimming, adjustable gooseneck, 5 lighting modes, space-saving design",
+      "keywords": ["TaoTronics desk lamp", "LED desk lamp", "clamp lamp", "desk lamp with clamp"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41X1pnWYqBL._AC_SX679_.jpg"
+    },
+    {
+      "id": "huanuo-monitor-arm",
+      "asin": "B0B5G8NZL4",
+      "name": "HUANUO Single Monitor Arm",
+      "brand": "HUANUO",
+      "price": "£25.99",
+      "categories": ["monitor arms for small desks"],
+      "niches": ["budget_home_office"],
+      "description": "Gas spring single monitor arm for 13-32 inch screens, C-clamp and grommet mount, frees up small desk space",
+      "keywords": ["HUANUO monitor arm", "single monitor arm", "gas spring monitor arm", "monitor mount"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41rVDMrlz0L._AC_SX679_.jpg"
+    },
+    {
+      "id": "enpuan-magnetic-knife-holder",
+      "asin": "B07Y29WPJ8",
+      "name": "Enpuan 40cm Magnetic Knife Strip",
+      "brand": "Enpuan",
+      "price": "£9.99",
+      "categories": ["magnetic knife racks for small kitchens"],
+      "niches": ["space_saving_kitchen"],
+      "description": "40cm magnetic knife strip, self-adhesive mounting, no drilling needed, holds up to 6 knives, space-saving wall storage",
+      "keywords": ["Enpuan knife strip", "magnetic knife holder", "wall mounted knife rack", "magnetic knife bar"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41cBi1TDIL._AC_SX679_.jpg"
     }
   ]
 }
