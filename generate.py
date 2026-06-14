@@ -183,10 +183,75 @@ Then immediately follow with the article content. Do not include any preamble or
 """
         return prompt
     
-    def call_ollama(self, prompt):
-        """Call Ollama API with streaming-style non-streaming"""
+    def _get_nous_api_key(self):
+        """Read the Nous subscription API key from Hermes config.yaml."""
+        import yaml
+        hermes_config_path = os.path.expanduser("~/.hermes/config.yaml")
+        try:
+            with open(hermes_config_path) as f:
+                hermes_cfg = yaml.safe_load(f)
+            key = hermes_cfg.get("model", {}).get("api_key", "")
+            if key:
+                return key
+        except Exception as e:
+            print(f"  WARNING: Could not read Hermes API key: {e}")
+        return ""
+
+    def _parse_prompt_messages(self, prompt):
+        """Parse the <|im_start|> format prompt into system/user message dicts."""
+        system_match = re.search(
+            r'<\|im_start\|>system\n(.*?)<\|im_end\|>', prompt, re.DOTALL
+        )
+        user_match = re.search(
+            r'<\|im_start\|>user\n(.*?)<\|im_end\|>', prompt, re.DOTALL
+        )
+        messages = []
+        if system_match:
+            messages.append({"role": "system", "content": system_match.group(1).strip()})
+        if user_match:
+            messages.append({"role": "user", "content": user_match.group(1).strip()})
+        if not messages:
+            # Fallback: send the whole prompt as user message
+            messages = [{"role": "user", "content": prompt}]
+        return messages
+
+    def _call_remote_llm(self, prompt):
+        """Call DeepSeek Flash via OpenAI-compatible API (Nous inference)."""
         import requests
-        
+
+        remote_cfg = self.config.get("remote", {})
+        api_key = self._get_nous_api_key()
+        if not api_key:
+            print("  ERROR: No Nous API key found in ~/.hermes/config.yaml")
+            return ""
+
+        messages = self._parse_prompt_messages(prompt)
+
+        payload = {
+            "model": remote_cfg.get("model", "deepseek/deepseek-v4-flash"),
+            "messages": messages,
+            "temperature": remote_cfg.get("temperature", 0.6),
+            "max_tokens": remote_cfg.get("max_tokens", 4096),
+            "stream": False,
+        }
+
+        response = requests.post(
+            f"{remote_cfg['base_url'].rstrip('/')}/chat/completions",
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            json=payload,
+            timeout=300,
+        )
+        response.raise_for_status()
+        data = response.json()
+        return data["choices"][0]["message"]["content"].strip()
+
+    def call_ollama(self, prompt):
+        """Call local Ollama API."""
+        import requests
+
         payload = {
             'model': self.config['ollama']['model'],
             'prompt': prompt,
@@ -197,7 +262,7 @@ Then immediately follow with the article content. Do not include any preamble or
                 'num_ctx': self.config['ollama'].get('num_ctx', 4096)
             }
         }
-        
+
         response = requests.post(
             self.config['ollama']['url'],
             json=payload,
@@ -205,6 +270,13 @@ Then immediately follow with the article content. Do not include any preamble or
         )
         response.raise_for_status()
         return response.json()['response']
+
+    def call_llm(self, prompt):
+        """Dispatch to the configured LLM backend."""
+        backend = self.config.get("backend", "ollama")
+        if backend == "remote":
+            return self._call_remote_llm(prompt)
+        return self.call_ollama(prompt)
     
     def markdown_to_html(self, md_text):
         """Convert markdown to HTML"""
@@ -251,7 +323,7 @@ Then immediately follow with the article content. Do not include any preamble or
         prompt = self.build_prompt(category, fmt, niche_key)
         
         print(f"  Generating: {category} ({fmt['type']})...", flush=True)
-        raw_text = self.call_ollama(prompt)
+        raw_text = self.call_llm(prompt)
         
         if not raw_text or len(raw_text) < 100:
             print(f"  WARNING: Short response ({len(raw_text) if raw_text else 0} chars), skipping")
@@ -503,6 +575,85 @@ Then immediately follow with the article content. Do not include any preamble or
             f.write(self.render_sitemap())
         print(f"  → Sitemap generated")
     
+    def publish_article(self, raw_markdown):
+        """Process externally-generated markdown through the pipeline (affiliate injection, rendering, saving)."""
+        if not raw_markdown or len(raw_markdown) < 100:
+            print(f"  WARNING: Article too short ({len(raw_markdown) if raw_markdown else 0} chars), skipping")
+            return None
+
+        # Parse title
+        title_match = re.search(r'^#\s+(.+)$', raw_markdown, re.MULTILINE)
+        title = title_match.group(1).strip() if title_match else "Untitled Article"
+        title = re.sub(r'^"|"$', '', title)
+
+        slug = slugify(title)
+        date = datetime.datetime.now().strftime('%Y-%m-%d')
+        excerpt = self.extract_excerpt(raw_markdown)
+        html_content = self.markdown_to_html(raw_markdown)
+        word_count = len(raw_markdown.split())
+
+        # Try to detect category from content (heuristic: check which niche's categories appear)
+        niche_key = None
+        for nk, nv in self.config['niches'].items():
+            for cat in nv['categories']:
+                if cat.split()[0].lower() in raw_markdown.lower()[:500]:
+                    niche_key = nk
+                    break
+            if niche_key:
+                break
+        if not niche_key:
+            # Pick the least-used category
+            from collections import Counter
+            used = Counter(a.get('niche_key', 'budget_home_office') for a in self.articles)
+            niche_key = min(self.config['niches'].keys(), key=lambda k: used.get(k, 0))
+
+        niche = self.config['niches'].get(niche_key, {})
+        detected_category = niche.get('categories', ['general'])[0]
+
+        tags = [niche.get('display_name', niche_key)]
+
+        # Post-process: inject affiliate links
+        matched_products = self._inject_affiliate_products(html_content, detected_category, niche_key)
+        html_content = matched_products['html']
+        products = matched_products['products']
+
+        article = {
+            'slug': slug,
+            'title': title,
+            'date': date,
+            'excerpt': excerpt,
+            'niche_key': niche_key,
+            'niche_display': niche.get('display_name', niche_key),
+            'category': detected_category,
+            'format_type': 'external',
+            'word_count': word_count,
+            'tags': tags,
+            'html_content': html_content,
+            'products': products
+        }
+
+        # Deduplicate slug
+        existing_slugs = {a['slug'] for a in self.articles}
+        if article['slug'] in existing_slugs:
+            article['slug'] = f"{article['slug']}-{datetime.datetime.now().strftime('%Y%m%d-%H%M')}"
+
+        # Save article HTML
+        article_dir = self.public_dir / article['slug']
+        article_dir.mkdir(parents=True, exist_ok=True)
+        article_html = self.render_article_html(article)
+        with open(article_dir / 'index.html', 'w') as f:
+            f.write(article_html)
+
+        # Store in index (without html_content)
+        index_entry = {k: v for k, v in article.items() if k != 'html_content'}
+        self.articles.append(index_entry)
+
+        self._save_index()
+        self._rebuild_static_pages()
+
+        print(f"\n✓ Published: /{article['slug']}/ — {article['word_count']} words ({niche.get('display_name', niche_key)})")
+        return article
+
     def run(self, count=3):
         """Generate `count` articles and rebuild site"""
         self.articles_dir.mkdir(parents=True, exist_ok=True)
@@ -557,11 +708,31 @@ Then immediately follow with the article content. Do not include any preamble or
 
 
 if __name__ == '__main__':
-    # Default: 3 articles per run
-    count = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    
     script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
     config_path = script_dir / 'config.json'
-    
     generator = ContentGenerator(str(config_path))
-    generator.run(count)
+
+    # Check for piped content
+    import sys
+    if '--stdin' in sys.argv and not sys.stdin.isatty():
+        content = sys.stdin.read()
+        generator.publish_article(content)
+    elif '--content' in sys.argv:
+        idx = sys.argv.index('--content')
+        if idx + 1 < len(sys.argv):
+            content = sys.argv[idx + 1]
+            generator.publish_article(content)
+        else:
+            print("ERROR: --content requires a string argument")
+            sys.exit(1)
+    else:
+        count = 1
+        for arg in sys.argv[1:]:
+            if arg.startswith('--'):
+                continue
+            try:
+                count = int(arg)
+                break
+            except ValueError:
+                continue
+        generator.run(count)
