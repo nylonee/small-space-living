@@ -147,6 +147,16 @@ footer a:hover { text-decoration: underline; }
   .affiliate-products { border: 1px solid #ddd; break-inside: avoid; }
 }
 
+/* Related articles section */
+.related-articles { margin: 2rem 0; padding: 1.5rem 0; border-top: 2px solid #f0f0f5; }
+.related-articles h2 { font-size: 1.3rem; margin-bottom: 1rem; color: #1a1a2e; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.8rem; }
+.related-card { display: block; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 0.8rem 1rem; text-decoration: none; transition: box-shadow 0.15s ease, border-color 0.15s ease; }
+.related-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-color: #e94560; }
+.related-card h3 { font-size: 0.82rem; color: #1a1a2e; margin-bottom: 0.3rem; line-height: 1.3; }
+.related-card:hover h3 { color: #e94560; }
+.related-category { font-size: 0.72rem; color: #999; }
+
 /* Responsive */
 @media (max-width: 600px) {
   body > header .container, body > nav { flex-direction: column; text-align: center; }

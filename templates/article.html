@@ -22,6 +22,13 @@ gtag('config', 'G-KLQ4S0JLLN');
     <meta property="og:locale" content="en_GB">
     <meta property="article:published_time" content="{{ article.date }}">
     {% if article.niche_key %}<meta name="article:section" content="{{ article.niche_display }}">{% endif %}
+    {# og:image - use first product image if available #}
+    {% if article.products and article.products[0].image %}
+    <meta property="og:image" content="{{ article.products[0].image }}">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+    <meta name="twitter:image" content="{{ article.products[0].image }}">
+    {% endif %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ article.title }}">
     <meta name="twitter:description" content="{{ article.excerpt or article.title }}">
@@ -129,6 +136,20 @@ gtag('config', 'G-KLQ4S0JLLN');
                 <p><em>Small Space Living is reader-supported. When you buy through links on our site, we may earn an affiliate commission from Amazon Associates and other affiliate programs. As an Amazon Associate we earn from qualifying purchases.</em></p>
                 <p class="price-disclaimer">Prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon at the time of purchase will apply to the purchase of this product.</p>
             </div>
+
+            {% if related_articles %}
+            <div class="related-articles">
+                <h2>You Might Also Like</h2>
+                <div class="related-grid">
+                    {% for ra in related_articles %}
+                    <a href="{{ site.base_path }}/{{ ra.slug }}/" class="related-card">
+                        <h3>{{ ra.title }}</h3>
+                        <span class="related-category">{{ ra.niche_display }}</span>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
         </article>
     </main>
 

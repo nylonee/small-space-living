@@ -583,6 +583,42 @@
       "description": "40cm magnetic knife strip, self-adhesive mounting, no drilling needed, holds up to 6 knives, space-saving wall storage",
       "keywords": ["Enpuan knife strip", "magnetic knife holder", "wall mounted knife rack", "magnetic knife bar"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/41cBi1TDIL._AC_SX679_.jpg"
+    },
+    {
+      "id": "songmics-hanging-closet-organiser",
+      "asin": "B07PTY6B4C",
+      "name": "SONGMICS Hanging Wardrobe Storage Organiser 5-Tier",
+      "brand": "SONGMICS",
+      "price": "£24.99",
+      "categories": ["closet organizers for small closets"],
+      "niches": ["apartment_organization"],
+      "description": "5-tier hanging wardrobe organiser with bamboo inserts, metal hooks, no assembly needed, folds flat, holds 10kg total",
+      "keywords": ["SONGMICS hanging organizer", "hanging wardrobe storage", "closet organiser", "RYCH06G"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81i38wMfTYS._AC_SX679_.jpg"
+    },
+    {
+      "id": "ul54-10-pack-over-door-hooks",
+      "asin": "B0B2FQM8ZW",
+      "name": "UL54 Over Door Hooks 10-Pack",
+      "brand": "UL54",
+      "price": "£8.99",
+      "categories": ["over the door organizers"],
+      "niches": ["apartment_organization"],
+      "description": "10-pack over door hooks with rust-proof stainless steel design, no-drill installation, holds coats, bags, towels for small spaces",
+      "keywords": ["over door hooks", "UL54", "door hooks", "no drill hooks"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51H+Pz2U8zL._AC_SX679_.jpg"
+    },
+    {
+      "id": "wishacc-shoe-rack-cabinet",
+      "asin": "B09N71MH6S",
+      "name": "Wishacc Shoe Rack Cabinet 2-Tier Foldable",
+      "brand": "Wishacc",
+      "price": "£34.99",
+      "categories": ["storage ottomans and benches", "closet organizers for small closets"],
+      "niches": ["apartment_organization"],
+      "description": "2-tier foldable shoe rack cabinet with tempered glass top, can also serve as entryway bench or nightstand, space-saving for small flats",
+      "keywords": ["Wishacc shoe rack", "foldable shoe cabinet", "entryway bench", "small space shoe storage"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/715fJKhMpmL._AC_SX679_.jpg"
     }
   ]
 }

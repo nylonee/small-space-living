@@ -141,6 +141,31 @@ class ContentGenerator:
         
         return matched[:6]
 
+    def _detect_category_from_content(self, markdown_text, niche_key):
+        """Find the best-matching sub-category within a niche by scanning article content.
+        Uses phrase matching (bi-grams) and word overlap scoring."""
+        cfg = self.config
+        niche = cfg.get('niches', {}).get(niche_key, {})
+        best_cat = None
+        best_score = 0
+        body_lower = markdown_text.lower()
+        for cat in niche.get('categories', []):
+            cat_words = cat.lower().split()
+            sig_words = {w for w in cat_words if len(w) >= 4}
+            # Phrase bonus: check if bi-grams appear in the body
+            phrase_bonus = 0
+            for i in range(len(cat_words) - 1):
+                bigram = cat_words[i] + ' ' + cat_words[i+1]
+                if bigram in body_lower:
+                    phrase_bonus += 2
+            # Word matches
+            word_score = sum(1 for w in sig_words if w in body_lower)
+            total = word_score + phrase_bonus
+            if total > best_score:
+                best_score = total
+                best_cat = cat
+        return best_cat
+
     def build_prompt(self, category, fmt, niche_key=None):
         """Build the full prompt for Ollama"""
         year = datetime.datetime.now().year
@@ -469,12 +494,23 @@ Then immediately follow with the article content. Do not include any preamble or
         return {'html': html, 'products': grid_products}
 
     def render_article_html(self, article):
-        """Render article page HTML from template"""
+        """Render article page HTML from template, with related articles"""
         template = self.jinja.get_template('article.html')
+        
+        # Find 3-4 related articles from the same niche, excluding the current one
+        related = [
+            a for a in self.articles
+            if a['slug'] != article.get('slug') and a.get('niche_key') == article.get('niche_key')
+        ]
+        # Sort by date descending, take most recent 4
+        related.sort(key=lambda a: a.get('date', ''), reverse=True)
+        related_articles = related[:4]
+        
         return template.render(
             site=self.config['site'],
             amazon=self.config['amazon'],
-            article=article
+            article=article,
+            related_articles=related_articles
         )
     
     def render_index_html(self):
@@ -592,15 +628,30 @@ Then immediately follow with the article content. Do not include any preamble or
         html_content = self.markdown_to_html(raw_markdown)
         word_count = len(raw_markdown.split())
 
-        # Try to detect category from content (heuristic: check which niche's categories appear)
+        # Try to detect category from content
         niche_key = None
         for nk, nv in self.config['niches'].items():
             for cat in nv['categories']:
-                if cat.split()[0].lower() in raw_markdown.lower()[:500]:
+                # Check the full article for the category's significant words
+                cat_words = set(cat.lower().split())
+                sig_words = {w for w in cat_words if len(w) >= 4}
+                body_lower = raw_markdown.lower()
+                matches = sum(1 for w in sig_words if w in body_lower)
+                if matches >= 3:
                     niche_key = nk
                     break
             if niche_key:
                 break
+        if not niche_key:
+            # Fallback: first-word check in first 500 chars (original heuristic)
+            for nk, nv in self.config['niches'].items():
+                for cat in nv['categories']:
+                    first_word = cat.split()[0].lower()
+                    if first_word in raw_markdown.lower()[:500]:
+                        niche_key = nk
+                        break
+                if niche_key:
+                    break
         if not niche_key:
             # Pick the least-used category
             from collections import Counter
@@ -608,9 +659,24 @@ Then immediately follow with the article content. Do not include any preamble or
             niche_key = min(self.config['niches'].keys(), key=lambda k: used.get(k, 0))
 
         niche = self.config['niches'].get(niche_key, {})
-        detected_category = niche.get('categories', ['general'])[0]
+
+        # Detect the most specific sub-category from the article body
+        detected_category = self._detect_category_from_content(raw_markdown, niche_key)
+        if not detected_category and niche.get('categories'):
+            detected_category = niche['categories'][0]
 
         tags = [niche.get('display_name', niche_key)]
+
+        # Auto-detect format type from title
+        title_lower = title.lower()
+        if title_lower.startswith('how to choose'):
+            fmt_type = 'buying_guide'
+        elif title_lower.startswith('top ') and 'under' in title_lower:
+            fmt_type = 'top_under'
+        elif title_lower.startswith('the best') or title_lower.startswith('best '):
+            fmt_type = 'best_of'
+        else:
+            fmt_type = 'buying_guide'
 
         # Post-process: inject affiliate links
         matched_products = self._inject_affiliate_products(html_content, detected_category, niche_key)
@@ -625,7 +691,7 @@ Then immediately follow with the article content. Do not include any preamble or
             'niche_key': niche_key,
             'niche_display': niche.get('display_name', niche_key),
             'category': detected_category,
-            'format_type': 'external',
+            'format_type': fmt_type,
             'word_count': word_count,
             'tags': tags,
             'html_content': html_content,

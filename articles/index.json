@@ -15,10 +15,10 @@
     "products": [
       {
         "id": "amazon-basics-laptop-stand",
-        "asin": "B0BLRJ4R8F",
-        "name": "Amazon Basics Ergonomic Laptop Stand",
+        "asin": "B09WNH5ZT9",
+        "name": "Amazon Basics Laptop Stand with 6-Angle Adjustment",
         "brand": "Amazon Basics",
-        "price": "$24.99",
+        "price": "\u00a36.97",
         "categories": [
           "laptop stands for small desks"
         ],
@@ -31,14 +31,14 @@
           "Amazon Basics laptop",
           "ergonomic laptop stand"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/410MKNJc2UL._AC_SX679_.jpg"
       },
       {
         "id": "lamicall-laptop-stand",
         "asin": "B08M94BTYC",
         "name": "Lamicall Adjustable Laptop Stand",
         "brand": "Lamicall",
-        "price": "$31.99",
+        "price": "\u00a325.99",
         "categories": [
           "laptop stands for small desks"
         ],
@@ -52,7 +52,7 @@
           "laptop riser",
           "adjustable laptop"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41+pfVUhqUL._AC_SX679_.jpg"
       }
     ]
   },
@@ -72,10 +72,10 @@
     "products": [
       {
         "id": "oxo-foldaway-dish-rack",
-        "asin": "B0000B3J2K",
-        "name": "OXO Good Grips Foldaway Dish Rack",
+        "asin": "B09BVYVFZQ",
+        "name": "OXO Good Grips Aluminium Fold Flat Dish Rack",
         "brand": "OXO",
-        "price": "$29.99",
+        "price": "\u00a350.00",
         "categories": [
           "small dish drainers for small kitchens"
         ],
@@ -89,14 +89,14 @@
           "foldable dish rack",
           "OXO Good Grips"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/419InInqSmL._AC_SX679_.jpg"
       },
       {
         "id": "ninja-af101-air-fryer",
-        "asin": "B07FDJMC9Q",
-        "name": "Ninja AF101 Air Fryer 4QT",
+        "asin": "B07PBBW4XF",
+        "name": "Ninja Air Fryer 3.8L AF100UK",
         "brand": "Ninja",
-        "price": "$89.99",
+        "price": "\u00a379.99",
         "categories": [
           "compact air fryers for small kitchens"
         ],
@@ -114,10 +114,10 @@
       },
       {
         "id": "instant-vortex-plus-air-fryer",
-        "asin": "B07VHFMZHJ",
-        "name": "Instant Vortex Plus 6QT Air Fryer",
+        "asin": "B09CLGXXFV",
+        "name": "Instant Vortex Digital Air Fryer 5.7L with ClearCook",
         "brand": "Instant Pot",
-        "price": "$99.95",
+        "price": "\u00a389.99",
         "categories": [
           "compact air fryers for small kitchens"
         ],
@@ -131,14 +131,14 @@
           "Instant Pot air fryer",
           "6QT Air Fryer"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91qscKsq5aL._AC_SX679_.jpg"
       },
       {
         "id": "kitsure-dish-rack",
-        "asin": "B0B3J2KTZ6",
+        "asin": "B0B71HQ98T",
         "name": "Kitsure Dish Drying Rack",
         "brand": "Kitsure",
-        "price": "$25.99",
+        "price": "\u00a322.99",
         "categories": [
           "small dish drainers for small kitchens"
         ],
@@ -151,7 +151,7 @@
           "dish drying rack",
           "kitchen drying rack"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41D+AgqAC7L._AC_SX679_.jpg"
       }
     ]
   },
@@ -174,7 +174,7 @@
         "asin": "B07CG2R9ST",
         "name": "Simple Houseware 24-Pocket Over Door Organizer",
         "brand": "Simple Houseware",
-        "price": "$19.97",
+        "price": "\u00a317.99",
         "categories": [
           "over the door organizers"
         ],
@@ -188,14 +188,14 @@
           "hanging shoe organizer",
           "24 pocket organizer"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/412I7oAeomL._AC_SX679_.jpg"
       },
       {
         "id": "songmics-storage-ottoman",
         "asin": "B07JQ22YYS",
         "name": "SONGMICS 30 inch Folding Storage Ottoman Bench",
         "brand": "SONGMICS",
-        "price": "$49.99",
+        "price": "\u00a339.99",
         "categories": [
           "storage ottomans and benches"
         ],
@@ -209,14 +209,14 @@
           "storage ottoman bench",
           "folding storage bench"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91HYQlxc7EL._AC_SX679_.jpg"
       },
       {
         "id": "punemi-under-bed-storage",
         "asin": "B0B3J2KTZ6",
         "name": "punemi Under Bed Storage Containers (2-Pack)",
         "brand": "punemi",
-        "price": "$32.99",
+        "price": "\u00a325.99",
         "categories": [
           "under bed storage solutions"
         ],
@@ -230,14 +230,14 @@
           "punemi under bed",
           "storage containers"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/913M1EDcV2L._AC_SX679_.jpg"
       },
       {
         "id": "storageLAB-under-bed",
         "asin": "B08LPQLZTN",
         "name": "storageLAB Under Bed Storage Containers",
         "brand": "storageLAB",
-        "price": "$34.99",
+        "price": "\u00a329.99",
         "categories": [
           "under bed storage solutions"
         ],
@@ -250,7 +250,7 @@
           "under bed storage container",
           "low profile storage"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91eWcdGfG0L._AC_SX679_.jpg"
       }
     ]
   },
@@ -270,10 +270,10 @@
     "products": [
       {
         "id": "amazon-basics-laptop-stand",
-        "asin": "B0BLRJ4R8F",
-        "name": "Amazon Basics Ergonomic Laptop Stand",
+        "asin": "B09WNH5ZT9",
+        "name": "Amazon Basics Laptop Stand with 6-Angle Adjustment",
         "brand": "Amazon Basics",
-        "price": "$24.99",
+        "price": "\u00a36.97",
         "categories": [
           "laptop stands for small desks"
         ],
@@ -286,14 +286,14 @@
           "Amazon Basics laptop",
           "ergonomic laptop stand"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/410MKNJc2UL._AC_SX679_.jpg"
       },
       {
         "id": "lamicall-laptop-stand",
         "asin": "B08M94BTYC",
         "name": "Lamicall Adjustable Laptop Stand",
         "brand": "Lamicall",
-        "price": "$31.99",
+        "price": "\u00a325.99",
         "categories": [
           "laptop stands for small desks"
         ],
@@ -307,7 +307,7 @@
           "laptop riser",
           "adjustable laptop"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41+pfVUhqUL._AC_SX679_.jpg"
       }
     ]
   },
@@ -330,7 +330,7 @@
         "asin": "B004P2LEE0",
         "name": "Crock-Pot 2-Quart Manual Slow Cooker",
         "brand": "Crock-Pot",
-        "price": "$19.99",
+        "price": "\u00a315.99",
         "categories": [
           "mini slow cookers and rice cookers"
         ],
@@ -343,14 +343,14 @@
           "slow cooker",
           "mini slow cooker"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91riAOqwiCL._AC_SX679_.jpg"
       },
       {
         "id": "sunvivi-2qt-slow-cooker",
         "asin": "B0D6BGS9CK",
         "name": "Sunvivi 2 Quart Slow Cooker",
         "brand": "Sunvivi",
-        "price": "$29.99",
+        "price": "\u00a323.99",
         "categories": [
           "mini slow cookers and rice cookers"
         ],
@@ -363,14 +363,14 @@
           "slow cooker",
           "small slow cooker"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41+2gisFAjL._AC_SX679_.jpg"
       },
       {
         "id": "aroma-3cup-rice-cooker",
         "asin": "B00N9N6GOY",
         "name": "AROMA 3-Cup Rice Cooker",
         "brand": "AROMA",
-        "price": "$19.99",
+        "price": "\u00a316.99",
         "categories": [
           "mini slow cookers and rice cookers"
         ],
@@ -384,7 +384,7 @@
           "mini rice cooker",
           "AROMA rice cooker"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/410nlPpxatL._AC_SX679_.jpg"
       }
     ]
   },
@@ -407,7 +407,7 @@
         "asin": "B07CG2R9ST",
         "name": "Simple Houseware 24-Pocket Over Door Organizer",
         "brand": "Simple Houseware",
-        "price": "$19.97",
+        "price": "\u00a317.99",
         "categories": [
           "over the door organizers"
         ],
@@ -421,14 +421,14 @@
           "hanging shoe organizer",
           "24 pocket organizer"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/412I7oAeomL._AC_SX679_.jpg"
       },
       {
         "id": "songmics-storage-ottoman",
         "asin": "B07JQ22YYS",
         "name": "SONGMICS 30 inch Folding Storage Ottoman Bench",
         "brand": "SONGMICS",
-        "price": "$49.99",
+        "price": "\u00a339.99",
         "categories": [
           "storage ottomans and benches"
         ],
@@ -442,14 +442,14 @@
           "storage ottoman bench",
           "folding storage bench"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91HYQlxc7EL._AC_SX679_.jpg"
       },
       {
         "id": "punemi-under-bed-storage",
         "asin": "B0B3J2KTZ6",
         "name": "punemi Under Bed Storage Containers (2-Pack)",
         "brand": "punemi",
-        "price": "$32.99",
+        "price": "\u00a325.99",
         "categories": [
           "under bed storage solutions"
         ],
@@ -463,14 +463,14 @@
           "punemi under bed",
           "storage containers"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/913M1EDcV2L._AC_SX679_.jpg"
       },
       {
         "id": "storageLAB-under-bed",
         "asin": "B08LPQLZTN",
         "name": "storageLAB Under Bed Storage Containers",
         "brand": "storageLAB",
-        "price": "$34.99",
+        "price": "\u00a329.99",
         "categories": [
           "under bed storage solutions"
         ],
@@ -483,7 +483,7 @@
           "under bed storage container",
           "low profile storage"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91eWcdGfG0L._AC_SX679_.jpg"
       }
     ]
   },
@@ -506,7 +506,7 @@
         "asin": "B09VMNYMY3",
         "name": "VIVO 26 inch Desk Converter",
         "brand": "VIVO",
-        "price": "$159.99",
+        "price": "\u00a3129.99",
         "categories": [
           "standing desk converters under $200"
         ],
@@ -528,7 +528,7 @@
         "asin": "B0CSPRQTMQ",
         "name": "VIVO 36 inch Desk Converter",
         "brand": "VIVO",
-        "price": "$199.99",
+        "price": "\u00a3159.99",
         "categories": [
           "standing desk converters under $200"
         ],
@@ -561,10 +561,10 @@
     "products": [
       {
         "id": "ninja-af101-air-fryer",
-        "asin": "B07FDJMC9Q",
-        "name": "Ninja AF101 Air Fryer 4QT",
+        "asin": "B07PBBW4XF",
+        "name": "Ninja Air Fryer 3.8L AF100UK",
         "brand": "Ninja",
-        "price": "$89.99",
+        "price": "\u00a379.99",
         "categories": [
           "compact air fryers for small kitchens"
         ],
@@ -582,10 +582,10 @@
       },
       {
         "id": "instant-vortex-plus-air-fryer",
-        "asin": "B07VHFMZHJ",
-        "name": "Instant Vortex Plus 6QT Air Fryer",
+        "asin": "B09CLGXXFV",
+        "name": "Instant Vortex Digital Air Fryer 5.7L with ClearCook",
         "brand": "Instant Pot",
-        "price": "$99.95",
+        "price": "\u00a389.99",
         "categories": [
           "compact air fryers for small kitchens"
         ],
@@ -599,14 +599,14 @@
           "Instant Pot air fryer",
           "6QT Air Fryer"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91qscKsq5aL._AC_SX679_.jpg"
       },
       {
         "id": "oxo-foldaway-dish-rack",
-        "asin": "B0000B3J2K",
-        "name": "OXO Good Grips Foldaway Dish Rack",
+        "asin": "B09BVYVFZQ",
+        "name": "OXO Good Grips Aluminium Fold Flat Dish Rack",
         "brand": "OXO",
-        "price": "$29.99",
+        "price": "\u00a350.00",
         "categories": [
           "small dish drainers for small kitchens"
         ],
@@ -620,14 +620,14 @@
           "foldable dish rack",
           "OXO Good Grips"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/419InInqSmL._AC_SX679_.jpg"
       },
       {
         "id": "kitsure-dish-rack",
-        "asin": "B0B3J2KTZ6",
+        "asin": "B0B71HQ98T",
         "name": "Kitsure Dish Drying Rack",
         "brand": "Kitsure",
-        "price": "$25.99",
+        "price": "\u00a322.99",
         "categories": [
           "small dish drainers for small kitchens"
         ],
@@ -640,7 +640,7 @@
           "dish drying rack",
           "kitchen drying rack"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41D+AgqAC7L._AC_SX679_.jpg"
       }
     ]
   },
@@ -663,7 +663,7 @@
         "asin": "B07CG2R9ST",
         "name": "Simple Houseware 24-Pocket Over Door Organizer",
         "brand": "Simple Houseware",
-        "price": "$19.97",
+        "price": "\u00a317.99",
         "categories": [
           "over the door organizers"
         ],
@@ -677,14 +677,14 @@
           "hanging shoe organizer",
           "24 pocket organizer"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/412I7oAeomL._AC_SX679_.jpg"
       },
       {
         "id": "songmics-storage-ottoman",
         "asin": "B07JQ22YYS",
         "name": "SONGMICS 30 inch Folding Storage Ottoman Bench",
         "brand": "SONGMICS",
-        "price": "$49.99",
+        "price": "\u00a339.99",
         "categories": [
           "storage ottomans and benches"
         ],
@@ -698,14 +698,14 @@
           "storage ottoman bench",
           "folding storage bench"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91HYQlxc7EL._AC_SX679_.jpg"
       },
       {
         "id": "punemi-under-bed-storage",
         "asin": "B0B3J2KTZ6",
         "name": "punemi Under Bed Storage Containers (2-Pack)",
         "brand": "punemi",
-        "price": "$32.99",
+        "price": "\u00a325.99",
         "categories": [
           "under bed storage solutions"
         ],
@@ -719,14 +719,14 @@
           "punemi under bed",
           "storage containers"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/913M1EDcV2L._AC_SX679_.jpg"
       },
       {
         "id": "storageLAB-under-bed",
         "asin": "B08LPQLZTN",
         "name": "storageLAB Under Bed Storage Containers",
         "brand": "storageLAB",
-        "price": "$34.99",
+        "price": "\u00a329.99",
         "categories": [
           "under bed storage solutions"
         ],
@@ -739,7 +739,7 @@
           "under bed storage container",
           "low profile storage"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91eWcdGfG0L._AC_SX679_.jpg"
       }
     ]
   },
@@ -762,7 +762,7 @@
         "asin": "B09VMNYMY3",
         "name": "VIVO 26 inch Desk Converter",
         "brand": "VIVO",
-        "price": "$159.99",
+        "price": "\u00a3129.99",
         "categories": [
           "standing desk converters under $200"
         ],
@@ -784,7 +784,7 @@
         "asin": "B0CSPRQTMQ",
         "name": "VIVO 36 inch Desk Converter",
         "brand": "VIVO",
-        "price": "$199.99",
+        "price": "\u00a3159.99",
         "categories": [
           "standing desk converters under $200"
         ],
@@ -855,7 +855,7 @@
           "Instant Pot air fryer",
           "5.7L Air Fryer"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91qscKsq5aL._AC_SX679_.jpg"
       }
     ]
   },
@@ -878,7 +878,7 @@
         "asin": "B07JQ22YYS",
         "name": "SONGMICS 30 inch Folding Storage Ottoman Bench",
         "brand": "SONGMICS",
-        "price": "$49.99",
+        "price": "\u00a339.99",
         "categories": [
           "storage ottomans and benches"
         ],
@@ -892,14 +892,14 @@
           "storage ottoman bench",
           "folding storage bench"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91HYQlxc7EL._AC_SX679_.jpg"
       },
       {
         "id": "simple-houseware-door-organizer",
         "asin": "B07CG2R9ST",
         "name": "Simple Houseware 24-Pocket Over Door Organizer",
         "brand": "Simple Houseware",
-        "price": "$19.97",
+        "price": "\u00a317.99",
         "categories": [
           "over the door organizers"
         ],
@@ -913,14 +913,14 @@
           "hanging shoe organizer",
           "24 pocket organizer"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/412I7oAeomL._AC_SX679_.jpg"
       },
       {
         "id": "punemi-under-bed-storage",
         "asin": "B0B3J2KTZ6",
         "name": "punemi Under Bed Storage Containers (2-Pack)",
         "brand": "punemi",
-        "price": "$32.99",
+        "price": "\u00a325.99",
         "categories": [
           "under bed storage solutions"
         ],
@@ -934,14 +934,14 @@
           "punemi under bed",
           "storage containers"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/913M1EDcV2L._AC_SX679_.jpg"
       },
       {
         "id": "storageLAB-under-bed",
         "asin": "B08LPQLZTN",
         "name": "storageLAB Under Bed Storage Containers",
         "brand": "storageLAB",
-        "price": "$34.99",
+        "price": "\u00a329.99",
         "categories": [
           "under bed storage solutions"
         ],
@@ -954,7 +954,7 @@
           "under bed storage container",
           "low profile storage"
         ],
-        "image": ""
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91eWcdGfG0L._AC_SX679_.jpg"
       }
     ]
   },
@@ -10876,6 +10876,322 @@
           "DESK-V036KWE"
         ],
         "image": "https://images-na.ssl-images-amazon.com/images/I/71-X0lhrdVL._AC_SX679_.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "the-best-over-the-door-organizers-for-small-flats-in-2026",
+    "title": "The Best Over the Door Organizers for Small Flats in 2026",
+    "date": "2026-06-15",
+    "excerpt": "Living in a UK flat, studio, or university hall of residence means every square inch counts. When you've already used your wardrobe, under-bed space, and every available shelf, the back of your doors remains a surprisingly generous blank canvas. Over the door organisers let you reclaim vertical spac",
+    "niche_key": "budget_home_office",
+    "niche_display": "Budget Home Office",
+    "category": "standing desk converters under $200",
+    "format_type": "best_of",
+    "word_count": 1341,
+    "tags": [
+      "Budget Home Office"
+    ],
+    "products": [
+      {
+        "id": "vivo-26-desk-converter",
+        "asin": "B09VMNYMY3",
+        "name": "VIVO 26 inch Desk Converter",
+        "brand": "VIVO",
+        "price": "\u00a3129.99",
+        "categories": [
+          "standing desk converters under $200"
+        ],
+        "niches": [
+          "budget_home_office"
+        ],
+        "description": "Height-adjustable sit-to-stand desk riser with dual monitor support and wide keyboard tray",
+        "keywords": [
+          "VIVO",
+          "desk converter",
+          "standing desk converter",
+          "VIVO 26",
+          "DESK-V000K"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71-X0lhrdVL._AC_SX679_.jpg"
+      },
+      {
+        "id": "vivo-36-desk-converter",
+        "asin": "B0CSPRQTMQ",
+        "name": "VIVO 36 inch Desk Converter",
+        "brand": "VIVO",
+        "price": "\u00a3159.99",
+        "categories": [
+          "standing desk converters under $200"
+        ],
+        "niches": [
+          "budget_home_office"
+        ],
+        "description": "Wider height-adjustable stand-up desk riser for dual monitors, ergonomic sit-stand workstations",
+        "keywords": [
+          "VIVO 36",
+          "VIVO desk converter 36",
+          "DESK-V036KWE"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71-X0lhrdVL._AC_SX679_.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "the-best-door-organizers-for-tiny-flats-in-2026",
+    "title": "The Best Door Organizers for Tiny Flats in 2026",
+    "date": "2026-06-15",
+    "excerpt": "Living in a UK flat, studio, or university hall of residence means every square inch counts. After filling your wardrobe, using space beneath the bed, and mounting shelves on every free wall, the back of your doors is the last frontier. Door organisers let you reclaim this vertical space without dri",
+    "niche_key": "apartment_organization",
+    "niche_display": "Apartment Organization",
+    "category": "closet organizers for small closets",
+    "format_type": "best_of",
+    "word_count": 1323,
+    "tags": [
+      "Apartment Organization"
+    ],
+    "products": [
+      {
+        "id": "closet-hanging-organizer",
+        "asin": "B075RGK6TC",
+        "name": "Simple Houseware Hanging Closet Organizer",
+        "brand": "Simple Houseware",
+        "price": "\u00a315.99",
+        "categories": [
+          "closet organizers for small closets"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "Hanging closet organizer with 8 shelves, heavy-duty fabric, fits standard closets, perfect for small apartments",
+        "keywords": [
+          "hanging closet organizer",
+          "closet shelves",
+          "Simple Houseware closet",
+          "hanging shelves"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41MyB4US0sL._AC_SX679_.jpg"
+      },
+      {
+        "id": "amazon-basics-hanging-organizer",
+        "asin": "B088NJ5W1P",
+        "name": "Amazon Basics Hanging Closet Organizer with 10 Shelves",
+        "brand": "Amazon Basics",
+        "price": "\u00a313.99",
+        "categories": [
+          "closet organizers for small closets"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "10-shelf hanging closet organizer, sturdy fabric design for small closets, easy to install with durable hooks",
+        "keywords": [
+          "Amazon Basics closet organizer",
+          "hanging closet shelves",
+          "closet storage organizer"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41nBKJAKaOL._AC_SX679_.jpg"
+      },
+      {
+        "id": "songmics-hanging-closet-organiser",
+        "asin": "B07PTY6B4C",
+        "name": "SONGMICS Hanging Wardrobe Storage Organiser 5-Tier",
+        "brand": "SONGMICS",
+        "price": "\u00a324.99",
+        "categories": [
+          "closet organizers for small closets"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "5-tier hanging wardrobe organiser with bamboo inserts, metal hooks, no assembly needed, folds flat, holds 10kg total",
+        "keywords": [
+          "SONGMICS hanging organizer",
+          "hanging wardrobe storage",
+          "closet organiser",
+          "RYCH06G"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81i38wMfTYS._AC_SX679_.jpg"
+      },
+      {
+        "id": "wishacc-shoe-rack-cabinet",
+        "asin": "B09N71MH6S",
+        "name": "Wishacc Shoe Rack Cabinet 2-Tier Foldable",
+        "brand": "Wishacc",
+        "price": "\u00a334.99",
+        "categories": [
+          "storage ottomans and benches",
+          "closet organizers for small closets"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "2-tier foldable shoe rack cabinet with tempered glass top, can also serve as entryway bench or nightstand, space-saving for small flats",
+        "keywords": [
+          "Wishacc shoe rack",
+          "foldable shoe cabinet",
+          "entryway bench",
+          "small space shoe storage"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/715fJKhMpmL._AC_SX679_.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "the-best-door-organizers-for-tiny-flats-in-2026-20260615-1208",
+    "title": "The Best Door Organizers for Tiny Flats in 2026",
+    "date": "2026-06-15",
+    "excerpt": "Living in a UK flat, studio, or university hall of residence means every square inch counts. After filling your wardrobe, using space beneath the bed, and mounting shelves on every free wall, the back of your doors is the last frontier. Door organisers let you reclaim this vertical space without dri",
+    "niche_key": "apartment_organization",
+    "niche_display": "Apartment Organization",
+    "category": "closet organizers for small closets",
+    "format_type": "best_of",
+    "word_count": 1323,
+    "tags": [
+      "Apartment Organization"
+    ],
+    "products": [
+      {
+        "id": "closet-hanging-organizer",
+        "asin": "B075RGK6TC",
+        "name": "Simple Houseware Hanging Closet Organizer",
+        "brand": "Simple Houseware",
+        "price": "\u00a315.99",
+        "categories": [
+          "closet organizers for small closets"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "Hanging closet organizer with 8 shelves, heavy-duty fabric, fits standard closets, perfect for small apartments",
+        "keywords": [
+          "hanging closet organizer",
+          "closet shelves",
+          "Simple Houseware closet",
+          "hanging shelves"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41MyB4US0sL._AC_SX679_.jpg"
+      },
+      {
+        "id": "amazon-basics-hanging-organizer",
+        "asin": "B088NJ5W1P",
+        "name": "Amazon Basics Hanging Closet Organizer with 10 Shelves",
+        "brand": "Amazon Basics",
+        "price": "\u00a313.99",
+        "categories": [
+          "closet organizers for small closets"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "10-shelf hanging closet organizer, sturdy fabric design for small closets, easy to install with durable hooks",
+        "keywords": [
+          "Amazon Basics closet organizer",
+          "hanging closet shelves",
+          "closet storage organizer"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41nBKJAKaOL._AC_SX679_.jpg"
+      },
+      {
+        "id": "songmics-hanging-closet-organiser",
+        "asin": "B07PTY6B4C",
+        "name": "SONGMICS Hanging Wardrobe Storage Organiser 5-Tier",
+        "brand": "SONGMICS",
+        "price": "\u00a324.99",
+        "categories": [
+          "closet organizers for small closets"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "5-tier hanging wardrobe organiser with bamboo inserts, metal hooks, no assembly needed, folds flat, holds 10kg total",
+        "keywords": [
+          "SONGMICS hanging organizer",
+          "hanging wardrobe storage",
+          "closet organiser",
+          "RYCH06G"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81i38wMfTYS._AC_SX679_.jpg"
+      },
+      {
+        "id": "wishacc-shoe-rack-cabinet",
+        "asin": "B09N71MH6S",
+        "name": "Wishacc Shoe Rack Cabinet 2-Tier Foldable",
+        "brand": "Wishacc",
+        "price": "\u00a334.99",
+        "categories": [
+          "storage ottomans and benches",
+          "closet organizers for small closets"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "2-tier foldable shoe rack cabinet with tempered glass top, can also serve as entryway bench or nightstand, space-saving for small flats",
+        "keywords": [
+          "Wishacc shoe rack",
+          "foldable shoe cabinet",
+          "entryway bench",
+          "small space shoe storage"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/715fJKhMpmL._AC_SX679_.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "the-best-door-organizers-for-tiny-flats-in-2026-20260615-1208",
+    "title": "The Best Door Organizers for Tiny Flats in 2026",
+    "date": "2026-06-15",
+    "excerpt": "Living in a UK flat, studio, or university hall of residence means every square inch counts. After filling your wardrobe, using space beneath the bed, and mounting shelves on every free wall, the back of your doors is the last frontier. Door organisers let you reclaim this vertical space without dri",
+    "niche_key": "apartment_organization",
+    "niche_display": "Apartment Organization",
+    "category": "over the door organizers",
+    "format_type": "best_of",
+    "word_count": 1323,
+    "tags": [
+      "Apartment Organization"
+    ],
+    "products": [
+      {
+        "id": "simple-houseware-door-organizer",
+        "asin": "B07CG2R9ST",
+        "name": "Simple Houseware 24-Pocket Over Door Organizer",
+        "brand": "Simple Houseware",
+        "price": "\u00a317.99",
+        "categories": [
+          "over the door organizers"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "24 clear pocket hanging organizer for shoes, pantry items, or bathroom supplies",
+        "keywords": [
+          "Simple Houseware",
+          "over the door organizer",
+          "hanging shoe organizer",
+          "24 pocket organizer"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/412I7oAeomL._AC_SX679_.jpg"
+      },
+      {
+        "id": "ul54-10-pack-over-door-hooks",
+        "asin": "B0B2FQM8ZW",
+        "name": "UL54 Over Door Hooks 10-Pack",
+        "brand": "UL54",
+        "price": "\u00a38.99",
+        "categories": [
+          "over the door organizers"
+        ],
+        "niches": [
+          "apartment_organization"
+        ],
+        "description": "10-pack over door hooks with rust-proof stainless steel design, no-drill installation, holds coats, bags, towels for small spaces",
+        "keywords": [
+          "over door hooks",
+          "UL54",
+          "door hooks",
+          "no drill hooks"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51H+Pz2U8zL._AC_SX679_.jpg"
       }
     ]
   }
