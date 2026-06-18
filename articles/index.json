@@ -12113,33 +12113,53 @@
     "excerpt": "If you're living in a studio flat, university digs, or a compact apartment anywhere in the UK, you know the struggle of kitchen counter space. Every square inch is precious, and a bulky dish drainer can eat into your already limited workspace. The good news? Modern dish drying racks are smarter than",
     "niche_key": "space_saving_kitchen",
     "niche_display": "Space-Saving Kitchen",
-    "category": "over the sink cutting boards",
+    "category": "small dish drainers for small kitchens",
     "format_type": "best_of",
-    "word_count": 1775,
+    "word_count": 1759,
     "tags": [
       "Space-Saving Kitchen"
     ],
     "products": [
       {
-        "id": "decuwat-over-sink-cutting-board",
-        "asin": "B0FX3BJ5FP",
-        "name": "Decuwat Expandable Over Sink Cutting Board",
-        "brand": "Decuwat",
-        "price": "\u00a336.99",
+        "id": "oxo-foldaway-dish-rack",
+        "asin": "B09BVYVFZQ",
+        "name": "OXO Good Grips Aluminium Fold Flat Dish Rack",
+        "brand": "OXO",
+        "price": "\u00a350.00",
         "categories": [
-          "over the sink cutting boards"
+          "small dish drainers for small kitchens"
         ],
         "niches": [
           "space_saving_kitchen"
         ],
-        "description": "Expandable bamboo cutting board for over sink, 24-34 inch adjustable, with juice groove and non-slip design",
+        "description": "Rustproof aluminium fold-flat dish drying rack with two-layer design, raised ridges, space-saving",
         "keywords": [
-          "over sink cutting board",
-          "expandable cutting board",
-          "bamboo cutting board",
-          "sink cover board"
+          "OXO dish rack",
+          "OXO fold flat",
+          "foldable dish rack",
+          "OXO Good Grips"
         ],
-        "image": "https://images-na.ssl-images-amazon.com/images/I/71GcnDfDCL._AC_SX679_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/419InInqSmL._AC_SX679_.jpg"
+      },
+      {
+        "id": "kitsure-dish-rack",
+        "asin": "B0B71HQ98T",
+        "name": "Kitsure Dish Drying Rack",
+        "brand": "Kitsure",
+        "price": "\u00a322.99",
+        "categories": [
+          "small dish drainers for small kitchens"
+        ],
+        "niches": [
+          "space_saving_kitchen"
+        ],
+        "description": "Stainless steel dish drying rack with cutlery holder for small kitchen counters",
+        "keywords": [
+          "Kitsure dish rack",
+          "dish drying rack",
+          "kitchen drying rack"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41D+AgqAC7L._AC_SX679_.jpg"
       }
     ]
   }
