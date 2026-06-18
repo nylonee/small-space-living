@@ -12278,5 +12278,82 @@
         "image": "https://images-na.ssl-images-amazon.com/images/I/71-X0lhrdVL._AC_SX679_.jpg"
       }
     ]
+  },
+  {
+    "slug": "the-best-mini-slow-cookers-and-rice-cookers-for-small-uk-kitchens-in-2026-20260619-0009",
+    "title": "The Best Mini Slow Cookers and Rice Cookers for Small UK Kitchens in 2026",
+    "date": "2026-06-19",
+    "excerpt": "Living in a compact flat, studio, or university halls often means making tough choices about kitchen appliances. Counter space is precious, cupboards are crammed, and the last thing you need is another bulky gadget taking over. But here's the good news: mini slow cookers and compact rice cookers are",
+    "niche_key": "space_saving_kitchen",
+    "niche_display": "Space-Saving Kitchen",
+    "category": "mini slow cookers and rice cookers",
+    "format_type": "best_of",
+    "word_count": 1538,
+    "tags": [
+      "Space-Saving Kitchen"
+    ],
+    "products": [
+      {
+        "id": "crock-pot-2qt-slow-cooker",
+        "asin": "B004P2LEE0",
+        "name": "Crock-Pot 2-Quart Manual Slow Cooker",
+        "brand": "Crock-Pot",
+        "price": "\u00a315.99",
+        "categories": [
+          "mini slow cookers and rice cookers"
+        ],
+        "niches": [
+          "space_saving_kitchen"
+        ],
+        "description": "2-quart manual slow cooker with removable stoneware, 3 heat settings, perfect for small meals and dips",
+        "keywords": [
+          "Crock-Pot",
+          "slow cooker",
+          "mini slow cooker"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91riAOqwiCL._AC_SX679_.jpg"
+      },
+      {
+        "id": "sunvivi-2qt-slow-cooker",
+        "asin": "B0D6BGS9CK",
+        "name": "Sunvivi 2 Quart Slow Cooker",
+        "brand": "Sunvivi",
+        "price": "\u00a323.99",
+        "categories": [
+          "mini slow cookers and rice cookers"
+        ],
+        "niches": [
+          "space_saving_kitchen"
+        ],
+        "description": "2-quart small slow cooker with removable ceramic pot, 3 heating settings, dishwasher-safe glass lid",
+        "keywords": [
+          "Sunvivi",
+          "slow cooker",
+          "small slow cooker"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41+2gisFAjL._AC_SX679_.jpg"
+      },
+      {
+        "id": "aroma-3cup-rice-cooker",
+        "asin": "B00N9N6GOY",
+        "name": "AROMA 3-Cup Rice Cooker",
+        "brand": "AROMA",
+        "price": "\u00a316.99",
+        "categories": [
+          "mini slow cookers and rice cookers"
+        ],
+        "niches": [
+          "space_saving_kitchen"
+        ],
+        "description": "3-cup (uncooked) mini rice cooker with one-touch operation, automatic keep-warm, and cool-touch exterior",
+        "keywords": [
+          "AROMA",
+          "rice cooker",
+          "mini rice cooker",
+          "AROMA rice cooker"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/410nlPpxatL._AC_SX679_.jpg"
+      }
+    ]
   }
 ]
