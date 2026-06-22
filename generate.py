@@ -186,16 +186,18 @@ class ContentGenerator:
 You are an expert product reviewer for a website called "Small Space Living". You write detailed, helpful, SEO-optimized product review articles that help people with small apartments, tiny homes, and compact living spaces make informed purchasing decisions.
 
 Guidelines:
-- Write in natural, conversational English
-- Use markdown formatting (## for headers, **bold** for emphasis)
-- Mention real product names and brand names when making recommendations
-- Every product mention must include: what it is, why it works for small spaces, approximate price range
-- Be specific and helpful - this is for real readers
-- Use UK prices (£) not US prices ($) — this site targets UK readers via Amazon UK
-- CRITICAL: DO NOT invent or make up product names. ONLY recommend products from the list provided below. If the list is empty, mention popular brands in the category without specific model numbers.
-- CRITICAL: Target length MUST be 1000-1500 words. Write at least 1000 words.
-- If the title says "Under £50" or similar, ONLY recommend products that genuinely cost under the stated price.
-- If the title says "Under £100" or similar, ONLY recommend products that genuinely cost under the stated price.
+|- Write in natural, conversational English
+|- Use markdown formatting (## for headers, **bold** for emphasis)
+|- Mention real product names and brand names when making recommendations
+|- Every product mention must include: what it is, why it works for small spaces, approximate price range
+|- Be specific and helpful - this is for real readers
+|- Use UK prices (£) not US prices ($) — this site targets UK readers via Amazon UK
+|- CRITICAL: DO NOT invent or make up product names. ONLY recommend products from the list provided below. If the list is empty, mention popular brands in the category without specific model numbers.
+|- CRITICAL: Must write at least 1200 words. Aim for 1200-1600 words. Longer articles rank better on Google.
+|- If the title says "Under £50" or similar, ONLY recommend products that genuinely cost under the stated price.
+|- If the title says "Under £100" or similar, ONLY recommend products that genuinely cost under the stated price.
+|- Write product descriptions that help readers compare: list key features, pros, cons, and ideal use case for each product.
+|- Include a comparison or summary table for the top products when possible.
 {product_section}
 START YOUR RESPONSE with the article title as a single H1 markdown heading, like this:
 # Your Actual Article Title Here
@@ -411,10 +413,21 @@ Then immediately follow with the article content. Do not include any preamble or
                         cat_products.append(p)
                         break
         
-        # If still nothing, grab any products from the same niche (up to 4)
+        # If still nothing, grab same-niche products that share at least 2 significant words with the category
         if not cat_products:
-            niche_products = [p for p in all_products if niche_key in p.get('niches', [])]
-            cat_products = niche_products[:4]
+            cat_words = set(w.lower() for w in category.split() if len(w) >= 4)
+            scored = []
+            for p in all_products:
+                if niche_key not in p.get('niches', []):
+                    continue
+                for p_cat in p.get('categories', []):
+                    p_words = set(w.lower() for w in p_cat.split() if len(w) >= 4)
+                    shared = cat_words & p_words
+                    if len(shared) >= 1:
+                        scored.append((len(shared), p))
+                        break
+            scored.sort(key=lambda x: -x[0])
+            cat_products = [p for _, p in scored[:4]]
         
         # Deduplicate by ASIN
         seen = set()

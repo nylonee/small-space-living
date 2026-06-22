@@ -122,6 +122,7 @@ gtag('config', 'G-KLQ4S0JLLN');
                         {% endif %}
                         <p class="product-desc">{{ product.description }}</p>
                         <p class="product-price">{{ product.price }}</p>
+                        <p class="product-price-updated">Price accurate as of {{ article.date }}</p>
                         <a href="{{ amazon.base_url }}/{{ product.asin }}?tag={{ amazon.tag }}" class="buy-button" rel="nofollow sponsored" target="_blank">
                             Check Price on Amazon &rarr;
                         </a>

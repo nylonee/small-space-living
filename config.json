@@ -76,20 +76,20 @@
   "article_formats": [
     {
       "type": "best_of",
-      "prompt_template": "Write a detailed, SEO-optimized article titled 'The Best {category} in {year}'. Include an introduction explaining why choosing the right {category} matters for small space living. Then list at least 8 specific products with: product name, key features, approximate price in UK pounds (£), pros and cons, and who it's best for. End with a buying guide section and FAQ. Use natural affiliate-friendly language. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
+      "prompt_template": "Write a detailed, SEO-optimized article titled 'The Best {category} in {year}'. Include an introduction explaining why choosing the right {category} matters for small space living. Then list at least 8 specific products with: product name, key features, approximate price in UK pounds (£), pros and cons, and who it's best for. End with a buying guide section and FAQ. Use natural affiliate-friendly language. Write at least 1200 words. Target length: 1200-1600 words. Year: {year}."
     },
     {
       "type": "top_under",
-      "prompt_template": "Write a detailed, SEO-optimized article titled 'Top 10 Affordable {category} in {year}'. Include an introduction about choosing {category} for small spaces on a budget. List 10 specific products with: product name, key features, price in UK pounds (£), pros and cons, and ideal user. End with a comparison table overview and FAQ. Use affiliate-friendly language. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
+      "prompt_template": "Write a detailed, SEO-optimized article titled 'Top 10 Affordable {category} in {year}'. Include an introduction about choosing {category} for small spaces on a budget. List 10 specific products with: product name, key features, price in UK pounds (£), pros and cons, and ideal user. End with a comparison table overview and FAQ. Use affiliate-friendly language. Write at least 1200 words. Target length: 1200-1600 words. Year: {year}."
     },
     {
       "type": "buying_guide",
-      "prompt_template": "Write a detailed, SEO-optimized buying guide article titled 'How to Choose the Best {category} for Your Small Space in {year}'. Cover: what to look for (size, features, price range in UK pounds), top 5 options compared, common mistakes to avoid, and a simple decision framework. Include 5-7 specific product recommendations with key specs. Write at least 1000 words. Target length: 1000-1500 words. Year: {year}."
+      "prompt_template": "Write a detailed, SEO-optimized buying guide article titled 'How to Choose the Best {category} for Your Small Space in {year}'. Cover: what to look for (size, features, price range in UK pounds), top 5 options compared, common mistakes to avoid, and a simple decision framework. Include 5-7 specific product recommendations with key specs. Write at least 1200 words. Target length: 1200-1600 words. Year: {year}."
     }
   ],
   "category_rotation": {
     "enabled": true,
-    "max_per_category": 4
+    "max_per_category": 16
   },
   "products": [
     {
@@ -619,6 +619,162 @@
       "description": "2-tier foldable shoe rack cabinet with tempered glass top, can also serve as entryway bench or nightstand, space-saving for small flats",
       "keywords": ["Wishacc shoe rack", "foldable shoe cabinet", "entryway bench", "small space shoe storage"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/715fJKhMpmL._AC_SX679_.jpg"
+    },
+    {
+      "id": "bontec-desk-converter",
+      "asin": "B08PV7XY8M",
+      "name": "BONTEC Standing Desk Converter 32 inch",
+      "brand": "BONTEC",
+      "price": "£139.99",
+      "categories": ["standing desk converters under $200"],
+      "niches": ["budget_home_office"],
+      "description": "32-inch dual-tier height-adjustable standing desk converter with gas spring lift, fits dual monitors, 15kg capacity",
+      "keywords": ["BONTEC", "standing desk converter", "desk riser", "sit stand converter"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71wDgQcJ3JL._AC_SX679_.jpg"
+    },
+    {
+      "id": "cosori-47l-air-fryer",
+      "asin": "B0936FGLQS",
+      "name": "COSORI Air Fryer 4.7L with 130+ Recipes",
+      "brand": "COSORI",
+      "price": "£89.99",
+      "categories": ["compact air fryers for small kitchens"],
+      "niches": ["space_saving_kitchen"],
+      "description": "4.7-litre compact air fryer with 9-in-1 functions, digital display, 130+ recipe book, up to 4 portions, energy-saving",
+      "keywords": ["COSORI", "air fryer", "compact air fryer", "COSORI 4.7L"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71KGn1G5RgL._AC_SX679_.jpg"
+    },
+    {
+      "id": "songmics-wall-shelves-set-3",
+      "asin": "B07ZRJZVHN",
+      "name": "SONGMICS Metal Wall Shelves Set of 3",
+      "brand": "SONGMICS",
+      "price": "£16.99",
+      "categories": ["wall mounted shelves for apartments"],
+      "niches": ["apartment_organization"],
+      "description": "Set of 3 industrial style floating wall shelves, black metal, quick mounting, each holds up to 8kg, space-saving",
+      "keywords": ["SONGMICS", "wall shelves", "floating shelves", "metal shelves set of 3"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81+YQK7C4nL._AC_SX679_.jpg"
+    },
+    {
+      "id": "bamboo-over-sink-board",
+      "asin": "B0BN5ZS7G7",
+      "name": "Bamboo Expandable Over Sink Cutting Board",
+      "brand": "Generic",
+      "price": "£36.99",
+      "categories": ["over the sink cutting boards"],
+      "niches": ["space_saving_kitchen"],
+      "description": "Expandable bamboo cutting board for over sink, 24-33 inch adjustable, with juice groove and non-slip grips, extends counter space",
+      "keywords": ["bamboo cutting board", "over sink cutting board", "expandable cutting board", "sink chopping board"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81WQVifN2hL._AC_SX679_.jpg"
+    },
+    {
+      "id": "vivo-keyboard-tray-kb03b",
+      "asin": "B01M2319VR",
+      "name": "VIVO Adjustable Keyboard and Mouse Platform Tray",
+      "brand": "VIVO",
+      "price": "£44.99",
+      "categories": ["under desk keyboard trays"],
+      "niches": ["budget_home_office"],
+      "description": "25x10 inch adjustable under-desk keyboard tray with mouse platform, clamp-on design, height adjustable, MOUNT-KB03B",
+      "keywords": ["VIVO keyboard tray", "under desk keyboard tray", "VIVO MOUNT-KB03B", "keyboard platform"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61nHzJ4S5xL._AC_SX679_.jpg"
+    },
+    {
+      "id": "kingrack-dish-drainer",
+      "asin": "B09TW1VSDK",
+      "name": "Kingrack Expandable Small Dish Drainer",
+      "brand": "Kingrack",
+      "price": "£15.99",
+      "categories": ["small dish drainers for small kitchens"],
+      "niches": ["space_saving_kitchen"],
+      "description": "Expandable stainless steel dish drying rack with removable cutlery holder, compact draining board for small kitchen counters",
+      "keywords": ["Kingrack", "dish drainer", "small dish rack", "expandable dish rack"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71pxFrVlTWL._AC_SX679_.jpg"
+    },
+    {
+      "id": "lepro-led-desk-lamp",
+      "asin": "B0962NL1TM",
+      "name": "Lepro LED Desk Lamp with USB Charging",
+      "brand": "Lepro",
+      "price": "£19.99",
+      "categories": ["compact desk lamps"],
+      "niches": ["budget_home_office"],
+      "description": "Compact LED desk lamp with USB charging port, 5 brightness levels, 5 colour modes, foldable gooseneck design for small desks",
+      "keywords": ["Lepro", "desk lamp", "LED desk lamp", "compact desk lamp", "USB desk lamp"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51WKZWm4-LL._AC_SX679_.jpg"
+    },
+    {
+      "id": "spacesaver-vacuum-bags-jumbo",
+      "asin": "B07Q6S5C5X",
+      "name": "SpaceSaver Jumbo Vacuum Storage Bags 6-Pack",
+      "brand": "SpaceSaver",
+      "price": "£12.99",
+      "categories": ["vacuum storage bags for bedding"],
+      "niches": ["apartment_organization"],
+      "description": "6-pack jumbo vacuum storage bags (100x80cm) with hand pump, double zip seal, reusable, saves 80% space for duvets and bedding",
+      "keywords": ["SpaceSaver", "vacuum bags", "jumbo storage bags", "space saver bags", "compression bags"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81pS6H63qQL._AC_SX679_.jpg"
+    },
+    {
+      "id": "brilliantjo-hanging-organizer",
+      "asin": "B09J6H7TYR",
+      "name": "BrilliantJo Hanging Closet Organiser 5-Shelf",
+      "brand": "BrilliantJo",
+      "price": "£18.99",
+      "categories": ["closet organizers for small closets"],
+      "niches": ["apartment_organization"],
+      "description": "5-shelf hanging wardrobe organiser with 6 side pockets, heavy-duty fabric, fits standard rails, easy no-tool installation",
+      "keywords": ["BrilliantJo", "hanging closet organizer", "wardrobe organiser", "closet shelves"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71oKSQNJz5L._AC_SX679_.jpg"
+    },
+    {
+      "id": "songmics-wall-shelves-white",
+      "asin": "B075CT3ZT8",
+      "name": "SONGMICS Floating Shelf Set of 3 White",
+      "brand": "SONGMICS",
+      "price": "£19.99",
+      "categories": ["wall mounted shelves for apartments"],
+      "niches": ["apartment_organization"],
+      "description": "Set of 3 white floating wall shelves in 30/35/40cm sizes, each holds up to 10kg, MDF with mounting hardware included",
+      "keywords": ["SONGMICS", "floating shelves white", "wall mounted shelves", "decorative shelves"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71OxRcBxRHL._AC_SX679_.jpg"
+    },
+    {
+      "id": "songmics-corner-shelf-5tier",
+      "asin": "B07J9Q6BWL",
+      "name": "SONGMICS 5-Tier Corner Shelf Unit",
+      "brand": "SONGMICS",
+      "price": "£39.99",
+      "categories": ["corner shelves for small rooms"],
+      "niches": ["apartment_organization"],
+      "description": "5-tier corner shelf unit with metal frame and engineered wood boards, narrow footprint fits tight corners, holds up to 15kg total",
+      "keywords": ["SONGMICS", "corner shelf", "corner bookshelf", "5-tier shelf"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81bw3RcN0aL._AC_SX679_.jpg"
+    },
+    {
+      "id": "underbed-storage-2pack-tahavice",
+      "asin": "B0CM663ZHK",
+      "name": "TAHAVICE Underbed Storage Boxes 3-Pack with Lids",
+      "brand": "TAHAVICE",
+      "price": "£23.99",
+      "categories": ["under bed storage solutions"],
+      "niches": ["apartment_organization"],
+      "description": "3-pack low profile underbed storage boxes with lids, dust-proof, foldable design, perfect for storing off-season clothes and bedding",
+      "keywords": ["TAHAVICE", "underbed storage", "storage boxes with lids", "underbed containers"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81T0M+V0jUL._AC_SX679_.jpg"
+    },
+    {
+      "id": "home-edit-over-door-rack",
+      "asin": "B0G2LGXSCH",
+      "name": "Home Edit Over Door Shoe Organiser 24-Pocket",
+      "brand": "Home Edit",
+      "price": "£22.99",
+      "categories": ["over the door organizers"],
+      "niches": ["apartment_organization"],
+      "description": "24-pocket over door hanging storage organiser, heavy-duty fabric, fits standard doors, ideal for shoes, pantry items, toiletries",
+      "keywords": ["over door organizer", "shoe organiser", "24 pocket", "door storage", "hanging storage"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71mHbJs4PxL._AC_SX679_.jpg"
     }
   ]
 }
