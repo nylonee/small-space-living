@@ -16,11 +16,11 @@ The Heimlove set delivers premium looks at a budget-friendly price. Each shelf m
 
 ### Amazon Basics Floating Shelves Set of 2 — £13.99
 
-You can't argue with £13.99 for a pair of solid floating shelves. The Amazon Basics option comes in a sleek black finish, measures 45cm each, and holds up to 10kg. They're ideal for a small kitchen where you need spice jars and oils within reach, or in a hallway for keys and mail. The MDF construction is durable enough for everyday use, and the simple design means they blend into any decor. For the price, they're an absolute steal — especially if you need to outfit multiple rooms on a budget.
+You can't argue with £13.99 for a pair of solid floating shelves. The Amazon Basics option comes in a sleek black finish, measures 45cm each, and holds up to 10kg. They're ideal for a hallway for keys and mail, a bedroom for small decor items, or a home office for stationery and reference books. The MDF construction is durable enough for everyday use, and the simple design means they blend into any decor. For the price, they're an absolute steal — especially if you need to outfit multiple rooms on a budget.
 
 ### SONGMICS Metal Wall Shelves Set of 3 — £16.99
 
-If you prefer an industrial vibe, the SONGMICS metal wall shelves are a great choice. This set comes with three different-sized shelves, each holding up to 8kg, and the black metal finish pairs perfectly with exposed brick or minimalist decor. The open design keeps the space feeling airy, and the quick-mounting system means you can have them up in minutes. Use them in the bathroom for toiletries, in the kitchen for cookbooks, or in the living room for vinyl records and small plants.
+If you prefer an industrial vibe, the SONGMICS metal wall shelves are a great choice. This set comes with three different-sized shelves, each holding up to 8kg, and the black metal finish pairs perfectly with exposed brick or minimalist decor. The open design keeps the space feeling airy, and the quick-mounting system means you can have them up in minutes. Use them in the bathroom for toiletries, in a home office for supplies, or in the living room for vinyl records and small plants.
 
 ### SONGMICS Floating Shelf Set of 3 White — £19.99
 
@@ -30,11 +30,11 @@ For those who prefer a clean, Scandinavian look, the white SONGMICS floating she
 
 ### SONGMICS 5-Tier Corner Shelf Unit — £39.99
 
-The SONGMICS 5-tier corner shelf is one of the best value-for-money options on our list. For under £40, you get a sturdy five-shelf unit with a metal frame and engineered wood boards. The narrow footprint fits perfectly into tight corners — the kind of space that would otherwise go to waste. It's ideal for storing books, photo frames, plants, or kitchen supplies in a compact studio flat. Assembly is straightforward with clear instructions, and the industrial-chic look complements modern decor. With a total weight capacity of 15kg distributed across all five shelves, it's sturdy enough for daily use without feeling bulky.
+The SONGMICS 5-tier corner shelf is one of the best value-for-money options on our list. For under £40, you get a sturdy five-shelf unit with a metal frame and engineered wood boards. The narrow footprint fits perfectly into tight corners — the kind of space that would otherwise go to waste. It's ideal for storing books, photo frames, plants, or toiletries in a compact studio flat. Assembly is straightforward with clear instructions, and the industrial-chic look complements modern decor. With a total weight capacity of 15kg distributed across all five shelves, it's sturdy enough for daily use without feeling bulky.
 
 ### VASAGLE Corner Shelf 5-Tier — £42.99
 
-VASAGLE is well-known for affordable, stylish furniture, and their 5-tier corner shelf is no exception. Priced at £42.99, it offers an industrial design with a combination of metal frames and rustic wood-effect boards. The open shelving keeps the corner feeling light and airy, while the five tiers provide ample storage for a small flat. Use it in the living room for decorative items, in the bedroom for folded clothes and accessories, or even in the bathroom for towels and toiletries. The slim profile means it tucks neatly into even the tightest corners without protruding into the room.
+VASAGLE is well-known for affordable, stylish furniture, and their 5-tier corner shelf is no exception. Priced at £42.99, it offers an industrial design with a combination of metal frames and rustic wood-effect boards. The open shelving keeps the corner feeling light and airy, while the five tiers provide ample storage for a small flat. Use it in the living room for decorative items, in the bedroom for folded clothes and accessories, or in the bathroom for towels and toiletries. The slim profile means it tucks neatly into even the tightest corners without protruding into the room.
 
 ### Tribesigns 67 inch Tall Corner Shelf — £55.99
 
@@ -48,7 +48,7 @@ Before buying anything, grab a tape measure. Floating shelves come in various le
 
 ### Consider What You're Storing
 
-Heavy books and kitchenware need sturdy shelves with higher weight capacities. The Heimlove floating shelves (15kg each) are the best bet for heavier items, while the SONGMICS metal shelves (8kg each) are better for lighter decorative pieces. For corner units, the Tribesigns six-tier shelf offers the most overall capacity thanks to its height.
+Heavy books need sturdy shelves with higher weight capacities. The Heimlove floating shelves (15kg each) are the best bet for heavier items, while the SONGMICS metal shelves (8kg each) are better for lighter decorative pieces. For corner units, the Tribesigns six-tier shelf offers the most overall capacity thanks to its height.
 
 ### Think About Installation
 
@@ -65,9 +65,9 @@ Floating shelves require drilling and wall anchors — especially if you're moun
 
 When shopping for wall-mounted or corner shelves for a small UK flat, here are the key factors to keep in mind:
 
-**Weight capacity:** Always check how much weight each shelf can hold. Floating shelves typically range from 8kg to 15kg. For books and kitchenware, aim for at least 10kg per shelf.
+**Weight capacity:** Always check how much weight each shelf can hold. Floating shelves typically range from 8kg to 15kg. For books, aim for at least 10kg per shelf.
 
-**Material:** MDF shelves are affordable and lightweight but less durable than solid wood. Metal-framed units offer better stability. For bathrooms or kitchens, consider moisture-resistant finishes.
+**Material:** MDF shelves are affordable and lightweight but less durable than solid wood. Metal-framed units offer better stability. For bathrooms, consider moisture-resistant finishes.
 
 **Size and configuration:** Measure your available space before buying. For corner units, ensure the diagonal depth fits comfortably without sticking out too far. For floating shelves, consider a staggered arrangement for visual interest.
 
