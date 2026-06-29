@@ -1,96 +1,99 @@
-# The Best Under Desk Keyboard Trays for Small UK Home Offices in 2026
+# The Best Monitor Arms for Small UK Home Offices in 2026
 
-If you're working from a small flat, studio, or shared house in the UK, you already know the struggle: your desk is barely big enough for your monitor, let alone a keyboard and mouse. Every inch of surface space counts, and a cluttered desk makes it harder to focus, especially in tight quarters. The solution is elegantly simple — an under-desk keyboard tray. By mounting your keyboard and mouse underneath your desk, you free up valuable surface area while keeping your ergonomics in check.
+If you're working from a compact flat, studio, or shared house anywhere in the UK, you've probably felt the squeeze. Your desk is holding a laptop, a monitor, a keyboard, a coffee mug, and somehow also a notepad — and there's just not enough space. The simplest fix? A monitor arm. By lifting your screen off the desk surface, a good monitor arm instantly reclaims precious workspace, improves your posture, and makes even the tiniest desk feel organised.
 
-In this guide, we'll walk through the best options available on Amazon UK in 2026, from budget-friendly sliding trays to full platforms with mouse extensions. Whether you're kitting out a uni digs desk or optimising a WFH setup in a London flat, there's something here for you.
+In this guide, we've tracked down the best monitor arms for small UK home offices in 2026, focusing on affordable options that don't compromise on quality. Whether you're kitting out a student digs in Manchester or a studio flat in London, these arms will transform your setup for under £30.
 
-## Why You Need an Under Desk Keyboard Tray
+## Why a Monitor Arm Is Essential for Small Desks
 
-Before diving into specific products, let's talk about why an under-desk tray is such a game-changer for small spaces. First, it instantly reclaims desk space. That's 40–60% of your desk surface that was previously occupied by your keyboard and mouse, now free for a notebook, coffee mug, or extra monitor.
+Before we dive into the recommendations, let's talk about why a monitor arm is one of the smartest investments you can make for a small workspace. A standard monitor stand takes up roughly 25 by 20 centimetres of desk space — that's a quarter of a typical 100 cm desk gone before you've even placed your keyboard. A monitor arm completely eliminates that footprint because the screen is suspended above the desk surface.
 
-Second, proper ergonomics. When your keyboard sits on the desk, most people end up hunching because the desk height forces their arms up. An under-desk tray lets you position your keyboard at true elbow height — 90 degrees, arms relaxed — which reduces shoulder and wrist strain over long workdays.
+Beyond the space saving, there's a genuine ergonomic benefit. Raising your monitor to eye level reduces neck strain, improves your posture, and makes those long WFH days far more comfortable. Many budget monitor arms now come with gas-spring mechanisms that let you adjust height, tilt, and swivel with almost zero effort, so you can switch from sitting to standing or simply find the perfect viewing angle.
 
-Third, it tidies up your entire workspace. With the keyboard stowed away, your desk looks cleaner and more organised. Cable management becomes simpler too, since you can route keyboard and mouse cables directly into the tray.
+## The Top Monitor Arm Picks for UK Small Spaces
 
-## VIVO Large Under Desk Keyboard and Mouse Tray
+We've tested the most popular budget-friendly monitor arms available on Amazon UK right now. Here are our top picks, both of which deliver excellent value for money and are perfectly suited to compact home offices.
 
-The **VIVO Large Under Desk Keyboard and Mouse Tray** (MOUNT-KB08S) is our top overall recommendation. Priced at **£47.99**, it offers exceptional value for the build quality and features you get.
+### ErGear Single Monitor Arm — Best Overall
 
-The tray measures a generous 68x28cm — roomy enough for a full-size keyboard and a separate mouse area without feeling cramped. That's a key advantage over narrower trays where you end up fighting for mouse space. The installation is clamp-on, meaning no drilling required, and it fits most desk thicknesses up to around 5cm.
+The **ErGear Single Monitor Arm** is our top recommendation for small UK home offices, and for good reason. Available at around **£28.48**, it supports screens from 13 to 34 inches with a generous 9 kg weight capacity, making it compatible with everything from lightweight ultrawides to standard office monitors.
 
-The height adjustment system offers 12 different settings, so you can fine-tune the tray to sit exactly at your preferred elbow angle. The swing-away design also lets you push the tray completely out of the way when you want to write or use the desk surface directly.
+What sets this arm apart is the tool-free VESA installation. You can have it mounted and your screen perfectly positioned in under ten minutes, no screwdriver required. The gas-spring mechanism is smooth and stays exactly where you set it — no drooping or drifting over time. It also offers 360 degrees of rotation, so you can easily swing your screen towards a sofa or bed when you want to watch something during a break.
 
-For small UK home offices, this is the sweet spot between price, size, and adjustability. It's ideal for anyone using a standard 100–140cm desk who needs maximum surface area back.
+For a monitor arm under £30, the build quality is genuinely impressive. The aluminium construction feels solid, and the cable management channels built into the arm keep your charging and display cables neatly routed out of sight.
 
-## VIVO Adjustable Keyboard and Mouse Platform Tray
+### HUANUO Single Monitor Arm — Best Value
 
-If your desk is on the narrower side or you want a more compact solution, the **VIVO Adjustable Keyboard and Mouse Platform Tray** (MOUNT-KB03B) is an excellent alternative at **£44.99**.
+If you're on a tighter budget, the **HUANUO Single Monitor Arm** at just **£25.99** is a fantastic alternative that punches well above its price point. It supports screens from 13 to 32 inches and comes with both a C-clamp and grommet mount, so it works with virtually any desk — including those with a glass top or unusual edge profiles.
 
-At 63.5 x 25.4cm, it's slightly smaller than the KB08S but still accommodates a full keyboard plus a mouse comfortably. The mouse platform is integrated into the same level, so there's no separate raised section — this keeps your hands at the same height, which some users prefer for mousing.
+The gas spring lift is responsive and holds position reliably throughout the day. We particularly like the full articulation range: you get height adjustment, tilt, swivel, and rotation, giving you complete control over your screen placement. The integrated cable clips keep your wires tidy, which makes a noticeable difference on a small desk where every cable adds visual clutter.
 
-This tray also uses a clamp-on mounting system, so it's easy to install on most desks without any permanent modifications — ideal for rented flats and student accommodation. The height is adjustable through several positions, and the tray can be angled slightly for added comfort.
+For anyone setting up a home office on a student budget or furnishing a first flat, the HUANUO delivers everything you need from a monitor arm without the premium price tag.
 
-Where this tray really shines is its low-profile design. It sits closer to the desk underside than many competitors, which means there's more leg room underneath — a consideration if you're tall or like to stretch out.
+## How to Choose the Right Monitor Arm for Your Small Desk
 
-## What to Look for When Buying an Under Desk Keyboard Tray
+Not all monitor arms are created equal, and a few key considerations will help you pick the right one for your specific setup.
 
-Choosing the right keyboard tray for your small space involves a few key considerations:
+### Check Your Monitor's VESA Compatibility
 
-**Size matters.** Measure your keyboard (including any number pad) and add room for a mouse. A tray that's at least 60cm wide gives you comfortable side-by-side placement. If you use a compact keyboard (60% or TKL layout), you might get away with a smaller tray, but we always recommend going bigger than you think you need.
+Almost all monitor arms use the VESA mounting standard — typically 75 x 75 mm or 100 x 100 mm. Before buying, flip your monitor over and measure the distance between the four screw holes on the back. Both the ErGear and HUANUO arms support both common patterns, but it's always worth double-checking.
 
-**Mounting system.** Most trays use either clamp-on or screw-in brackets. C-clamps are the most popular because they're tool-free and don't damage your desk. However, if your desk has a thick lip or a metal frame, check the maximum clamp opening before buying. Some desks with built-in cable management troughs along the back edge may not accept a clamp mount.
+### Consider Weight and Size
 
-**Height adjustability.** Look for at least 5–8cm of vertical adjustment range. This lets you dial in the perfect elbow angle. Some trays also offer tilt adjustment, which reduces wrist strain by keeping your hands in a neutral position.
+Your monitor arm needs to support the weight of your screen. A 9 kg capacity (like the ErGear) handles most standard monitors comfortably. If you use a particularly heavy professional monitor or an ultrawide, pay close attention to the weight limit. For most UK home office setups with 24-inch to 27-inch screens, either of our recommended arms will work perfectly.
 
-**Mouse space.** A dedicated mouse platform at the same level as the keyboard is ideal. Trays where the mouse sits on a separate raised section can cause shoulder fatigue because your mouse hand sits higher than your keyboard hand.
+### Desk Clamp vs Grommet Mount
 
-**Budget.** Under-desk keyboard trays range from about £20 to £80 on Amazon UK. The VIVO options we've recommended sit right in the middle of that range and offer the best balance of quality and value. Paying less often means wobbly construction or limited adjustment; paying more gets you premium materials like aluminium or gas-spring mechanisms.
+Most budget monitor arms come with a C-clamp that attaches to the back edge of your desk. This works well for the vast majority of desks and requires no drilling. If you have a desk with a thick lip, a glass top, or an unusual frame, look for arms that also include a grommet mount option — the HUANUO offers both, which gives you more flexibility.
 
-## Setting Up Your Keyboard Tray for Best Ergonomic Results
+### Cable Management Matters
 
-Even the best tray won't help if it's not set up correctly. Here's a quick ergonomic checklist:
+In a small space, visible cables make a desk feel twice as crowded. Both the ErGear and HUANUO arms include built-in cable routing channels or clips, which let you run your display cable and any USB cables along the arm itself, keeping everything neat and out of the way.
 
-Adjust the tray height so your elbows form a 90-degree angle when your hands are resting on the keyboard. Your forearms should be parallel to the floor. If your elbows point downward, the tray is too low. If they flare upward, it's too high.
+## Installation Tips for Your New Monitor Arm
 
-Position the tray so it sits just below your desktop surface — about 2–5cm clearance is normal. This allows you to slide the tray out when typing and push it back under when you need the desk clear.
+Installing a monitor arm is straightforward, but a few tips can save you time and frustration:
 
-Keep your keyboard flat or with a slight negative tilt (front edge higher than back). This keeps your wrists straight. A positive tilt (wrister higher) forces your wrists into extension, which can lead to discomfort over time.
+1. **Clear your desk completely** before starting — you'll need the full surface area.
+2. **Attach the VESA plate to your monitor first** while it's still flat on the desk, then mount the whole assembly onto the arm.
+3. **Tighten all bolts firmly** but don't overtighten — you want the arm to move smoothly.
+4. **Adjust the gas spring tension** only after the monitor is mounted; most arms have a hex key adjustment point.
+5. **Route your cables through the arm channels** before you finalise the position — it's much harder to do afterwards.
 
-Your mouse should sit right next to your keyboard, at the same height. Avoid reaching forward or to the side — that strains your shoulder.
+The whole process should take around 10 to 15 minutes, and the difference in desk space and comfort is immediate.
 
 ## Buying Guide
 
-| Feature | What to Look For |
-|---------|------------------|
-| Width | Minimum 60cm for full keyboard + mouse |
-| Mount | C-clamp for no-drill installation |
-| Height adjustment | At least 5–8cm range |
-| Tilt | Negative tilt capability is a plus |
-| Mouse integration | Same-level platform preferred |
-| Build | Steel frame, smooth glide rails |
-| Price range | £40–£55 for best value |
+When shopping for a monitor arm for your small UK home office, keep these factors in mind:
 
-If your desk is under 120cm wide, a keyboard tray is arguably the single best upgrade you can make. It doubles your usable workspace and improves your posture at the same time — a rare combination of convenience and health benefit.
+- **Price**: Quality monitor arms start at around £20 and go up to £100+. For most small desk setups, a model in the £25-£30 range offers excellent value without overpaying for features you won't use.
+- **Size range**: Ensure the arm fits your monitor size. Most budget arms handle 13-32 inch screens, but check specifications carefully.
+- **Mount type**: C-clamp is the standard and works with 90% of desks. Grommet mounts are useful for thick or glass desks.
+- **Adjustability**: Look for full articulation — height, tilt, swivel, and rotation. Fixed arms are cheaper but much less useful.
+- **Cable management**: Built-in channels or clips keep your workspace tidy and professional-looking.
 
 ## FAQ
 
-**Will a keyboard tray work with my standing desk?**
-Yes. Most under-desk keyboard trays use clamp mounts that attach securely to adjustable-height desks. Just make sure the clamp fits the desk top thickness. VIVO trays are compatible with most standing desks on the UK market.
+**Will a monitor arm fit my desk?**
+Most monitor arms use a C-clamp that attaches to the back edge of your desk. As long as your desk edge is between 10 and 50 mm thick and has a flat back edge, it will fit. For desks with unusual edges, look for arms with grommet mount options.
 
-**Can I install a keyboard tray myself?**
-Absolutely. All the trays recommended here use tool-free C-clamp mounting. You just slide the clamp over the desk edge and tighten. No drilling, no screws into your desk, no permanent modification — perfect for rented flats.
+**Can I use a monitor arm with a laptop?**
+Monitor arms are designed for standalone monitors. If you want to raise your laptop, consider a laptop stand or a monitor arm with a compatible laptop tray attachment.
 
-**How much desk space will I actually save?**
-A typical keyboard takes up about 30–40% of a small desk's surface. By moving it underneath, you free up that entire area. On a 100cm desk, that's roughly the equivalent of gaining an extra 30–40cm of workspace.
+**Do I need to drill holes to install a monitor arm?**
+No. C-clamp mounts attach by tightening a clamp against the desk edge. No drilling is required, making them ideal for rented flats and student accommodation.
 
-**What if my desk has a thick edge or metal frame?**
-Check the clamp's maximum opening before buying. Most standard clamps fit up to 5cm. If your desk is outside that range, look for a model with a larger clamp or a different mounting system.
+**How much desk space does a monitor arm actually save?**
+A standard monitor stand takes up about 25 x 20 cm of desk space. By mounting your screen on an arm, you reclaim that entire area — enough room for a notebook, a second keyboard, or just some welcome breathing room.
 
-**Should I get a tray with a mouse platform?**
-Yes, strongly recommended. Having your keyboard and mouse at the same level prevents shoulder imbalance. Trays without mouse platforms force you to put your mouse on the desk, defeating the ergonomic purpose.
+**Will a monitor arm work with a standing desk converter?**
+Yes, but you'll need to attach the clamp to the converter's base platform rather than your main desk. Check that the converter has enough depth for the clamp.
 
-**Will the tray fit my gaming keyboard?**
-The VIVO Large tray (68cm wide) accommodates full-size mechanical keyboards including those with wrist rests. Just measure your keyboard width and add at least 10cm for mouse space before buying.
+**Is £25-£30 a reasonable budget for a good monitor arm?**
+Absolutely. Both the ErGear (£28.48) and HUANUO (£25.99) deliver excellent build quality, smooth gas-spring adjustment, and full articulation at this price point. There's no need to spend more for a small home office setup.
 
-**How long does installation take?**
-About 10–15 minutes. The hardest part is getting the alignment right — once the tray is level and at the right height, you simply tighten the clamp and you're done.
+## Final Thoughts
+
+A monitor arm is one of the highest-impact, lowest-cost upgrades you can make to a small UK home office. It frees up valuable desk space, improves your ergonomics, and makes your entire workspace feel more organised. Whether you choose the **ErGear Single Monitor Arm** for its tool-free installation and robust build, or the **HUANUO Single Monitor Arm** for its unbeatable value and dual-mount versatility, you're getting a genuinely useful piece of kit for under £30.
+
+Both arms are available now on Amazon UK and will transform your small desk setup in under fifteen minutes.
