@@ -711,6 +711,24 @@ Then immediately follow with the article content. Do not include any preamble or
             'products': products
         }
 
+        # Deep deduplication: check if similar title exists (avoid duplicate content)
+        existing_base_titles = set()
+        for a in self.articles:
+            base = re.sub(r'in 20\d\d', '', a['title'].lower()).strip()
+            base = re.sub(r'\(.*?\)', '', base).strip()
+            base = re.sub(r'[\(\),.]+', '', base).strip()
+            base = re.sub(r'\s+', ' ', base).strip()
+            existing_base_titles.add(base)
+        
+        current_base = re.sub(r'in 20\d\d', '', article['title'].lower()).strip()
+        current_base = re.sub(r'\(.*?\)', '', current_base).strip()
+        current_base = re.sub(r'[\(\),.]+', '', current_base).strip()
+        current_base = re.sub(r'\s+', ' ', current_base).strip()
+        
+        if current_base in existing_base_titles:
+            print(f"  ⚠ Near-duplicate topic detected — skipping {article['title']}")
+            return None
+
         # Deduplicate slug
         existing_slugs = {a['slug'] for a in self.articles}
         if article['slug'] in existing_slugs:
@@ -751,6 +769,25 @@ Then immediately follow with the article content. Do not include any preamble or
             if article is None:
                 continue
             
+            # Deep deduplication: check if a similar title already exists (ignore year variations)
+            import re as _re
+            existing_base_titles = set()
+            for a in self.articles:
+                base = _re.sub(r'in 20\d\d', '', a['title'].lower()).strip()
+                base = _re.sub(r'\(.*?\)', '', base).strip()
+                base = _re.sub(r'[\(\),.]+', '', base).strip()
+                base = _re.sub(r'\s+', ' ', base).strip()
+                existing_base_titles.add(base)
+            
+            current_base = _re.sub(r'in 20\d\d', '', article['title'].lower()).strip()
+            current_base = _re.sub(r'\(.*?\)', '', current_base).strip()
+            current_base = _re.sub(r'[\(\),.]+', '', current_base).strip()
+            current_base = _re.sub(r'\s+', ' ', current_base).strip()
+            
+            if current_base in existing_base_titles:
+                print(f"  ⚠ Near-duplicate topic detected — skipping to avoid duplicate content penalty")
+                continue
+
             # Deduplicate slug
             existing_slugs = {a['slug'] for a in self.articles}
             if article['slug'] in existing_slugs:

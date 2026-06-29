@@ -80,16 +80,20 @@
     },
     {
       "type": "top_under",
-      "prompt_template": "Write a detailed, SEO-optimized article titled 'Top 10 Affordable {category} in {year}'. Include an introduction about choosing {category} for small spaces on a budget. List 10 specific products with: product name, key features, price in UK pounds (£), pros and cons, and ideal user. End with a comparison table overview and FAQ. Use affiliate-friendly language. Write at least 1200 words. Target length: 1200-1600 words. Year: {year}."
+      "prompt_template": "Write a detailed, SEO-optimized article titled 'Top 10 Affordable {category} in {year}'. Include an introduction about choosing {category} for small spaces on a budget. List 10 specific products with: product name, key features, price in UK pounds (£), pros and cons, and ideal user. End with a comparison table overview and FAQ. Use affiliate-friendly language. Write at least 1200 words. Target length: 1200-1600 words. Year: {year}. IMPORTANT: Use UK £ prices throughout, not US $. UK readers are your audience."
     },
     {
       "type": "buying_guide",
       "prompt_template": "Write a detailed, SEO-optimized buying guide article titled 'How to Choose the Best {category} for Your Small Space in {year}'. Cover: what to look for (size, features, price range in UK pounds), top 5 options compared, common mistakes to avoid, and a simple decision framework. Include 5-7 specific product recommendations with key specs. Write at least 1200 words. Target length: 1200-1600 words. Year: {year}."
+    },
+    {
+      "type": "comparison",
+      "prompt_template": "Write a detailed comparison article titled '{category}: Which One is Right for Your Small Space in {year}?'. Compare 5-6 top products head-to-head across key factors: price (in UK pounds £), size, durability, ease of use, and value for money. Use a comparison table to summarise differences. Include a 'Which Should You Buy?' decision guide. End with FAQ. Write at least 1000 words. Target: 1000-1400 words. Year: {year}."
     }
   ],
   "category_rotation": {
     "enabled": true,
-    "max_per_category": 16
+    "max_per_category": 8
   },
   "products": [
     {
