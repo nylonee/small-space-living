@@ -16126,60 +16126,82 @@
     ]
   },
   {
-    "slug": "the-best-led-desk-lamps-for-small-uk-home-offices-in-2026",
-    "title": "The Best LED Desk Lamps for Small UK Home Offices in 2026",
+    "slug": "5-best-led-desk-lamps-for-small-uk-home-offices-in-2026",
+    "title": "5 Best LED Desk Lamps for Small UK Home Offices in 2026",
     "date": "2026-06-30",
     "excerpt": "If you're working from a small flat, a studio, or a university hall, you know the struggle of making a tiny desk work for you. Good lighting is one of the most overlooked upgrades you can make \u2014 the right desk lamp reduces eye strain, helps you focus, and can make even the smallest workspace feel mo",
     "niche_key": "budget_home_office",
     "niche_display": "Budget Home Office",
-    "category": "monitor arms for small desks",
-    "format_type": "best_of",
-    "word_count": 2278,
+    "category": "compact desk lamps",
+    "format_type": "buying_guide",
+    "word_count": 2297,
     "tags": [
       "Budget Home Office"
     ],
     "products": [
       {
-        "id": "ergear-monitor-arm",
-        "asin": "B0FQM6QB48",
-        "name": "ErGear Single Monitor Arm",
-        "brand": "ErGear",
-        "price": "\u00a328.48",
+        "id": "airlonv-led-desk-lamp",
+        "asin": "B0C4JTPPYY",
+        "name": "Airlonv LED Desk Lamp",
+        "brand": "Airlonv",
+        "price": "\u00a314.99",
         "categories": [
-          "monitor arms for small desks"
+          "compact desk lamps"
         ],
         "niches": [
           "budget_home_office"
         ],
-        "description": "Fully adjustable gas-spring monitor mount for 13-34 inch screens, tool-free VESA, 9kg capacity",
+        "description": "Eye-caring LED desk lamp with stepless dimming, adjustable flexible gooseneck, USB powered clamp design",
         "keywords": [
-          "ErGear monitor arm",
-          "ErGear",
-          "monitor arm",
-          "monitor mount"
+          "Airlonv",
+          "desk lamp",
+          "LED lamp",
+          "clip lamp"
         ],
-        "image": "https://images-na.ssl-images-amazon.com/images/I/4108YyCXzzL._AC_SX679_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/415a2-2URFL._AC_SX679_.jpg"
       },
       {
-        "id": "huanuo-monitor-arm",
-        "asin": "B0B5G8NZL4",
-        "name": "HUANUO Single Monitor Arm",
-        "brand": "HUANUO",
-        "price": "\u00a325.99",
+        "id": "taotronics-led-desk-lamp",
+        "asin": "B08CXLN26X",
+        "name": "TaoTronics LED Desk Lamp with Clamp",
+        "brand": "TaoTronics",
+        "price": "\u00a324.99",
         "categories": [
-          "monitor arms for small desks"
+          "compact desk lamps"
         ],
         "niches": [
           "budget_home_office"
         ],
-        "description": "Gas spring single monitor arm for 13-32 inch screens, C-clamp and grommet mount, frees up small desk space",
+        "description": "LED desk lamp with clamp base, stepless dimming, adjustable gooseneck, 5 lighting modes, space-saving design",
         "keywords": [
-          "HUANUO monitor arm",
-          "single monitor arm",
-          "gas spring monitor arm",
-          "monitor mount"
+          "TaoTronics desk lamp",
+          "LED desk lamp",
+          "clamp lamp",
+          "desk lamp with clamp"
         ],
-        "image": "https://images-na.ssl-images-amazon.com/images/I/41rVDMrlz0L._AC_SX679_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41X1pnWYqBL._AC_SX679_.jpg"
+      },
+      {
+        "id": "lepro-led-desk-lamp",
+        "asin": "B0962NL1TM",
+        "name": "Lepro LED Desk Lamp with USB Charging",
+        "brand": "Lepro",
+        "price": "\u00a319.99",
+        "categories": [
+          "compact desk lamps"
+        ],
+        "niches": [
+          "budget_home_office"
+        ],
+        "description": "Compact LED desk lamp with USB charging port, 5 brightness levels, 5 colour modes, foldable gooseneck design for small desks",
+        "keywords": [
+          "Lepro",
+          "desk lamp",
+          "LED desk lamp",
+          "compact desk lamp",
+          "USB desk lamp"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51WKZWm4-LL._AC_SX679_.jpg"
       }
     ]
   }
