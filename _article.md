@@ -1,76 +1,117 @@
-# The Best Over Door Organisers for Small UK Flats in 2026
+# Ninja vs COSORI vs Instant Vortex: Which Compact Air Fryer Is Best for Your Small UK Kitchen in 2026?
 
-When you're living in a small flat, studio, or shared house in the UK, every square inch of floor space matters. That's exactly why over door organisers have become such a lifesaver for apartment dwellers. They turn the back of a door — an area that's otherwise completely wasted — into valuable storage for shoes, toiletries, cleaning supplies, snacks, and more. In 2026, the options are better than ever, with sturdy designs that won't sag, clear pockets so you can see what's inside, and clever hooks that work with virtually any standard UK door. Whether you're kitting out your first uni digs or trying to tame a cluttered hallway, an over door organiser is one of the quickest wins you can make.
+Air fryers are one of the most popular kitchen appliances in the UK right now — and if you're living in a small flat, studio, or university accommodation, finding the right one can make a real difference to how you cook. But with so many options on the market, how do you choose?
 
-## Why Over Door Storage Works So Well in Small Spaces
+Three brands dominate the compact air fryer category in the UK: Ninja, COSORI, and Instant Pot (with its Vortex range). All three make excellent compact models that fit neatly into small kitchens, but each has its own strengths and quirks. In this comparison, we'll put them head to head across the factors that matter most for small-space living — size, features, ease of use, and value for money.
 
-The beauty of an over door organiser is that it requires zero DIY skills, no drilling, and no permanent changes to your flat. You simply hang it over the top of a door, and you've instantly added 20+ pockets of storage. That's perfect for rented flats where you can't put holes in the walls.
+Let's start with a quick overview of each competitor.
 
-Over door organisers are also incredibly versatile. Use them in the bedroom for accessories and shoes, in the bathroom for toiletries and towels, in the kitchen for pantry overflow, or in the hallway for coats, bags, and keys. When you move out, they come down in seconds and pack flat.
+## Ninja Air Fryer 3.8L AF100UK
 
-## Simple Houseware 24-Pocket Over Door Organiser — The Classic Workhorse
+The **Ninja Air Fryer 3.8L AF100UK** is a household name in the UK for a reason. Ninja has built a reputation for reliable, no-fuss appliances that deliver consistent results, and this compact air fryer is no exception.
 
-The **Simple Houseware 24-Pocket Over Door Organiser** at £17.99 is exactly what you want from a door organiser: no fuss, solid construction, and plenty of pockets. The 24 clear plastic pockets let you see everything at a glance, so you're not rummaging around trying to find your favourite trainers or a tin of beans.
+The AF100UK offers a 3.8-litre capacity — enough for 2 to 4 portions — in a compact square footprint that fits neatly on any countertop. It comes with four cooking functions: air fry, roast, reheat, and dehydrate. The controls are simple dials rather than a digital screen, which makes it incredibly easy to use straight out of the box.
 
-The design is straightforward — it hangs securely over most standard UK doors with a metal hook frame that stays put without slipping. The pockets are generously sized, easily holding shoes, folded jumpers, bathroom bottles, or pantry items. The transparent material is durable and wipes clean easily, which is a big plus if you're using it in the kitchen or bathroom.
+The square basket is a practical design choice — it gives you more usable cooking space than a round basket of the same litre rating, and the ceramic non-stick coating is both durable and dishwasher safe.
 
-The Simple Houseware organiser is one of the best-selling options on Amazon UK for good reason. It's affordable, it works with doors up to around 40mm thick, and it doesn't look out of place in any room.
+At **£79.99**, it's the most affordable of the three models, offering excellent value for money. It's particularly well-suited to students and first-time air fryer buyers who want something reliable at a fair price.
 
-**Who it's best for:** Anyone after a straightforward, spacious door organiser for shoes or general storage on a budget. Perfect for hallway, bedroom, or pantry.
+**Key specs:**
+- Capacity: 3.8 litres (2–4 portions)
+- Functions: Air fry, roast, reheat, dehydrate
+- Controls: Manual dials
+- Basket: Square, ceramic non-stick
+- Dimensions: Compact countertop footprint
+- Price: £79.99
 
-## Home Edit Over Door Shoe Organiser 24-Pocket — The Premium Upgrade
+## COSORI Air Fryer 4.7L with 130+ Recipes
 
-If you're after something that looks a bit smarter and feels more substantial, the **Home Edit Over Door Shoe Organiser 24-Pocket** at £22.99 is a noticeable step up. The fabric-backed construction gives it a cleaner, less utilitarian look than clear plastic options, while still offering the same 24-pocket layout.
+The **COSORI Air Fryer 4.7L** sits in the middle of the pack in terms of capacity, offering 4.7 litres — enough for up to four portions with a bit more room to spare. It's one of the best-selling air fryers on Amazon UK, and for good reason.
 
-The pockets are designed with a slight gusset, giving them a bit of depth for bulkier items like trainers or chunky toiletries. The reinforced stitching and heavy-duty fabric mean it won't sag or tear even when fully loaded. It hangs securely with a metal hook frame that fits standard doors, and the neutral grey colour blends in with most decor.
+Where the COSORI really stands out is the included recipe book with over 130 recipes specifically developed for this model. If you're the sort of cook who likes trying new things, this is a huge bonus. The digital touchscreen display makes selecting programmes straightforward, and the clean white or black finish fits modern kitchens well.
 
-What sets this apart from cheaper alternatives is the build quality — the fabric doesn't crack or yellow over time like some clear plastic organisers can. It's also machine washable, so a quick spin in the washing machine keeps it looking fresh.
+The 9-in-1 functionality covers air fry, roast, bake, dehydrate, reheat, and more. The preheat function is fast — typically 2 to 3 minutes — and the cooking is consistently even across the basket. The non-stick basket is dishwasher safe, making cleanup simple.
 
-**Who it's best for:** Anyone who wants a more robust, better-looking organiser that will last through several house moves. Great for the hallway or bedroom where appearance matters.
+At **£89.99**, it's priced identically to the Instant Vortex, but you're getting a slightly smaller footprint and the added value of that recipe book. It's a strong contender for anyone who wants digital convenience with cooking inspiration built in.
 
-## UL54 Over Door Hooks 10-Pack — The Simple, Ultra-Affordable Option
+**Key specs:**
+- Capacity: 4.7 litres (up to 4 portions)
+- Functions: 9-in-1 including air fry, roast, bake, dehydrate, reheat
+- Controls: Digital touchscreen
+- Basket: Round, non-stick, dishwasher safe
+- Included: 130+ recipe book
+- Price: £89.99
 
-Sometimes you don't need 24 pockets. You just need a few sturdy hooks to hang coats, bags, towels, or robes behind a door. That's where the **UL54 Over Door Hooks 10-Pack** at just £8.99 comes in.
+## Instant Vortex Digital Air Fryer 5.7L with ClearCook
 
-Each hook is made from rust-proof stainless steel with a protective coating that won't scratch your door. They simply hook over the top edge of the door — no drilling, no adhesive, no tools required. The design includes a small foam pad on the back to protect the door from scuffs. At 10 hooks per pack, you get plenty to split between doors or use generously across one.
+The **Instant Vortex Digital Air Fryer 5.7L with ClearCook** is the largest of the three, offering 5.7 litres of cooking capacity — enough for a 1.6kg chicken or generous portions for four people. Despite the larger capacity, it still fits comfortably on most UK countertops.
 
-These are fantastic for bathroom doors (towels and robes), bedroom doors (bags and jackets), or kitchen doors (aprons and tea towels). The hooks are slim enough not to stop the door from closing fully, which is a common issue with bulkier organisers.
+The headline feature is the ClearCook window, a transparent drawer that lets you check on your food mid-cook without pulling the basket out and losing heat. It's genuinely useful, particularly when you're cooking something where timing is critical and you want to keep an eye on progress.
 
-**Who it's best for:** Minimalists or anyone on a tight budget. Perfect for quick, flexible storage without the visual bulk of a full pocket organiser.
+The digital controls offer six smart programmes: air fry, roast, bake, reheat, dehydrate, and broil. The EvenCrisp technology ensures your food comes out evenly cooked, and the preheat cycle is fast and efficient.
 
-## How to Choose the Right Over Door Organiser
+At **£89.99**, it matches the COSORI on price but offers a larger capacity and the unique ClearCook viewing window. If you often cook for three or four people, the extra capacity is a real advantage.
 
-Here's what to consider before you buy:
+**Key specs:**
+- Capacity: 5.7 litres (up to 4+ portions, fits 1.6kg chicken)
+- Functions: 6 smart programmes including broil
+- Controls: Digital with ClearCook window
+- Basket: Pull-out drawer with viewing window
+- Technology: EvenCrisp for even cooking
+- Price: £89.99
 
-**Door clearance:** Check that your door has enough space between the top and the frame. Most modern UK interior doors are fine, but very tight gaps may not accommodate the hook frame.
+## Head-to-Head Comparison
 
-**Pocket size and layout:** Think about what you'll store. Shoes need taller pockets; toiletries and pantry items work well in standard-sized pockets. The Simple Houseware and Home Edit options both offer uniform 24-pocket layouts.
+| Feature | Ninja AF100UK | COSORI 4.7L | Instant Vortex 5.7L |
+|---|---|---|---|
+| **Capacity** | 3.8L — 2–4 portions | 4.7L — up to 4 portions | 5.7L — 4+ portions |
+| **Price** | £79.99 | £89.99 | £89.99 |
+| **Control Type** | Manual dials | Digital touchscreen | Digital + ClearCook window |
+| **Cooking Functions** | 4 (air fry, roast, reheat, dehydrate) | 9 (including bake, broil, dehydrate) | 6 (including broil, dehydrate) |
+| **Basket Shape** | Square (more usable space) | Round | Pull-out drawer |
+| **Dishwasher Safe** | Yes | Yes | Yes |
+| **Unique Feature** | Simple dial operation | 130+ recipe book included | ClearCook viewing window |
+| **Best For** | Budget buyers & beginners | Recipe explorers & digital fans | Bigger portions & visual cooks |
 
-**Material:** Clear plastic pockets let you see contents instantly. Fabric organisers look smarter but you can't see inside. Hooks are the most minimalist option.
+## Which One Should You Buy?
 
-**Weight capacity:** Over door organisers are surprisingly sturdy, but avoid overloading with heavy tins or bottles in every pocket — spread the weight evenly.
+The right air fryer for you depends on your specific needs:
 
-**Door type:** All three options above work with standard UK interior doors. Some won't fit thick fire doors or double doors, so check the specifications.
+**Choose the Ninja AF100UK if:** You're on a budget, new to air frying, or cooking for one or two people. The simple dial controls make it incredibly easy to use, and the square basket is more practical than round alternatives. At £79.99, it's the best value option here.
 
-## Buying Guide
+**Choose the COSORI 4.7L if:** You want a digital air fryer with plenty of features and the included recipe book is a draw for you. The 9-in-1 functionality gives you the most cooking options, and the build quality is excellent for the price.
 
-For most people in a small flat, we'd recommend starting with a 24-pocket organiser. It gives you the most storage bang for your buck and works across multiple rooms. The Simple Houseware option at £17.99 is the best value choice, while the Home Edit at £22.99 offers better durability and looks.
+**Choose the Instant Vortex 5.7L if:** You regularly cook for three or more people and want the extra capacity. The ClearCook window is genuinely handy, and the EvenCrisp technology delivers consistently good results. If you often roast whole chickens or batch-cook vegetables, this is the one.
 
-If you're in a shared house or uni accommodation and just need extra hook space for coats and bags, the UL54 hooks are unbeatable at £8.99 for a 10-pack.
+## Buying Guide — What Else to Consider
+
+**Size and counter space.** All three models are compact, but the Ninja has the smallest footprint. Measure your available space before buying — a 3.8L model may be all you need if counter space is tight.
+
+**Energy use.** Air fryers use rapid air circulation to cook faster than conventional ovens. They preheat in 2–3 minutes and use roughly half the electricity. In a small flat with high energy costs, this makes a real difference.
+
+**Cleaning.** All three models have dishwasher-safe baskets, which is essential for regular use. The non-stick coatings are durable, but avoid using metal utensils to extend their lifespan.
+
+**Noise.** Air fryers do make a humming noise while running. In an open-plan flat where the kitchen blends into the living area, the Ninja and COSORI are both relatively quiet compared to budget alternatives.
 
 ## FAQ
 
-**Will an over door organiser damage my door?**
-Quality organisers include foam pads or protective backing to prevent scuffs. They shouldn't damage your door as long as you don't overload them or leave them in place for years without checking.
+**How much oil do I actually need?**
+As little as one tablespoon for a full basket of chips. The air circulation does the rest. You can use even less for foods that already have some natural oils, like chicken thighs or salmon.
 
-**Will the door still close properly?**
-Standard over door organisers are designed to be slim enough that the door closes fully. Thicker organisers or bulky items in pockets may stop the door closing — check the depth before buying.
+**Can I cook frozen chips in an air fryer?**
+Yes — and they come out better than oven-cooked chips. No need to defrost first. Just toss them in the basket with a light spray of oil and cook as directed.
 
-**Can I use an over door organiser on a sliding door or wardrobe?**
-Most are designed for hinged doors. Sliding doors and wardrobe doors often don't have the clearance at the top for the hook frame.
+**Which air fryer is easiest to clean?**
+All three have dishwasher-safe baskets. The Ninja's square basket is slightly easier to wash by hand because the corners give you better access. The non-stick coatings on all three are durable and food releases easily.
 
-**How much weight can they hold?**
-A good 24-pocket organiser like the Simple Houseware or Home Edit can comfortably hold 10–15 kg evenly distributed. Hooks typically hold 2–5 kg per hook.
+**Do air fryers smell?**
+A new air fryer may emit a slight manufacturing smell for the first one or two uses. Run it empty at 200°C for 10 minutes before first use to burn this off. After that, there's no lingering smell during normal cooking.
 
-**Are they easy to move between rooms?**
-Yes — they lift off in seconds and reposition on another door. That's one of their biggest advantages over fixed shelving.
+**Can I reheat food in an air fryer?**
+Absolutely — and it does a better job than a microwave for foods that should stay crispy. Pizza, fried chicken, spring rolls, and pastries all reheat beautifully. The Ninja has a dedicated reheat function, while the COSORI and Instant Vortex include it in their presets.
+
+**Which is the quietest air fryer?**
+The COSORI and Instant Vortex are both noticeably quieter than many budget air fryers. The Ninja is also reasonably quiet. None of them are silent, but you won't find them intrusive during normal use in a small flat.
+
+**Is a 3.8L air fryer big enough for a family of four?**
+For a family of four, we'd recommend stepping up to the 4.7L COSORI or 5.7L Instant Vortex. The 3.8L Ninja is perfect for one or two people, but it'll struggle to fit enough food for a family meal without cooking in batches.
