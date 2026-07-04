@@ -1,117 +1,118 @@
-# Ninja vs COSORI vs Instant Vortex: Which Compact Air Fryer Is Best for Your Small UK Kitchen in 2026?
+# VIVO vs BONTEC: Which Standing Desk Converter Is Best for Your Small UK Home Office in 2026?
 
-Air fryers are one of the most popular kitchen appliances in the UK right now — and if you're living in a small flat, studio, or university accommodation, finding the right one can make a real difference to how you cook. But with so many options on the market, how do you choose?
+If you're working from a small flat, studio, or university digs in the UK, you've probably felt the aches that come from hunching over a laptop for hours. A standing desk converter is one of the most practical upgrades you can make — it lets you switch between sitting and standing without replacing your entire desk. But with limited space, you need a converter that fits your setup without dominating your work surface.
 
-Three brands dominate the compact air fryer category in the UK: Ninja, COSORI, and Instant Pot (with its Vortex range). All three make excellent compact models that fit neatly into small kitchens, but each has its own strengths and quirks. In this comparison, we'll put them head to head across the factors that matter most for small-space living — size, features, ease of use, and value for money.
+Three models dominate the budget-friendly end of the UK market: the **VIVO 26 inch Desk Converter**, the **VIVO 36 inch Desk Converter**, and the **BONTEC Standing Desk Converter 32 inch**. All three sit under £200 and are designed with small spaces in mind, but each suits a different type of workspace. Let's break them down.
 
-Let's start with a quick overview of each competitor.
+## VIVO 26 inch Desk Converter — £129.99
 
-## Ninja Air Fryer 3.8L AF100UK
+The VIVO 26 inch Desk Converter is the most compact option here, and that's exactly its strength. With a 26-inch width, it's purpose-built for smaller desks — think the standard 100cm or 120cm desk you'd find in most UK flats or rented rooms.
 
-The **Ninja Air Fryer 3.8L AF100UK** is a household name in the UK for a reason. Ninja has built a reputation for reliable, no-fuss appliances that deliver consistent results, and this compact air fryer is no exception.
+It features a dual-tier design: a raised monitor platform up top and a generous keyboard tray below. The gas spring lift makes height adjustment smooth and easy, so you can transition from sitting to standing without having to clear your entire desk. The keyboard tray is wide enough for both a keyboard and mouse, which means you don't need a separate mouse platform.
 
-The AF100UK offers a 3.8-litre capacity — enough for 2 to 4 portions — in a compact square footprint that fits neatly on any countertop. It comes with four cooking functions: air fry, roast, reheat, and dehydrate. The controls are simple dials rather than a digital screen, which makes it incredibly easy to use straight out of the box.
+The weight capacity is solid at around 15kg — enough for two monitors or a single larger screen plus accessories. Assembly is straightforward with included hardware and clear instructions.
 
-The square basket is a practical design choice — it gives you more usable cooking space than a round basket of the same litre rating, and the ceramic non-stick coating is both durable and dishwasher safe.
-
-At **£79.99**, it's the most affordable of the three models, offering excellent value for money. It's particularly well-suited to students and first-time air fryer buyers who want something reliable at a fair price.
+**Best for:** Small desks, single-monitor setups, and anyone who needs to maximise every centimetre of their workspace.
 
 **Key specs:**
-- Capacity: 3.8 litres (2–4 portions)
-- Functions: Air fry, roast, reheat, dehydrate
-- Controls: Manual dials
-- Basket: Square, ceramic non-stick
-- Dimensions: Compact countertop footprint
-- Price: £79.99
+- Width: 26 inches (66cm)
+- Lift: Gas spring, height-adjustable
+- Monitor platform: Fits one or two small monitors
+- Keyboard tray: Wide, with mouse space
+- Weight capacity: ~15kg
+- Price: **£129.99**
 
-## COSORI Air Fryer 4.7L with 130+ Recipes
+## BONTEC Standing Desk Converter 32 inch — £139.99
 
-The **COSORI Air Fryer 4.7L** sits in the middle of the pack in terms of capacity, offering 4.7 litres — enough for up to four portions with a bit more room to spare. It's one of the best-selling air fryers on Amazon UK, and for good reason.
+The BONTEC Standing Desk Converter 32 inch is the middle option in terms of size, and it strikes a great balance between a compact footprint and enough space for a dual-monitor setup. At 32 inches wide, it fits comfortably on most standard desks while giving you noticeably more monitor real estate than the VIVO 26 inch.
 
-Where the COSORI really stands out is the included recipe book with over 130 recipes specifically developed for this model. If you're the sort of cook who likes trying new things, this is a huge bonus. The digital touchscreen display makes selecting programmes straightforward, and the clean white or black finish fits modern kitchens well.
+The dual-tier gas spring design is similar to the VIVO, but the BONTEC has a slightly larger monitor platform that accommodates two monitors side by side more comfortably. The keyboard tray is well proportioned, with enough room for a full-size keyboard and a mouse.
 
-The 9-in-1 functionality covers air fry, roast, bake, dehydrate, reheat, and more. The preheat function is fast — typically 2 to 3 minutes — and the cooking is consistently even across the basket. The non-stick basket is dishwasher safe, making cleanup simple.
+One standout feature is the tool-free height adjustment — you can set it at any point through its range rather than having preset stops. This is a nice touch if you prefer a very specific standing height or share your desk with someone else.
 
-At **£89.99**, it's priced identically to the Instant Vortex, but you're getting a slightly smaller footprint and the added value of that recipe book. It's a strong contender for anyone who wants digital convenience with cooking inspiration built in.
+The build quality is excellent for the price point. The frame is sturdy with minimal wobble, even at full extension, and the gas springs are smooth and reliable.
 
-**Key specs:**
-- Capacity: 4.7 litres (up to 4 portions)
-- Functions: 9-in-1 including air fry, roast, bake, dehydrate, reheat
-- Controls: Digital touchscreen
-- Basket: Round, non-stick, dishwasher safe
-- Included: 130+ recipe book
-- Price: £89.99
-
-## Instant Vortex Digital Air Fryer 5.7L with ClearCook
-
-The **Instant Vortex Digital Air Fryer 5.7L with ClearCook** is the largest of the three, offering 5.7 litres of cooking capacity — enough for a 1.6kg chicken or generous portions for four people. Despite the larger capacity, it still fits comfortably on most UK countertops.
-
-The headline feature is the ClearCook window, a transparent drawer that lets you check on your food mid-cook without pulling the basket out and losing heat. It's genuinely useful, particularly when you're cooking something where timing is critical and you want to keep an eye on progress.
-
-The digital controls offer six smart programmes: air fry, roast, bake, reheat, dehydrate, and broil. The EvenCrisp technology ensures your food comes out evenly cooked, and the preheat cycle is fast and efficient.
-
-At **£89.99**, it matches the COSORI on price but offers a larger capacity and the unique ClearCook viewing window. If you often cook for three or four people, the extra capacity is a real advantage.
+**Best for:** Dual-monitor users who want extra width without moving up to a full-size unit.
 
 **Key specs:**
-- Capacity: 5.7 litres (up to 4+ portions, fits 1.6kg chicken)
-- Functions: 6 smart programmes including broil
-- Controls: Digital with ClearCook window
-- Basket: Pull-out drawer with viewing window
-- Technology: EvenCrisp for even cooking
-- Price: £89.99
+- Width: 32 inches (81cm)
+- Lift: Gas spring, tool-free infinite adjustment
+- Monitor platform: Fits dual monitors comfortably
+- Keyboard tray: Full-size with mouse space
+- Weight capacity: ~15kg
+- Price: **£139.99**
+
+## VIVO 36 inch Desk Converter — £159.99
+
+The VIVO 36 inch Desk Converter is the largest model in this comparison, and it's aimed at anyone who needs serious monitor space — think two large screens, or a single ultrawide monitor plus a laptop.
+
+At 36 inches wide, it's noticeably bigger than the BONTEC 32 inch, so you'll want to measure your desk carefully before buying. The extra width means you can spread out: the monitor platform easily accommodates two 24-inch monitors, and there's still room on the keyboard tray for a full keyboard, mouse, and perhaps a phone or notepad.
+
+The gas spring mechanism is the same reliable design VIVO uses across its range — smooth, quiet, and durable. The height range is generous, making it suitable whether you're using it on a standard desk or a slightly taller surface.
+
+The trade-off for the extra space is that it's heavier and needs a bit more assembly time. The footprint is also significant enough that you'll want at least a 140cm desk to have room left over for other items.
+
+**Best for:** Dual-monitor or ultrawide setups, and anyone who treats their desk as a primary workstation.
+
+**Key specs:**
+- Width: 36 inches (91cm)
+- Lift: Gas spring, height-adjustable
+- Monitor platform: Fits dual 24-inch monitors or ultrawide
+- Keyboard tray: Generous with mouse space
+- Weight capacity: ~15kg
+- Price: **£159.99**
 
 ## Head-to-Head Comparison
 
-| Feature | Ninja AF100UK | COSORI 4.7L | Instant Vortex 5.7L |
+| Feature | VIVO 26 inch | BONTEC 32 inch | VIVO 36 inch |
 |---|---|---|---|
-| **Capacity** | 3.8L — 2–4 portions | 4.7L — up to 4 portions | 5.7L — 4+ portions |
-| **Price** | £79.99 | £89.99 | £89.99 |
-| **Control Type** | Manual dials | Digital touchscreen | Digital + ClearCook window |
-| **Cooking Functions** | 4 (air fry, roast, reheat, dehydrate) | 9 (including bake, broil, dehydrate) | 6 (including broil, dehydrate) |
-| **Basket Shape** | Square (more usable space) | Round | Pull-out drawer |
-| **Dishwasher Safe** | Yes | Yes | Yes |
-| **Unique Feature** | Simple dial operation | 130+ recipe book included | ClearCook viewing window |
-| **Best For** | Budget buyers & beginners | Recipe explorers & digital fans | Bigger portions & visual cooks |
+| **Width** | 26 inches | 32 inches | 36 inches |
+| **Price** | £129.99 | £139.99 | £159.99 |
+| **Best Monitor Setup** | 1–2 small monitors | 2 standard monitors | 2 large monitors or ultrawide |
+| **Minimum Desk Width** | 100cm | 120cm | 140cm |
+| **Height Adjustment** | Gas spring | Tool-free infinite | Gas spring |
+| **Keyboard Tray** | Wide with mouse space | Full-size with mouse space | Extra-wide |
+| **Assembly** | Easy, 15 minutes | Easy, 15 minutes | Moderate, 20 minutes |
 
-## Which One Should You Buy?
+## Which One Should You Choose?
 
-The right air fryer for you depends on your specific needs:
+**Choose the VIVO 26 inch (£129.99) if:** Your desk is on the smaller side — under 120cm wide — or you only use a single monitor. It's the most space-efficient option and leaves you plenty of room for other desk essentials like a desk lamp or notebook.
 
-**Choose the Ninja AF100UK if:** You're on a budget, new to air frying, or cooking for one or two people. The simple dial controls make it incredibly easy to use, and the square basket is more practical than round alternatives. At £79.99, it's the best value option here.
+**Choose the BONTEC 32 inch (£139.99) if:** You run a dual-monitor setup on a standard-size desk. The BONTEC gives you the best balance of width and value, with tool-free adjustment that's handy if you frequently change positions. At just £10 more than the 26-inch VIVO, the extra workspace is well worth it.
 
-**Choose the COSORI 4.7L if:** You want a digital air fryer with plenty of features and the included recipe book is a draw for you. The 9-in-1 functionality gives you the most cooking options, and the build quality is excellent for the price.
-
-**Choose the Instant Vortex 5.7L if:** You regularly cook for three or more people and want the extra capacity. The ClearCook window is genuinely handy, and the EvenCrisp technology delivers consistently good results. If you often roast whole chickens or batch-cook vegetables, this is the one.
+**Choose the VIVO 36 inch (£159.99) if:** Your desk is large enough (140cm or wider) and you want maximum screen real estate. This is the right choice for creative professionals, traders, or anyone who needs multiple applications visible at once. The £30 premium over the BONTEC buys you 4 extra inches of width and VIVO's proven build quality.
 
 ## Buying Guide — What Else to Consider
 
-**Size and counter space.** All three models are compact, but the Ninja has the smallest footprint. Measure your available space before buying — a 3.8L model may be all you need if counter space is tight.
+**Measure your desk first.** Before buying any converter, measure the depth and width of your desk. The converter needs to sit flat and stable, and you'll want room on either side for a coffee cup, phone, or notepad. A converter that's too wide will make your desk feel cramped rather than freeing up space.
 
-**Energy use.** Air fryers use rapid air circulation to cook faster than conventional ovens. They preheat in 2–3 minutes and use roughly half the electricity. In a small flat with high energy costs, this makes a real difference.
+**Check your monitor weight.** All three models support roughly 15kg, which covers most dual-monitor setups. If you have heavy professional monitors or an ultrawide screen, check the individual weight against the capacity.
 
-**Cleaning.** All three models have dishwasher-safe baskets, which is essential for regular use. The non-stick coatings are durable, but avoid using metal utensils to extend their lifespan.
+**Pair with a monitor arm for even more space.** A gas-spring monitor arm like the **ErGear Single Monitor Arm (£28.48)** or **HUANUO Single Monitor Arm (£25.99)** can lift your monitor off the desk surface entirely, giving you back valuable desk space. These mount via C-clamp or grommet and work with screens from 13 to 32 inches.
 
-**Noise.** Air fryers do make a humming noise while running. In an open-plan flat where the kitchen blends into the living area, the Ninja and COSORI are both relatively quiet compared to budget alternatives.
+**Consider an under-desk keyboard tray.** If you find the built-in keyboard tray on a converter sits at the wrong height, a dedicated under-desk tray like the **VIVO Large Under Desk Keyboard and Mouse Tray (£47.99)** gives you more flexibility. It clamps under your desk and adjusts through 12 different settings.
+
+**Think about your daily routine.** A converter makes the most difference if you spend more than four hours a day at your desk. The ability to switch between sitting and standing every hour or so reduces back strain, improves circulation, and helps you stay focused — especially important in a small flat where you might not have room for a separate exercise or stretching area.
 
 ## FAQ
 
-**How much oil do I actually need?**
-As little as one tablespoon for a full basket of chips. The air circulation does the rest. You can use even less for foods that already have some natural oils, like chicken thighs or salmon.
+**Do standing desk converters work on any desk?**
+They work on most flat, stable desks that are at least 60cm deep. The converter sits on top of your existing desk, so no modification is needed. Just make sure your desk surface is level and can support the combined weight of the converter and your equipment.
 
-**Can I cook frozen chips in an air fryer?**
-Yes — and they come out better than oven-cooked chips. No need to defrost first. Just toss them in the basket with a light spray of oil and cook as directed.
+**Can I use a standing desk converter with a laptop?**
+Absolutely — and it's one of the most common setups. Place the laptop on the monitor platform and use a separate keyboard and mouse on the lower tray. This puts your screen at eye level and your hands at a comfortable typing height, which is much better for your posture than working from a laptop alone.
 
-**Which air fryer is easiest to clean?**
-All three have dishwasher-safe baskets. The Ninja's square basket is slightly easier to wash by hand because the corners give you better access. The non-stick coatings on all three are durable and food releases easily.
+**Will a dual-monitor setup fit on the VIVO 26 inch?**
+It's a tight fit. The VIVO 26 inch is best for a single monitor or a laptop. For dual monitors, go with the BONTEC 32 inch or VIVO 36 inch — the extra width makes a real difference.
 
-**Do air fryers smell?**
-A new air fryer may emit a slight manufacturing smell for the first one or two uses. Run it empty at 200°C for 10 minutes before first use to burn this off. After that, there's no lingering smell during normal cooking.
+**How long does assembly take?**
+The VIVO 26 inch and BONTEC 32 inch both take about 15 minutes with the included tools. The VIVO 36 inch is slightly more involved and may take around 20 minutes. All are straightforward — no drilling or permanent installation required.
 
-**Can I reheat food in an air fryer?**
-Absolutely — and it does a better job than a microwave for foods that should stay crispy. Pizza, fried chicken, spring rolls, and pastries all reheat beautifully. The Ninja has a dedicated reheat function, while the COSORI and Instant Vortex include it in their presets.
+**Can I adjust the height while my equipment is on the converter?**
+Yes, that's the whole point of a gas-spring converter. Just lift or lower the platform with your hands on the keyboard tray. The gas springs are designed to handle the weight, so there's no need to remove your equipment.
 
-**Which is the quietest air fryer?**
-The COSORI and Instant Vortex are both noticeably quieter than many budget air fryers. The Ninja is also reasonably quiet. None of them are silent, but you won't find them intrusive during normal use in a small flat.
+**What's the warranty on these converters?**
+VIVO offers a 3-year warranty on its desk converters, which covers manufacturing defects. BONTEC typically offers a 2-year warranty. Both brands have responsive customer service through Amazon UK.
 
-**Is a 3.8L air fryer big enough for a family of four?**
-For a family of four, we'd recommend stepping up to the 4.7L COSORI or 5.7L Instant Vortex. The 3.8L Ninja is perfect for one or two people, but it'll struggle to fit enough food for a family meal without cooking in batches.
+**Is standing all day better than sitting all day?**
+No — the best position is your next position. The goal is to alternate regularly between sitting and standing throughout the day. Most people find switching every 30 to 60 minutes works well. A standing desk converter makes this easy because you can transition without interrupting your workflow.
