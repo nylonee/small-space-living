@@ -18771,75 +18771,98 @@
     "excerpt": "If you live in a small flat, a studio, or a student room in a shared house, you know the eternal kitchen problem: there is never enough cupboard space, and somehow there are always more Tupperware lids than boxes. The fix is simpler than you think. Stackable kitchen containers let you use the vertic",
     "niche_key": "space_saving_kitchen",
     "niche_display": "Space-Saving Kitchen",
-    "category": "compact air fryers for small kitchens",
+    "category": "stackable kitchen containers",
     "format_type": "best_of",
-    "word_count": 1427,
+    "word_count": 1430,
     "tags": [
       "Space-Saving Kitchen"
     ],
     "products": [
       {
-        "id": "ninja-af101-air-fryer",
-        "asin": "B07PBBW4XF",
-        "name": "Ninja Air Fryer 3.8L AF100UK",
-        "brand": "Ninja",
-        "price": "\u00a379.99",
+        "id": "joseph-collapsible-colander",
+        "asin": "B08CV4H3RC",
+        "name": "Joseph Joseph Collapsible Colander",
+        "brand": "Joseph Joseph",
+        "price": "\u00a316.99",
         "categories": [
-          "compact air fryers for small kitchens"
+          "collapsible kitchen gadgets",
+          "stackable kitchen containers"
         ],
         "niches": [
           "space_saving_kitchen"
         ],
-        "description": "3.8-litre compact air fryer with 4-in-1 functions: air fry, roast, reheat, dehydrate, cooks 2-4 portions",
+        "description": "Collapsible silicone colander with rigid frame, folds flat for storage, heat-resistant up to 210\u00b0C",
         "keywords": [
-          "Ninja AF100UK",
-          "Ninja Air Fryer",
-          "Ninja 3.8L Air Fryer",
-          "AF100UK"
+          "Joseph Joseph colander",
+          "collapsible colander",
+          "foldable colander",
+          "silicone colander"
         ],
-        "image": "https://images-na.ssl-images-amazon.com/images/I/71g0pLc6QCL._AC_SX679_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41x8M7HqT3L._AC_SX679_.jpg"
       },
       {
-        "id": "instant-vortex-plus-air-fryer",
-        "asin": "B09CLGXXFV",
-        "name": "Instant Vortex Digital Air Fryer 5.7L with ClearCook",
-        "brand": "Instant Pot",
-        "price": "\u00a389.99",
+        "id": "collapsible-silicone-containers",
+        "asin": "B09WGRLLSF",
+        "name": "Collapsible Silicone Food Storage Containers 5-Pack",
+        "brand": "Generic",
+        "price": "\u00a314.99",
         "categories": [
-          "compact air fryers for small kitchens"
+          "collapsible kitchen gadgets",
+          "stackable kitchen containers"
         ],
         "niches": [
           "space_saving_kitchen"
         ],
-        "description": "5.7-litre digital air fryer with ClearCook window, 6 smart programmes, 95% less oil, cooks 1.6kg chicken",
+        "description": "5-pack collapsible silicone food containers with lids, microwave/freezer/dishwasher safe, saves 80% space when folded",
         "keywords": [
-          "Instant Vortex ClearCook",
-          "Instant Vortex Plus",
-          "Instant Pot air fryer",
-          "5.7L Air Fryer"
+          "collapsible containers",
+          "silicone food storage",
+          "foldable containers",
+          "space saving containers"
         ],
-        "image": "https://images-na.ssl-images-amazon.com/images/I/91qscKsq5aL._AC_SX679_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71LPVBDq6cL._AC_SX679_.jpg"
       },
       {
-        "id": "cosori-47l-air-fryer",
-        "asin": "B0936FGLQS",
-        "name": "COSORI Air Fryer 4.7L with 130+ Recipes",
-        "brand": "COSORI",
-        "price": "\u00a389.99",
+        "id": "sistema-stackable-containers",
+        "asin": "B08QF1GFG8",
+        "name": "Sistema Klip It Plus Stackable Container Set",
+        "brand": "Sistema",
+        "price": "\u00a312.99",
         "categories": [
-          "compact air fryers for small kitchens"
+          "stackable kitchen containers"
         ],
         "niches": [
           "space_saving_kitchen"
         ],
-        "description": "4.7-litre compact air fryer with 9-in-1 functions, digital display, 130+ recipe book, up to 4 portions, energy-saving",
+        "description": "BPA-free stackable food storage containers with clip-lock lids, microwave/dishwasher safe, space-saving rectangular design",
         "keywords": [
-          "COSORI",
-          "air fryer",
-          "compact air fryer",
-          "COSORI 4.7L"
+          "Sistema",
+          "stackable containers",
+          "food storage",
+          "Klip It"
         ],
-        "image": "https://images-na.ssl-images-amazon.com/images/I/71KGn1G5RgL._AC_SX679_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41S6KqW2a1L._AC_SX679_.jpg"
+      },
+      {
+        "id": "sistema-plastic-stackable",
+        "asin": "B07YK2FYDD",
+        "name": "Sistema 2-Piece Stackable Lunch Box Set",
+        "brand": "Sistema",
+        "price": "\u00a38.99",
+        "categories": [
+          "stackable kitchen containers"
+        ],
+        "niches": [
+          "space_saving_kitchen"
+        ],
+        "description": "Set of 2 leak-proof stackable lunch containers with Easy-Clasp lids, perfect for meal prep in small kitchens",
+        "keywords": [
+          "Sistema lunch box",
+          "stackable lunch",
+          "meal prep containers",
+          "BPA free containers"
+        ],
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51FoXRczuPL._AC_SX679_.jpg"
       }
     ]
   }

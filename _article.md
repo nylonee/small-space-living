@@ -10,11 +10,11 @@ There are two main styles to think about. Rigid stackable containers are brillia
 
 ## The Best Everyday Stackable Containers
 
-For day-to-day food storage in a compact kitchen, you want containers with secure lids, a shape that stacks cleanly, and materials that are safe for the microwave and dishwasher. These two Sistema sets deliver all of that without taking over your cupboards.
+For day-to-day food storage in a small kitchen, you want containers with secure lids, a shape that stacks cleanly, and materials that are safe for the microwave and dishwasher. These two Sistema sets deliver all of that without taking over your cupboards.
 
 ### Sistema Klip It Plus Stackable Container Set
 
-The **Sistema Klip It Plus Stackable Container Set** is the workhorse of small UK kitchens, and at around **£12.99** it is outstanding value. Sistema is a New Zealand brand famous for its clip-lock lids, and this set lives up to the reputation. The rectangular design is the key: because the boxes are the same footprint, they stack on top of each other perfectly, turning a chaotic cupboard shelf into a tidy tower of rice, pasta, cereal, and leftovers. The containers are BPA-free, microwave and dishwasher safe, and the four side clips create an airtight seal that keeps food fresh for days. For a student or a single person cooking one or two portions at a time, this is the set to buy first.
+The **Sistema Klip It Plus Stackable Container Set** is the workhorse of small UK kitchens, and at around **£12.99** it is outstanding value. Sistema is a New Zealand brand famous for its clip-lock lids, and this set lives up to the reputation. The rectangular design is the key: because the boxes are the same footprint, they stack on top of each other perfectly, turning a chaotic cupboard shelf into a tidy tower of rice, pasta, cereal, and leftovers. The containers are BPA-free, microwave and dishwasher safe, and the four side clips create a leak-proof seal that keeps food fresh for days. For a student or a single person cooking one or two portions at a time, this is the set to buy first.
 
 ### Sistema 2-Piece Stackable Lunch Box Set
 
@@ -26,11 +26,11 @@ Sometimes you need storage that can disappear entirely. Collapsible kitchen cont
 
 ### Collapsible Silicone Food Storage Containers 5-Pack
 
-The **Collapsible Silicone Food Storage Containers 5-Pack** is exactly what it sounds like: five food storage containers made from flexible silicone that collapse down to save around 80% of their space when folded. At around **£14.99** for five, this is one of the cheapest ways to multiply your storage overnight. Because they are silicone, they are microwave, freezer, and dishwasher safe, and the lids seal well enough for fridge storage. They are also brilliant for camping or taking food to a friend's flat. The only real trade-off is that they are not rigid, so they are better for leftovers and loose items than for stacking heavy jars — pair them with a rigid set like the Sistema Klip It above for the best of both worlds.
+The **Collapsible Silicone Food Storage Containers 5-Pack** is exactly what it sounds like: five food storage containers made from flexible silicone that collapse down to save around 80% of their space when folded. At around **£14.99** for five, this is one of the cheapest ways to multiply your storage overnight. Because they are silicone, they are microwave, freezer, and dishwasher safe, and the lids seal well enough for fridge storage. They are also brilliant for camping or taking food to a friend's flat. The only real trade-off is that they are not rigid, so they are better for leftovers and loose items than for stacking heavy jars — team them with a rigid set like the Sistema Klip It above for the best of both worlds.
 
 ### Joseph Joseph Collapsible Colander
 
-One of the smartest collapsible kitchen gadgets we have tested is the **Joseph Joseph Collapsible Colander**, priced at around **£16.99**. A colander is a bulky thing that usually lives half-out of a cupboard, but this one folds flat when you are done with it, slotting into a drawer or the gap between cupboard shelves. The rigid frame keeps it stable while you drain pasta or rinse vegetables, and the silicone body is heat-resistant up to 210°C, so it copes fine with boiling water. It even works as a fruit bowl in a pinch, which is the kind of dual-purpose thinking a small kitchen needs. Joseph Joseph is a well-known UK design brand, and the quality shows in the sturdy construction and smart colours.
+One of the smartest collapsible kitchen items we have tested is the **Joseph Joseph Collapsible Colander**, priced at around **£16.99**. A colander is a bulky thing that usually lives half-out of a cupboard, but this one folds flat when you are done with it, slotting into a drawer or the gap between cupboard shelves. The rigid frame keeps it stable while you drain pasta or rinse vegetables, and the silicone body is heat-resistant up to 210°C, so it copes fine with boiling water. It even works as a fruit bowl in a pinch, which is the kind of dual-purpose thinking a small kitchen needs. Joseph Joseph is a well-known UK design brand, and the quality shows in the sturdy construction and smart colours.
 
 ## Buying Guide
 
@@ -40,7 +40,7 @@ Before you buy stackable kitchen containers for your small UK kitchen, think abo
 
 **Decide between rigid and collapsible.** Rigid containers (like the Sistema sets above) stack reliably and are best for staples and leftovers. Collapsible containers (like the silicone 5-pack) are best when you need storage that can fold away. Most small kitchens benefit from a mix.
 
-**Check the lid seal.** Airtight clip-lock lids keep food fresher and stop smells spreading through a small flat. Look for four-side clips (as on Sistema Klip It) rather than press-on lids if you store rice, flour, or leftovers regularly.
+**Check the lid seal.** Clip-lock lids with a tight fit keep food fresher and stop smells spreading through a small flat. Look for four-side clips (as on Sistema Klip It) rather than press-on lids if you store rice, flour, or leftovers regularly.
 
 **Look for microwave and dishwasher safe materials.** BPA-free plastic and food-grade silicone are the two materials to stick with. Being able to reheat straight in the container saves washing-up, which matters when you only have one sink.
 
@@ -63,4 +63,4 @@ Buy rectangular containers from the same set or brand, like the Sistema Klip It 
 **Do I need matching containers for them to stack?**
 No, but it helps. Containers from the same set are designed to interlock or sit flush, which makes them far more stable. Mixing brands works if the footprints are similar, but the neatest small-space kitchens use one or two matching systems.
 
-Whether you are kitting out a student room or squeezing more into a compact family kitchen, stackable food storage is one of the cheapest and most effective upgrades you can make. Start with a rigid set for everyday staples, add a collapsible set for flexibility, and your cupboards will thank you.
+Whether you are kitting out a student room or squeezing more into a small family kitchen, stackable food storage is one of the cheapest and most effective upgrades you can make. Start with a rigid set for everyday staples, add a collapsible set for flexibility, and your cupboards will thank you.
